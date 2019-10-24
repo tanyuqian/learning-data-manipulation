@@ -1,0 +1,1483 @@
+Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex.
+device: cuda
+Namespace(batch_size=8, classifier_lr=4e-05, classifier_pretrain_epochs=3, data_seed=159, dev_num_per_class=2, epochs=5, generator_lr=4e-05, generator_pretrain_epochs=60, min_epochs=0, n_aug=4, task='sst-5', train_num_per_class=40)
+getting train examples...
+number of examples with label 'negative': 40
+number of examples with label 'very positive': 40
+number of examples with label 'neutral': 40
+number of examples with label 'positive': 40
+number of examples with label 'very negative': 40
+getting dev examples...
+number of examples with label 'negative': 2
+number of examples with label 'very positive': 2
+number of examples with label 'neutral': 2
+number of examples with label 'positive': 2
+number of examples with label 'very negative': 2
+getting test examples...
+#train: 200
+#dev: 10
+#test: 2210
+============================================================
+Classifier Pre-training
+============================================================
+Classifier pretrain Epoch 0, Dev Acc: 30.0000
+Classifier pretrain Epoch 1, Dev Acc: 20.0000
+Classifier pretrain Epoch 2, Dev Acc: 30.0000
+============================================================
+Generator Pre-training
+============================================================
+Epoch 0, Dev Loss: 3.8739; Best Dev Loss: 3.8739
+Epoch 1, Dev Loss: 4.4431; Best Dev Loss: 3.8739
+Epoch 2, Dev Loss: 4.0427; Best Dev Loss: 3.8739
+Epoch 3, Dev Loss: 2.6368; Best Dev Loss: 2.6368
+Epoch 4, Dev Loss: 5.4247; Best Dev Loss: 2.6368
+Epoch 5, Dev Loss: 5.9056; Best Dev Loss: 2.6368
+Epoch 6, Dev Loss: 5.3421; Best Dev Loss: 2.6368
+Epoch 7, Dev Loss: 5.2728; Best Dev Loss: 2.6368
+Epoch 8, Dev Loss: 5.0174; Best Dev Loss: 2.6368
+Epoch 9, Dev Loss: 6.3272; Best Dev Loss: 2.6368
+Epoch 10, Dev Loss: 5.0430; Best Dev Loss: 2.6368
+Epoch 11, Dev Loss: 4.6774; Best Dev Loss: 2.6368
+Epoch 12, Dev Loss: 3.8573; Best Dev Loss: 2.6368
+Epoch 13, Dev Loss: 5.5822; Best Dev Loss: 2.6368
+Epoch 14, Dev Loss: 5.4808; Best Dev Loss: 2.6368
+Epoch 15, Dev Loss: 4.7620; Best Dev Loss: 2.6368
+Epoch 16, Dev Loss: 6.0339; Best Dev Loss: 2.6368
+Epoch 17, Dev Loss: 8.0614; Best Dev Loss: 2.6368
+Epoch 18, Dev Loss: 4.5871; Best Dev Loss: 2.6368
+Epoch 19, Dev Loss: 6.9162; Best Dev Loss: 2.6368
+Epoch 20, Dev Loss: 4.2015; Best Dev Loss: 2.6368
+Epoch 21, Dev Loss: 6.2598; Best Dev Loss: 2.6368
+Epoch 22, Dev Loss: 4.7512; Best Dev Loss: 2.6368
+Epoch 23, Dev Loss: 6.2237; Best Dev Loss: 2.6368
+Epoch 24, Dev Loss: 6.6503; Best Dev Loss: 2.6368
+Epoch 25, Dev Loss: 6.7803; Best Dev Loss: 2.6368
+Epoch 26, Dev Loss: 6.3314; Best Dev Loss: 2.6368
+Epoch 27, Dev Loss: 7.6594; Best Dev Loss: 2.6368
+Epoch 28, Dev Loss: 3.4555; Best Dev Loss: 2.6368
+Epoch 29, Dev Loss: 4.8941; Best Dev Loss: 2.6368
+Epoch 30, Dev Loss: 10.2366; Best Dev Loss: 2.6368
+Epoch 31, Dev Loss: 8.5971; Best Dev Loss: 2.6368
+Epoch 32, Dev Loss: 8.5782; Best Dev Loss: 2.6368
+Epoch 33, Dev Loss: 7.6208; Best Dev Loss: 2.6368
+Epoch 34, Dev Loss: 7.3570; Best Dev Loss: 2.6368
+Epoch 35, Dev Loss: 6.4966; Best Dev Loss: 2.6368
+Epoch 36, Dev Loss: 6.9190; Best Dev Loss: 2.6368
+Epoch 37, Dev Loss: 7.9727; Best Dev Loss: 2.6368
+Epoch 38, Dev Loss: 6.5697; Best Dev Loss: 2.6368
+Epoch 39, Dev Loss: 6.1828; Best Dev Loss: 2.6368
+Epoch 40, Dev Loss: 8.9861; Best Dev Loss: 2.6368
+Epoch 41, Dev Loss: 8.2928; Best Dev Loss: 2.6368
+Epoch 42, Dev Loss: 5.7389; Best Dev Loss: 2.6368
+Epoch 43, Dev Loss: 10.0762; Best Dev Loss: 2.6368
+Epoch 44, Dev Loss: 8.7641; Best Dev Loss: 2.6368
+Epoch 45, Dev Loss: 7.1355; Best Dev Loss: 2.6368
+Epoch 46, Dev Loss: 7.1427; Best Dev Loss: 2.6368
+Epoch 47, Dev Loss: 6.1684; Best Dev Loss: 2.6368
+Epoch 48, Dev Loss: 6.7119; Best Dev Loss: 2.6368
+Epoch 49, Dev Loss: 11.2990; Best Dev Loss: 2.6368
+Epoch 50, Dev Loss: 6.3003; Best Dev Loss: 2.6368
+Epoch 51, Dev Loss: 8.4256; Best Dev Loss: 2.6368
+Epoch 52, Dev Loss: 7.4064; Best Dev Loss: 2.6368
+Epoch 53, Dev Loss: 7.3839; Best Dev Loss: 2.6368
+Epoch 54, Dev Loss: 9.5234; Best Dev Loss: 2.6368
+Epoch 55, Dev Loss: 8.0881; Best Dev Loss: 2.6368
+Epoch 56, Dev Loss: 9.1514; Best Dev Loss: 2.6368
+Epoch 57, Dev Loss: 8.5594; Best Dev Loss: 2.6368
+Epoch 58, Dev Loss: 9.5863; Best Dev Loss: 2.6368
+Epoch 59, Dev Loss: 10.8828; Best Dev Loss: 2.6368
+============================================================
+Training
+============================================================
+Epoch 0, Dev Acc: 30.0000, Best Ever: 30.0000
+Test Acc: 42.2624
+Epoch 1, Dev Acc: 20.0000, Best Ever: 30.0000
+Epoch 2, Dev Acc: 20.0000, Best Ever: 30.0000
+Epoch 3, Dev Acc: 30.0000, Best Ever: 30.0000
+Epoch 4, Dev Acc: 20.0000, Best Ever: 30.0000
+Final Dev Acc: 30.0000, Final Test Acc: 42.2624
+Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex.
+device: cuda
+Namespace(batch_size=8, classifier_lr=4e-05, classifier_pretrain_epochs=3, data_seed=159, dev_num_per_class=2, epochs=5, generator_lr=4e-05, generator_pretrain_epochs=60, min_epochs=0, n_aug=4, task='sst-5', train_num_per_class=40)
+getting train examples...
+number of examples with label 'negative': 40
+number of examples with label 'very positive': 40
+number of examples with label 'neutral': 40
+number of examples with label 'positive': 40
+number of examples with label 'very negative': 40
+getting dev examples...
+number of examples with label 'negative': 2
+number of examples with label 'very positive': 2
+number of examples with label 'neutral': 2
+number of examples with label 'positive': 2
+number of examples with label 'very negative': 2
+getting test examples...
+#train: 200
+#dev: 10
+#test: 2210
+============================================================
+Classifier Pre-training
+============================================================
+Classifier pretrain Epoch 0, Dev Acc: 10.0000
+Classifier pretrain Epoch 1, Dev Acc: 30.0000
+Classifier pretrain Epoch 2, Dev Acc: 30.0000
+============================================================
+Generator Pre-training
+============================================================
+Epoch 0, Dev Loss: 7.1805; Best Dev Loss: 7.1805
+Epoch 1, Dev Loss: 9.0997; Best Dev Loss: 7.1805
+Epoch 2, Dev Loss: 7.9914; Best Dev Loss: 7.1805
+Epoch 3, Dev Loss: 6.5541; Best Dev Loss: 6.5541
+Epoch 4, Dev Loss: 5.4522; Best Dev Loss: 5.4522
+Epoch 5, Dev Loss: 5.2995; Best Dev Loss: 5.2995
+Epoch 6, Dev Loss: 5.7584; Best Dev Loss: 5.2995
+Epoch 7, Dev Loss: 5.4106; Best Dev Loss: 5.2995
+Epoch 8, Dev Loss: 6.7932; Best Dev Loss: 5.2995
+Epoch 9, Dev Loss: 9.3597; Best Dev Loss: 5.2995
+Epoch 10, Dev Loss: 5.3428; Best Dev Loss: 5.2995
+Epoch 11, Dev Loss: 4.4454; Best Dev Loss: 4.4454
+Epoch 12, Dev Loss: 5.8482; Best Dev Loss: 4.4454
+Epoch 13, Dev Loss: 5.8377; Best Dev Loss: 4.4454
+Epoch 14, Dev Loss: 6.3055; Best Dev Loss: 4.4454
+Epoch 15, Dev Loss: 5.7654; Best Dev Loss: 4.4454
+Epoch 16, Dev Loss: 4.4553; Best Dev Loss: 4.4454
+Epoch 17, Dev Loss: 6.6099; Best Dev Loss: 4.4454
+Epoch 18, Dev Loss: 6.1098; Best Dev Loss: 4.4454
+Epoch 19, Dev Loss: 6.7159; Best Dev Loss: 4.4454
+Epoch 20, Dev Loss: 6.7716; Best Dev Loss: 4.4454
+Epoch 21, Dev Loss: 6.8667; Best Dev Loss: 4.4454
+Epoch 22, Dev Loss: 7.7108; Best Dev Loss: 4.4454
+Epoch 23, Dev Loss: 5.8949; Best Dev Loss: 4.4454
+Epoch 24, Dev Loss: 7.4962; Best Dev Loss: 4.4454
+Epoch 25, Dev Loss: 7.9063; Best Dev Loss: 4.4454
+Epoch 26, Dev Loss: 7.7190; Best Dev Loss: 4.4454
+Epoch 27, Dev Loss: 6.0456; Best Dev Loss: 4.4454
+Epoch 28, Dev Loss: 5.6792; Best Dev Loss: 4.4454
+Epoch 29, Dev Loss: 5.4830; Best Dev Loss: 4.4454
+Epoch 30, Dev Loss: 5.2919; Best Dev Loss: 4.4454
+Epoch 31, Dev Loss: 6.9280; Best Dev Loss: 4.4454
+Epoch 32, Dev Loss: 6.0489; Best Dev Loss: 4.4454
+Epoch 33, Dev Loss: 7.0073; Best Dev Loss: 4.4454
+Epoch 34, Dev Loss: 5.7947; Best Dev Loss: 4.4454
+Epoch 35, Dev Loss: 7.6239; Best Dev Loss: 4.4454
+Epoch 36, Dev Loss: 8.0352; Best Dev Loss: 4.4454
+Epoch 37, Dev Loss: 9.0629; Best Dev Loss: 4.4454
+Epoch 38, Dev Loss: 9.3593; Best Dev Loss: 4.4454
+Epoch 39, Dev Loss: 8.4170; Best Dev Loss: 4.4454
+Epoch 40, Dev Loss: 8.0596; Best Dev Loss: 4.4454
+Epoch 41, Dev Loss: 5.6119; Best Dev Loss: 4.4454
+Epoch 42, Dev Loss: 10.1030; Best Dev Loss: 4.4454
+Epoch 43, Dev Loss: 8.9208; Best Dev Loss: 4.4454
+Epoch 44, Dev Loss: 10.0503; Best Dev Loss: 4.4454
+Epoch 45, Dev Loss: 8.2556; Best Dev Loss: 4.4454
+Epoch 46, Dev Loss: 7.1060; Best Dev Loss: 4.4454
+Epoch 47, Dev Loss: 6.9669; Best Dev Loss: 4.4454
+Epoch 48, Dev Loss: 6.1697; Best Dev Loss: 4.4454
+Epoch 49, Dev Loss: 5.7219; Best Dev Loss: 4.4454
+Epoch 50, Dev Loss: 6.5114; Best Dev Loss: 4.4454
+Epoch 51, Dev Loss: 14.5867; Best Dev Loss: 4.4454
+Epoch 52, Dev Loss: 9.9377; Best Dev Loss: 4.4454
+Epoch 53, Dev Loss: 8.4076; Best Dev Loss: 4.4454
+Epoch 54, Dev Loss: 5.0233; Best Dev Loss: 4.4454
+Epoch 55, Dev Loss: 11.3280; Best Dev Loss: 4.4454
+Epoch 56, Dev Loss: 9.5256; Best Dev Loss: 4.4454
+Epoch 57, Dev Loss: 8.4415; Best Dev Loss: 4.4454
+Epoch 58, Dev Loss: 10.3321; Best Dev Loss: 4.4454
+Epoch 59, Dev Loss: 10.9109; Best Dev Loss: 4.4454
+============================================================
+Training
+============================================================
+Epoch 0, Dev Acc: 20.0000, Best Ever: 20.0000
+Test Acc: 39.0950
+Epoch 1, Dev Acc: 20.0000, Best Ever: 20.0000
+Epoch 2, Dev Acc: 20.0000, Best Ever: 20.0000
+Epoch 3, Dev Acc: 40.0000, Best Ever: 40.0000
+Test Acc: 37.6018
+Epoch 4, Dev Acc: 40.0000, Best Ever: 40.0000
+Final Dev Acc: 40.0000, Final Test Acc: 37.6018
+Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex.
+device: cuda
+Namespace(batch_size=8, classifier_lr=4e-05, classifier_pretrain_epochs=3, data_seed=159, dev_num_per_class=2, epochs=5, generator_lr=4e-05, generator_pretrain_epochs=60, min_epochs=0, n_aug=4, task='sst-5', train_num_per_class=40)
+getting train examples...
+number of examples with label 'negative': 40
+number of examples with label 'very positive': 40
+number of examples with label 'neutral': 40
+number of examples with label 'positive': 40
+number of examples with label 'very negative': 40
+getting dev examples...
+number of examples with label 'negative': 2
+number of examples with label 'very positive': 2
+number of examples with label 'neutral': 2
+number of examples with label 'positive': 2
+number of examples with label 'very negative': 2
+getting test examples...
+#train: 200
+#dev: 10
+#test: 2210
+============================================================
+Classifier Pre-training
+============================================================
+Classifier pretrain Epoch 0, Dev Acc: 30.0000
+Classifier pretrain Epoch 1, Dev Acc: 30.0000
+Classifier pretrain Epoch 2, Dev Acc: 20.0000
+============================================================
+Generator Pre-training
+============================================================
+Epoch 0, Dev Loss: 4.5461; Best Dev Loss: 4.5461
+Epoch 1, Dev Loss: 6.6365; Best Dev Loss: 4.5461
+Epoch 2, Dev Loss: 5.2842; Best Dev Loss: 4.5461
+Epoch 3, Dev Loss: 3.8793; Best Dev Loss: 3.8793
+Epoch 4, Dev Loss: 6.4483; Best Dev Loss: 3.8793
+Epoch 5, Dev Loss: 7.2272; Best Dev Loss: 3.8793
+Epoch 6, Dev Loss: 4.8991; Best Dev Loss: 3.8793
+Epoch 7, Dev Loss: 4.1746; Best Dev Loss: 3.8793
+Epoch 8, Dev Loss: 5.2686; Best Dev Loss: 3.8793
+Epoch 9, Dev Loss: 5.8531; Best Dev Loss: 3.8793
+Epoch 10, Dev Loss: 2.2332; Best Dev Loss: 2.2332
+Epoch 11, Dev Loss: 5.5297; Best Dev Loss: 2.2332
+Epoch 12, Dev Loss: 3.8157; Best Dev Loss: 2.2332
+Epoch 13, Dev Loss: 7.1218; Best Dev Loss: 2.2332
+Epoch 14, Dev Loss: 4.4558; Best Dev Loss: 2.2332
+Epoch 15, Dev Loss: 7.0546; Best Dev Loss: 2.2332
+Epoch 16, Dev Loss: 4.8333; Best Dev Loss: 2.2332
+Epoch 17, Dev Loss: 6.2098; Best Dev Loss: 2.2332
+Epoch 18, Dev Loss: 4.3435; Best Dev Loss: 2.2332
+Epoch 19, Dev Loss: 5.7927; Best Dev Loss: 2.2332
+Epoch 20, Dev Loss: 7.4552; Best Dev Loss: 2.2332
+Epoch 21, Dev Loss: 7.5015; Best Dev Loss: 2.2332
+Epoch 22, Dev Loss: 7.6346; Best Dev Loss: 2.2332
+Epoch 23, Dev Loss: 7.7850; Best Dev Loss: 2.2332
+Epoch 24, Dev Loss: 6.0177; Best Dev Loss: 2.2332
+Epoch 25, Dev Loss: 6.4049; Best Dev Loss: 2.2332
+Epoch 26, Dev Loss: 5.6094; Best Dev Loss: 2.2332
+Epoch 27, Dev Loss: 5.4062; Best Dev Loss: 2.2332
+Epoch 28, Dev Loss: 5.7643; Best Dev Loss: 2.2332
+Epoch 29, Dev Loss: 6.6875; Best Dev Loss: 2.2332
+Epoch 30, Dev Loss: 10.0796; Best Dev Loss: 2.2332
+Epoch 31, Dev Loss: 8.8427; Best Dev Loss: 2.2332
+Epoch 32, Dev Loss: 5.0522; Best Dev Loss: 2.2332
+Epoch 33, Dev Loss: 8.2404; Best Dev Loss: 2.2332
+Epoch 34, Dev Loss: 6.7307; Best Dev Loss: 2.2332
+Epoch 35, Dev Loss: 6.9031; Best Dev Loss: 2.2332
+Epoch 36, Dev Loss: 7.1477; Best Dev Loss: 2.2332
+Epoch 37, Dev Loss: 6.4644; Best Dev Loss: 2.2332
+Epoch 38, Dev Loss: 6.5294; Best Dev Loss: 2.2332
+Epoch 39, Dev Loss: 9.3279; Best Dev Loss: 2.2332
+Epoch 40, Dev Loss: 9.4810; Best Dev Loss: 2.2332
+Epoch 41, Dev Loss: 6.4127; Best Dev Loss: 2.2332
+Epoch 42, Dev Loss: 8.0636; Best Dev Loss: 2.2332
+Epoch 43, Dev Loss: 9.2376; Best Dev Loss: 2.2332
+Epoch 44, Dev Loss: 6.3592; Best Dev Loss: 2.2332
+Epoch 45, Dev Loss: 9.4677; Best Dev Loss: 2.2332
+Epoch 46, Dev Loss: 8.7281; Best Dev Loss: 2.2332
+Epoch 47, Dev Loss: 10.6696; Best Dev Loss: 2.2332
+Epoch 48, Dev Loss: 6.8332; Best Dev Loss: 2.2332
+Epoch 49, Dev Loss: 9.8701; Best Dev Loss: 2.2332
+Epoch 50, Dev Loss: 9.7211; Best Dev Loss: 2.2332
+Epoch 51, Dev Loss: 8.7451; Best Dev Loss: 2.2332
+Epoch 52, Dev Loss: 8.1926; Best Dev Loss: 2.2332
+Epoch 53, Dev Loss: 6.7934; Best Dev Loss: 2.2332
+Epoch 54, Dev Loss: 5.7311; Best Dev Loss: 2.2332
+Epoch 55, Dev Loss: 9.5770; Best Dev Loss: 2.2332
+Epoch 56, Dev Loss: 5.8337; Best Dev Loss: 2.2332
+Epoch 57, Dev Loss: 6.9711; Best Dev Loss: 2.2332
+Epoch 58, Dev Loss: 10.4747; Best Dev Loss: 2.2332
+Epoch 59, Dev Loss: 8.9865; Best Dev Loss: 2.2332
+============================================================
+Training
+============================================================
+Epoch 0, Dev Acc: 10.0000, Best Ever: 10.0000
+Test Acc: 38.0995
+Epoch 1, Dev Acc: 30.0000, Best Ever: 30.0000
+Test Acc: 39.1855
+Epoch 2, Dev Acc: 30.0000, Best Ever: 30.0000
+Epoch 3, Dev Acc: 40.0000, Best Ever: 40.0000
+Test Acc: 38.5973
+Epoch 4, Dev Acc: 40.0000, Best Ever: 40.0000
+Final Dev Acc: 40.0000, Final Test Acc: 38.5973
+Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex.
+device: cuda
+Namespace(batch_size=8, classifier_lr=4e-05, classifier_pretrain_epochs=3, data_seed=159, dev_num_per_class=2, epochs=5, generator_lr=4e-05, generator_pretrain_epochs=60, min_epochs=0, n_aug=4, task='sst-5', train_num_per_class=40)
+getting train examples...
+number of examples with label 'negative': 40
+number of examples with label 'very positive': 40
+number of examples with label 'neutral': 40
+number of examples with label 'positive': 40
+number of examples with label 'very negative': 40
+getting dev examples...
+number of examples with label 'negative': 2
+number of examples with label 'very positive': 2
+number of examples with label 'neutral': 2
+number of examples with label 'positive': 2
+number of examples with label 'very negative': 2
+getting test examples...
+#train: 200
+#dev: 10
+#test: 2210
+============================================================
+Classifier Pre-training
+============================================================
+Classifier pretrain Epoch 0, Dev Acc: 50.0000
+Classifier pretrain Epoch 1, Dev Acc: 40.0000
+Classifier pretrain Epoch 2, Dev Acc: 50.0000
+============================================================
+Generator Pre-training
+============================================================
+Epoch 0, Dev Loss: 5.6859; Best Dev Loss: 5.6859
+Epoch 1, Dev Loss: 9.0422; Best Dev Loss: 5.6859
+Epoch 2, Dev Loss: 4.4916; Best Dev Loss: 4.4916
+Epoch 3, Dev Loss: 7.5167; Best Dev Loss: 4.4916
+Epoch 4, Dev Loss: 5.1056; Best Dev Loss: 4.4916
+Epoch 5, Dev Loss: 4.1220; Best Dev Loss: 4.1220
+Epoch 6, Dev Loss: 7.2841; Best Dev Loss: 4.1220
+Epoch 7, Dev Loss: 6.3151; Best Dev Loss: 4.1220
+Epoch 8, Dev Loss: 5.2864; Best Dev Loss: 4.1220
+Epoch 9, Dev Loss: 5.1750; Best Dev Loss: 4.1220
+Epoch 10, Dev Loss: 6.1444; Best Dev Loss: 4.1220
+Epoch 11, Dev Loss: 7.7828; Best Dev Loss: 4.1220
+Epoch 12, Dev Loss: 4.6782; Best Dev Loss: 4.1220
+Epoch 13, Dev Loss: 5.1059; Best Dev Loss: 4.1220
+Epoch 14, Dev Loss: 4.4384; Best Dev Loss: 4.1220
+Epoch 15, Dev Loss: 4.2817; Best Dev Loss: 4.1220
+Epoch 16, Dev Loss: 5.8450; Best Dev Loss: 4.1220
+Epoch 17, Dev Loss: 5.6064; Best Dev Loss: 4.1220
+Epoch 18, Dev Loss: 7.1518; Best Dev Loss: 4.1220
+Epoch 19, Dev Loss: 4.1269; Best Dev Loss: 4.1220
+Epoch 20, Dev Loss: 5.2797; Best Dev Loss: 4.1220
+Epoch 21, Dev Loss: 6.3034; Best Dev Loss: 4.1220
+Epoch 22, Dev Loss: 4.6538; Best Dev Loss: 4.1220
+Epoch 23, Dev Loss: 6.6253; Best Dev Loss: 4.1220
+Epoch 24, Dev Loss: 4.7167; Best Dev Loss: 4.1220
+Epoch 25, Dev Loss: 8.0546; Best Dev Loss: 4.1220
+Epoch 26, Dev Loss: 5.6313; Best Dev Loss: 4.1220
+Epoch 27, Dev Loss: 3.9749; Best Dev Loss: 3.9749
+Epoch 28, Dev Loss: 5.9580; Best Dev Loss: 3.9749
+Epoch 29, Dev Loss: 7.2236; Best Dev Loss: 3.9749
+Epoch 30, Dev Loss: 6.8259; Best Dev Loss: 3.9749
+Epoch 31, Dev Loss: 7.0883; Best Dev Loss: 3.9749
+Epoch 32, Dev Loss: 9.5472; Best Dev Loss: 3.9749
+Epoch 33, Dev Loss: 6.4966; Best Dev Loss: 3.9749
+Epoch 34, Dev Loss: 7.0303; Best Dev Loss: 3.9749
+Epoch 35, Dev Loss: 7.1512; Best Dev Loss: 3.9749
+Epoch 36, Dev Loss: 5.9710; Best Dev Loss: 3.9749
+Epoch 37, Dev Loss: 6.7277; Best Dev Loss: 3.9749
+Epoch 38, Dev Loss: 8.6926; Best Dev Loss: 3.9749
+Epoch 39, Dev Loss: 5.8779; Best Dev Loss: 3.9749
+Epoch 40, Dev Loss: 7.3540; Best Dev Loss: 3.9749
+Epoch 41, Dev Loss: 5.7382; Best Dev Loss: 3.9749
+Epoch 42, Dev Loss: 5.9884; Best Dev Loss: 3.9749
+Epoch 43, Dev Loss: 8.8079; Best Dev Loss: 3.9749
+Epoch 44, Dev Loss: 9.6533; Best Dev Loss: 3.9749
+Epoch 45, Dev Loss: 6.7162; Best Dev Loss: 3.9749
+Epoch 46, Dev Loss: 9.1214; Best Dev Loss: 3.9749
+Epoch 47, Dev Loss: 5.8531; Best Dev Loss: 3.9749
+Epoch 48, Dev Loss: 7.8378; Best Dev Loss: 3.9749
+Epoch 49, Dev Loss: 8.1656; Best Dev Loss: 3.9749
+Epoch 50, Dev Loss: 7.2936; Best Dev Loss: 3.9749
+Epoch 51, Dev Loss: 7.7247; Best Dev Loss: 3.9749
+Epoch 52, Dev Loss: 8.2108; Best Dev Loss: 3.9749
+Epoch 53, Dev Loss: 7.6200; Best Dev Loss: 3.9749
+Epoch 54, Dev Loss: 10.8140; Best Dev Loss: 3.9749
+Epoch 55, Dev Loss: 7.8087; Best Dev Loss: 3.9749
+Epoch 56, Dev Loss: 9.6101; Best Dev Loss: 3.9749
+Epoch 57, Dev Loss: 9.5845; Best Dev Loss: 3.9749
+Epoch 58, Dev Loss: 10.1186; Best Dev Loss: 3.9749
+Epoch 59, Dev Loss: 10.4559; Best Dev Loss: 3.9749
+============================================================
+Training
+============================================================
+Epoch 0, Dev Acc: 30.0000, Best Ever: 30.0000
+Test Acc: 37.5566
+Epoch 1, Dev Acc: 40.0000, Best Ever: 40.0000
+Test Acc: 36.0633
+Epoch 2, Dev Acc: 30.0000, Best Ever: 40.0000
+Epoch 3, Dev Acc: 40.0000, Best Ever: 40.0000
+Epoch 4, Dev Acc: 40.0000, Best Ever: 40.0000
+Final Dev Acc: 40.0000, Final Test Acc: 36.0633
+Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex.
+device: cuda
+Namespace(batch_size=8, classifier_lr=4e-05, classifier_pretrain_epochs=3, data_seed=159, dev_num_per_class=2, epochs=5, generator_lr=4e-05, generator_pretrain_epochs=60, min_epochs=0, n_aug=4, task='sst-5', train_num_per_class=40)
+getting train examples...
+number of examples with label 'negative': 40
+number of examples with label 'very positive': 40
+number of examples with label 'neutral': 40
+number of examples with label 'positive': 40
+number of examples with label 'very negative': 40
+getting dev examples...
+number of examples with label 'negative': 2
+number of examples with label 'very positive': 2
+number of examples with label 'neutral': 2
+number of examples with label 'positive': 2
+number of examples with label 'very negative': 2
+getting test examples...
+#train: 200
+#dev: 10
+#test: 2210
+============================================================
+Classifier Pre-training
+============================================================
+Classifier pretrain Epoch 0, Dev Acc: 20.0000
+Classifier pretrain Epoch 1, Dev Acc: 20.0000
+Classifier pretrain Epoch 2, Dev Acc: 30.0000
+============================================================
+Generator Pre-training
+============================================================
+Epoch 0, Dev Loss: 4.4380; Best Dev Loss: 4.4380
+Epoch 1, Dev Loss: 6.3293; Best Dev Loss: 4.4380
+Epoch 2, Dev Loss: 4.1716; Best Dev Loss: 4.1716
+Epoch 3, Dev Loss: 6.3391; Best Dev Loss: 4.1716
+Epoch 4, Dev Loss: 4.4017; Best Dev Loss: 4.1716
+Epoch 5, Dev Loss: 6.3255; Best Dev Loss: 4.1716
+Epoch 6, Dev Loss: 4.6702; Best Dev Loss: 4.1716
+Epoch 7, Dev Loss: 6.0385; Best Dev Loss: 4.1716
+Epoch 8, Dev Loss: 4.2529; Best Dev Loss: 4.1716
+Epoch 9, Dev Loss: 5.5977; Best Dev Loss: 4.1716
+Epoch 10, Dev Loss: 4.9408; Best Dev Loss: 4.1716
+Epoch 11, Dev Loss: 4.3978; Best Dev Loss: 4.1716
+Epoch 12, Dev Loss: 8.3038; Best Dev Loss: 4.1716
+Epoch 13, Dev Loss: 7.3456; Best Dev Loss: 4.1716
+Epoch 14, Dev Loss: 7.6025; Best Dev Loss: 4.1716
+Epoch 15, Dev Loss: 3.2532; Best Dev Loss: 3.2532
+Epoch 16, Dev Loss: 5.6326; Best Dev Loss: 3.2532
+Epoch 17, Dev Loss: 4.0876; Best Dev Loss: 3.2532
+Epoch 18, Dev Loss: 6.1322; Best Dev Loss: 3.2532
+Epoch 19, Dev Loss: 4.8529; Best Dev Loss: 3.2532
+Epoch 20, Dev Loss: 6.1948; Best Dev Loss: 3.2532
+Epoch 21, Dev Loss: 4.9340; Best Dev Loss: 3.2532
+Epoch 22, Dev Loss: 6.5962; Best Dev Loss: 3.2532
+Epoch 23, Dev Loss: 5.2768; Best Dev Loss: 3.2532
+Epoch 24, Dev Loss: 7.1539; Best Dev Loss: 3.2532
+Epoch 25, Dev Loss: 4.5775; Best Dev Loss: 3.2532
+Epoch 26, Dev Loss: 7.1499; Best Dev Loss: 3.2532
+Epoch 27, Dev Loss: 6.1686; Best Dev Loss: 3.2532
+Epoch 28, Dev Loss: 6.0368; Best Dev Loss: 3.2532
+Epoch 29, Dev Loss: 6.1860; Best Dev Loss: 3.2532
+Epoch 30, Dev Loss: 5.6891; Best Dev Loss: 3.2532
+Epoch 31, Dev Loss: 5.2531; Best Dev Loss: 3.2532
+Epoch 32, Dev Loss: 5.5144; Best Dev Loss: 3.2532
+Epoch 33, Dev Loss: 7.1553; Best Dev Loss: 3.2532
+Epoch 34, Dev Loss: 6.8928; Best Dev Loss: 3.2532
+Epoch 35, Dev Loss: 7.5671; Best Dev Loss: 3.2532
+Epoch 36, Dev Loss: 6.8112; Best Dev Loss: 3.2532
+Epoch 37, Dev Loss: 7.1247; Best Dev Loss: 3.2532
+Epoch 38, Dev Loss: 5.3472; Best Dev Loss: 3.2532
+Epoch 39, Dev Loss: 6.9955; Best Dev Loss: 3.2532
+Epoch 40, Dev Loss: 8.5017; Best Dev Loss: 3.2532
+Epoch 41, Dev Loss: 7.9015; Best Dev Loss: 3.2532
+Epoch 42, Dev Loss: 7.7143; Best Dev Loss: 3.2532
+Epoch 43, Dev Loss: 6.4868; Best Dev Loss: 3.2532
+Epoch 44, Dev Loss: 8.6587; Best Dev Loss: 3.2532
+Epoch 45, Dev Loss: 8.3863; Best Dev Loss: 3.2532
+Epoch 46, Dev Loss: 5.2854; Best Dev Loss: 3.2532
+Epoch 47, Dev Loss: 7.3728; Best Dev Loss: 3.2532
+Epoch 48, Dev Loss: 4.0024; Best Dev Loss: 3.2532
+Epoch 49, Dev Loss: 7.1315; Best Dev Loss: 3.2532
+Epoch 50, Dev Loss: 7.5230; Best Dev Loss: 3.2532
+Epoch 51, Dev Loss: 9.3087; Best Dev Loss: 3.2532
+Epoch 52, Dev Loss: 5.3600; Best Dev Loss: 3.2532
+Epoch 53, Dev Loss: 9.0836; Best Dev Loss: 3.2532
+Epoch 54, Dev Loss: 11.1508; Best Dev Loss: 3.2532
+Epoch 55, Dev Loss: 11.5811; Best Dev Loss: 3.2532
+Epoch 56, Dev Loss: 9.4646; Best Dev Loss: 3.2532
+Epoch 57, Dev Loss: 9.8745; Best Dev Loss: 3.2532
+Epoch 58, Dev Loss: 8.3873; Best Dev Loss: 3.2532
+Epoch 59, Dev Loss: 10.6264; Best Dev Loss: 3.2532
+============================================================
+Training
+============================================================
+Epoch 0, Dev Acc: 10.0000, Best Ever: 10.0000
+Test Acc: 35.4299
+Epoch 1, Dev Acc: 40.0000, Best Ever: 40.0000
+Test Acc: 32.0362
+Epoch 2, Dev Acc: 30.0000, Best Ever: 40.0000
+Epoch 3, Dev Acc: 20.0000, Best Ever: 40.0000
+Epoch 4, Dev Acc: 30.0000, Best Ever: 40.0000
+Final Dev Acc: 40.0000, Final Test Acc: 32.0362
+Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex.
+device: cuda
+Namespace(batch_size=8, classifier_lr=4e-05, classifier_pretrain_epochs=3, data_seed=159, dev_num_per_class=2, epochs=5, generator_lr=4e-05, generator_pretrain_epochs=60, min_epochs=0, n_aug=4, task='sst-5', train_num_per_class=40)
+getting train examples...
+number of examples with label 'negative': 40
+number of examples with label 'very positive': 40
+number of examples with label 'neutral': 40
+number of examples with label 'positive': 40
+number of examples with label 'very negative': 40
+getting dev examples...
+number of examples with label 'negative': 2
+number of examples with label 'very positive': 2
+number of examples with label 'neutral': 2
+number of examples with label 'positive': 2
+number of examples with label 'very negative': 2
+getting test examples...
+#train: 200
+#dev: 10
+#test: 2210
+============================================================
+Classifier Pre-training
+============================================================
+Classifier pretrain Epoch 0, Dev Acc: 20.0000
+Classifier pretrain Epoch 1, Dev Acc: 40.0000
+Classifier pretrain Epoch 2, Dev Acc: 40.0000
+============================================================
+Generator Pre-training
+============================================================
+Epoch 0, Dev Loss: 6.8759; Best Dev Loss: 6.8759
+Epoch 1, Dev Loss: 4.6550; Best Dev Loss: 4.6550
+Epoch 2, Dev Loss: 4.4019; Best Dev Loss: 4.4019
+Epoch 3, Dev Loss: 5.4848; Best Dev Loss: 4.4019
+Epoch 4, Dev Loss: 4.3522; Best Dev Loss: 4.3522
+Epoch 5, Dev Loss: 7.2471; Best Dev Loss: 4.3522
+Epoch 6, Dev Loss: 5.0493; Best Dev Loss: 4.3522
+Epoch 7, Dev Loss: 5.6665; Best Dev Loss: 4.3522
+Epoch 8, Dev Loss: 5.2703; Best Dev Loss: 4.3522
+Epoch 9, Dev Loss: 5.3711; Best Dev Loss: 4.3522
+Epoch 10, Dev Loss: 5.0701; Best Dev Loss: 4.3522
+Epoch 11, Dev Loss: 6.2730; Best Dev Loss: 4.3522
+Epoch 12, Dev Loss: 7.3344; Best Dev Loss: 4.3522
+Epoch 13, Dev Loss: 3.4207; Best Dev Loss: 3.4207
+Epoch 14, Dev Loss: 8.2278; Best Dev Loss: 3.4207
+Epoch 15, Dev Loss: 5.6708; Best Dev Loss: 3.4207
+Epoch 16, Dev Loss: 6.5750; Best Dev Loss: 3.4207
+Epoch 17, Dev Loss: 5.3878; Best Dev Loss: 3.4207
+Epoch 18, Dev Loss: 9.3509; Best Dev Loss: 3.4207
+Epoch 19, Dev Loss: 7.7629; Best Dev Loss: 3.4207
+Epoch 20, Dev Loss: 5.9160; Best Dev Loss: 3.4207
+Epoch 21, Dev Loss: 4.3381; Best Dev Loss: 3.4207
+Epoch 22, Dev Loss: 5.7418; Best Dev Loss: 3.4207
+Epoch 23, Dev Loss: 6.7530; Best Dev Loss: 3.4207
+Epoch 24, Dev Loss: 6.6856; Best Dev Loss: 3.4207
+Epoch 25, Dev Loss: 5.7099; Best Dev Loss: 3.4207
+Epoch 26, Dev Loss: 5.7499; Best Dev Loss: 3.4207
+Epoch 27, Dev Loss: 5.4662; Best Dev Loss: 3.4207
+Epoch 28, Dev Loss: 9.9814; Best Dev Loss: 3.4207
+Epoch 29, Dev Loss: 5.0128; Best Dev Loss: 3.4207
+Epoch 30, Dev Loss: 6.5767; Best Dev Loss: 3.4207
+Epoch 31, Dev Loss: 5.7416; Best Dev Loss: 3.4207
+Epoch 32, Dev Loss: 9.6740; Best Dev Loss: 3.4207
+Epoch 33, Dev Loss: 8.2247; Best Dev Loss: 3.4207
+Epoch 34, Dev Loss: 7.6070; Best Dev Loss: 3.4207
+Epoch 35, Dev Loss: 8.6411; Best Dev Loss: 3.4207
+Epoch 36, Dev Loss: 7.0954; Best Dev Loss: 3.4207
+Epoch 37, Dev Loss: 7.6897; Best Dev Loss: 3.4207
+Epoch 38, Dev Loss: 10.9611; Best Dev Loss: 3.4207
+Epoch 39, Dev Loss: 6.8781; Best Dev Loss: 3.4207
+Epoch 40, Dev Loss: 7.5127; Best Dev Loss: 3.4207
+Epoch 41, Dev Loss: 6.8180; Best Dev Loss: 3.4207
+Epoch 42, Dev Loss: 7.1422; Best Dev Loss: 3.4207
+Epoch 43, Dev Loss: 7.1812; Best Dev Loss: 3.4207
+Epoch 44, Dev Loss: 8.4887; Best Dev Loss: 3.4207
+Epoch 45, Dev Loss: 10.9994; Best Dev Loss: 3.4207
+Epoch 46, Dev Loss: 8.7454; Best Dev Loss: 3.4207
+Epoch 47, Dev Loss: 8.9273; Best Dev Loss: 3.4207
+Epoch 48, Dev Loss: 8.9651; Best Dev Loss: 3.4207
+Epoch 49, Dev Loss: 4.9141; Best Dev Loss: 3.4207
+Epoch 50, Dev Loss: 7.2970; Best Dev Loss: 3.4207
+Epoch 51, Dev Loss: 11.0340; Best Dev Loss: 3.4207
+Epoch 52, Dev Loss: 10.4902; Best Dev Loss: 3.4207
+Epoch 53, Dev Loss: 7.9881; Best Dev Loss: 3.4207
+Epoch 54, Dev Loss: 8.8931; Best Dev Loss: 3.4207
+Epoch 55, Dev Loss: 11.8227; Best Dev Loss: 3.4207
+Epoch 56, Dev Loss: 9.1163; Best Dev Loss: 3.4207
+Epoch 57, Dev Loss: 10.1222; Best Dev Loss: 3.4207
+Epoch 58, Dev Loss: 9.3763; Best Dev Loss: 3.4207
+Epoch 59, Dev Loss: 9.1300; Best Dev Loss: 3.4207
+============================================================
+Training
+============================================================
+Epoch 0, Dev Acc: 40.0000, Best Ever: 40.0000
+Test Acc: 40.9502
+Epoch 1, Dev Acc: 20.0000, Best Ever: 40.0000
+Epoch 2, Dev Acc: 40.0000, Best Ever: 40.0000
+Epoch 3, Dev Acc: 40.0000, Best Ever: 40.0000
+Epoch 4, Dev Acc: 30.0000, Best Ever: 40.0000
+Final Dev Acc: 40.0000, Final Test Acc: 40.9502
+Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex.
+device: cuda
+Namespace(batch_size=8, classifier_lr=4e-05, classifier_pretrain_epochs=3, data_seed=159, dev_num_per_class=2, epochs=5, generator_lr=4e-05, generator_pretrain_epochs=60, min_epochs=0, n_aug=4, task='sst-5', train_num_per_class=40)
+getting train examples...
+number of examples with label 'negative': 40
+number of examples with label 'very positive': 40
+number of examples with label 'neutral': 40
+number of examples with label 'positive': 40
+number of examples with label 'very negative': 40
+getting dev examples...
+number of examples with label 'negative': 2
+number of examples with label 'very positive': 2
+number of examples with label 'neutral': 2
+number of examples with label 'positive': 2
+number of examples with label 'very negative': 2
+getting test examples...
+#train: 200
+#dev: 10
+#test: 2210
+============================================================
+Classifier Pre-training
+============================================================
+Classifier pretrain Epoch 0, Dev Acc: 30.0000
+Classifier pretrain Epoch 1, Dev Acc: 20.0000
+Classifier pretrain Epoch 2, Dev Acc: 30.0000
+============================================================
+Generator Pre-training
+============================================================
+Epoch 0, Dev Loss: 3.7441; Best Dev Loss: 3.7441
+Epoch 1, Dev Loss: 4.3886; Best Dev Loss: 3.7441
+Epoch 2, Dev Loss: 5.8471; Best Dev Loss: 3.7441
+Epoch 3, Dev Loss: 3.8257; Best Dev Loss: 3.7441
+Epoch 4, Dev Loss: 5.1309; Best Dev Loss: 3.7441
+Epoch 5, Dev Loss: 3.8625; Best Dev Loss: 3.7441
+Epoch 6, Dev Loss: 6.1607; Best Dev Loss: 3.7441
+Epoch 7, Dev Loss: 4.8721; Best Dev Loss: 3.7441
+Epoch 8, Dev Loss: 6.0491; Best Dev Loss: 3.7441
+Epoch 9, Dev Loss: 5.3776; Best Dev Loss: 3.7441
+Epoch 10, Dev Loss: 8.3123; Best Dev Loss: 3.7441
+Epoch 11, Dev Loss: 5.5892; Best Dev Loss: 3.7441
+Epoch 12, Dev Loss: 7.5582; Best Dev Loss: 3.7441
+Epoch 13, Dev Loss: 4.8668; Best Dev Loss: 3.7441
+Epoch 14, Dev Loss: 5.0989; Best Dev Loss: 3.7441
+Epoch 15, Dev Loss: 3.2489; Best Dev Loss: 3.2489
+Epoch 16, Dev Loss: 4.5821; Best Dev Loss: 3.2489
+Epoch 17, Dev Loss: 4.1075; Best Dev Loss: 3.2489
+Epoch 18, Dev Loss: 4.3594; Best Dev Loss: 3.2489
+Epoch 19, Dev Loss: 6.6393; Best Dev Loss: 3.2489
+Epoch 20, Dev Loss: 8.5153; Best Dev Loss: 3.2489
+Epoch 21, Dev Loss: 7.5025; Best Dev Loss: 3.2489
+Epoch 22, Dev Loss: 6.9905; Best Dev Loss: 3.2489
+Epoch 23, Dev Loss: 6.6023; Best Dev Loss: 3.2489
+Epoch 24, Dev Loss: 4.6034; Best Dev Loss: 3.2489
+Epoch 25, Dev Loss: 5.1851; Best Dev Loss: 3.2489
+Epoch 26, Dev Loss: 6.6951; Best Dev Loss: 3.2489
+Epoch 27, Dev Loss: 5.5482; Best Dev Loss: 3.2489
+Epoch 28, Dev Loss: 8.0153; Best Dev Loss: 3.2489
+Epoch 29, Dev Loss: 6.6525; Best Dev Loss: 3.2489
+Epoch 30, Dev Loss: 7.8380; Best Dev Loss: 3.2489
+Epoch 31, Dev Loss: 7.3451; Best Dev Loss: 3.2489
+Epoch 32, Dev Loss: 6.3301; Best Dev Loss: 3.2489
+Epoch 33, Dev Loss: 4.8580; Best Dev Loss: 3.2489
+Epoch 34, Dev Loss: 6.3870; Best Dev Loss: 3.2489
+Epoch 35, Dev Loss: 7.8406; Best Dev Loss: 3.2489
+Epoch 36, Dev Loss: 4.7450; Best Dev Loss: 3.2489
+Epoch 37, Dev Loss: 6.8440; Best Dev Loss: 3.2489
+Epoch 38, Dev Loss: 6.9719; Best Dev Loss: 3.2489
+Epoch 39, Dev Loss: 8.6858; Best Dev Loss: 3.2489
+Epoch 40, Dev Loss: 9.9949; Best Dev Loss: 3.2489
+Epoch 41, Dev Loss: 8.5706; Best Dev Loss: 3.2489
+Epoch 42, Dev Loss: 5.3602; Best Dev Loss: 3.2489
+Epoch 43, Dev Loss: 9.8591; Best Dev Loss: 3.2489
+Epoch 44, Dev Loss: 7.9911; Best Dev Loss: 3.2489
+Epoch 45, Dev Loss: 6.7304; Best Dev Loss: 3.2489
+Epoch 46, Dev Loss: 11.3702; Best Dev Loss: 3.2489
+Epoch 47, Dev Loss: 7.9789; Best Dev Loss: 3.2489
+Epoch 48, Dev Loss: 9.4334; Best Dev Loss: 3.2489
+Epoch 49, Dev Loss: 8.5672; Best Dev Loss: 3.2489
+Epoch 50, Dev Loss: 8.9609; Best Dev Loss: 3.2489
+Epoch 51, Dev Loss: 10.3702; Best Dev Loss: 3.2489
+Epoch 52, Dev Loss: 8.9150; Best Dev Loss: 3.2489
+Epoch 53, Dev Loss: 9.5601; Best Dev Loss: 3.2489
+Epoch 54, Dev Loss: 11.5000; Best Dev Loss: 3.2489
+Epoch 55, Dev Loss: 9.4379; Best Dev Loss: 3.2489
+Epoch 56, Dev Loss: 6.6245; Best Dev Loss: 3.2489
+Epoch 57, Dev Loss: 8.7724; Best Dev Loss: 3.2489
+Epoch 58, Dev Loss: 10.0416; Best Dev Loss: 3.2489
+Epoch 59, Dev Loss: 8.7467; Best Dev Loss: 3.2489
+============================================================
+Training
+============================================================
+Epoch 0, Dev Acc: 30.0000, Best Ever: 30.0000
+Test Acc: 36.2896
+Epoch 1, Dev Acc: 40.0000, Best Ever: 40.0000
+Test Acc: 36.9231
+Epoch 2, Dev Acc: 30.0000, Best Ever: 40.0000
+Epoch 3, Dev Acc: 30.0000, Best Ever: 40.0000
+Epoch 4, Dev Acc: 30.0000, Best Ever: 40.0000
+Final Dev Acc: 40.0000, Final Test Acc: 36.9231
+Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex.
+device: cuda
+Namespace(batch_size=8, classifier_lr=4e-05, classifier_pretrain_epochs=3, data_seed=159, dev_num_per_class=2, epochs=5, generator_lr=4e-05, generator_pretrain_epochs=60, min_epochs=0, n_aug=4, task='sst-5', train_num_per_class=40)
+getting train examples...
+number of examples with label 'negative': 40
+number of examples with label 'very positive': 40
+number of examples with label 'neutral': 40
+number of examples with label 'positive': 40
+number of examples with label 'very negative': 40
+getting dev examples...
+number of examples with label 'negative': 2
+number of examples with label 'very positive': 2
+number of examples with label 'neutral': 2
+number of examples with label 'positive': 2
+number of examples with label 'very negative': 2
+getting test examples...
+#train: 200
+#dev: 10
+#test: 2210
+============================================================
+Classifier Pre-training
+============================================================
+Classifier pretrain Epoch 0, Dev Acc: 20.0000
+Classifier pretrain Epoch 1, Dev Acc: 40.0000
+Classifier pretrain Epoch 2, Dev Acc: 40.0000
+============================================================
+Generator Pre-training
+============================================================
+Epoch 0, Dev Loss: 6.0658; Best Dev Loss: 6.0658
+Epoch 1, Dev Loss: 3.4487; Best Dev Loss: 3.4487
+Epoch 2, Dev Loss: 4.9685; Best Dev Loss: 3.4487
+Epoch 3, Dev Loss: 7.3520; Best Dev Loss: 3.4487
+Epoch 4, Dev Loss: 5.4691; Best Dev Loss: 3.4487
+Epoch 5, Dev Loss: 4.1098; Best Dev Loss: 3.4487
+Epoch 6, Dev Loss: 6.8736; Best Dev Loss: 3.4487
+Epoch 7, Dev Loss: 2.9215; Best Dev Loss: 2.9215
+Epoch 8, Dev Loss: 5.4939; Best Dev Loss: 2.9215
+Epoch 9, Dev Loss: 4.8196; Best Dev Loss: 2.9215
+Epoch 10, Dev Loss: 2.9910; Best Dev Loss: 2.9215
+Epoch 11, Dev Loss: 5.1457; Best Dev Loss: 2.9215
+Epoch 12, Dev Loss: 3.9282; Best Dev Loss: 2.9215
+Epoch 13, Dev Loss: 5.4180; Best Dev Loss: 2.9215
+Epoch 14, Dev Loss: 7.1139; Best Dev Loss: 2.9215
+Epoch 15, Dev Loss: 5.5302; Best Dev Loss: 2.9215
+Epoch 16, Dev Loss: 4.2128; Best Dev Loss: 2.9215
+Epoch 17, Dev Loss: 5.4423; Best Dev Loss: 2.9215
+Epoch 18, Dev Loss: 6.8198; Best Dev Loss: 2.9215
+Epoch 19, Dev Loss: 4.3601; Best Dev Loss: 2.9215
+Epoch 20, Dev Loss: 6.0916; Best Dev Loss: 2.9215
+Epoch 21, Dev Loss: 8.7578; Best Dev Loss: 2.9215
+Epoch 22, Dev Loss: 6.5590; Best Dev Loss: 2.9215
+Epoch 23, Dev Loss: 7.3530; Best Dev Loss: 2.9215
+Epoch 24, Dev Loss: 9.6019; Best Dev Loss: 2.9215
+Epoch 25, Dev Loss: 5.0731; Best Dev Loss: 2.9215
+Epoch 26, Dev Loss: 6.8455; Best Dev Loss: 2.9215
+Epoch 27, Dev Loss: 7.5893; Best Dev Loss: 2.9215
+Epoch 28, Dev Loss: 6.7604; Best Dev Loss: 2.9215
+Epoch 29, Dev Loss: 5.7273; Best Dev Loss: 2.9215
+Epoch 30, Dev Loss: 8.0397; Best Dev Loss: 2.9215
+Epoch 31, Dev Loss: 7.0427; Best Dev Loss: 2.9215
+Epoch 32, Dev Loss: 5.7793; Best Dev Loss: 2.9215
+Epoch 33, Dev Loss: 7.6698; Best Dev Loss: 2.9215
+Epoch 34, Dev Loss: 6.3400; Best Dev Loss: 2.9215
+Epoch 35, Dev Loss: 5.8146; Best Dev Loss: 2.9215
+Epoch 36, Dev Loss: 7.8076; Best Dev Loss: 2.9215
+Epoch 37, Dev Loss: 8.7660; Best Dev Loss: 2.9215
+Epoch 38, Dev Loss: 8.4909; Best Dev Loss: 2.9215
+Epoch 39, Dev Loss: 8.4499; Best Dev Loss: 2.9215
+Epoch 40, Dev Loss: 7.4124; Best Dev Loss: 2.9215
+Epoch 41, Dev Loss: 8.6460; Best Dev Loss: 2.9215
+Epoch 42, Dev Loss: 8.3918; Best Dev Loss: 2.9215
+Epoch 43, Dev Loss: 8.0613; Best Dev Loss: 2.9215
+Epoch 44, Dev Loss: 7.7013; Best Dev Loss: 2.9215
+Epoch 45, Dev Loss: 8.2959; Best Dev Loss: 2.9215
+Epoch 46, Dev Loss: 7.5072; Best Dev Loss: 2.9215
+Epoch 47, Dev Loss: 9.3826; Best Dev Loss: 2.9215
+Epoch 48, Dev Loss: 10.6046; Best Dev Loss: 2.9215
+Epoch 49, Dev Loss: 7.8069; Best Dev Loss: 2.9215
+Epoch 50, Dev Loss: 6.2642; Best Dev Loss: 2.9215
+Epoch 51, Dev Loss: 10.2176; Best Dev Loss: 2.9215
+Epoch 52, Dev Loss: 6.7850; Best Dev Loss: 2.9215
+Epoch 53, Dev Loss: 10.3821; Best Dev Loss: 2.9215
+Epoch 54, Dev Loss: 10.3954; Best Dev Loss: 2.9215
+Epoch 55, Dev Loss: 7.0103; Best Dev Loss: 2.9215
+Epoch 56, Dev Loss: 8.3422; Best Dev Loss: 2.9215
+Epoch 57, Dev Loss: 8.9518; Best Dev Loss: 2.9215
+Epoch 58, Dev Loss: 7.0775; Best Dev Loss: 2.9215
+Epoch 59, Dev Loss: 11.2087; Best Dev Loss: 2.9215
+============================================================
+Training
+============================================================
+Epoch 0, Dev Acc: 30.0000, Best Ever: 30.0000
+Test Acc: 38.7783
+Epoch 1, Dev Acc: 30.0000, Best Ever: 30.0000
+Epoch 2, Dev Acc: 40.0000, Best Ever: 40.0000
+Test Acc: 35.7919
+Epoch 3, Dev Acc: 30.0000, Best Ever: 40.0000
+Epoch 4, Dev Acc: 40.0000, Best Ever: 40.0000
+Final Dev Acc: 40.0000, Final Test Acc: 35.7919
+Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex.
+device: cuda
+Namespace(batch_size=8, classifier_lr=4e-05, classifier_pretrain_epochs=3, data_seed=159, dev_num_per_class=2, epochs=5, generator_lr=4e-05, generator_pretrain_epochs=60, min_epochs=0, n_aug=4, task='sst-5', train_num_per_class=40)
+getting train examples...
+number of examples with label 'negative': 40
+number of examples with label 'very positive': 40
+number of examples with label 'neutral': 40
+number of examples with label 'positive': 40
+number of examples with label 'very negative': 40
+getting dev examples...
+number of examples with label 'negative': 2
+number of examples with label 'very positive': 2
+number of examples with label 'neutral': 2
+number of examples with label 'positive': 2
+number of examples with label 'very negative': 2
+getting test examples...
+#train: 200
+#dev: 10
+#test: 2210
+============================================================
+Classifier Pre-training
+============================================================
+Classifier pretrain Epoch 0, Dev Acc: 20.0000
+Classifier pretrain Epoch 1, Dev Acc: 30.0000
+Classifier pretrain Epoch 2, Dev Acc: 20.0000
+============================================================
+Generator Pre-training
+============================================================
+Epoch 0, Dev Loss: 6.2757; Best Dev Loss: 6.2757
+Epoch 1, Dev Loss: 3.8575; Best Dev Loss: 3.8575
+Epoch 2, Dev Loss: 4.3608; Best Dev Loss: 3.8575
+Epoch 3, Dev Loss: 7.2112; Best Dev Loss: 3.8575
+Epoch 4, Dev Loss: 5.9507; Best Dev Loss: 3.8575
+Epoch 5, Dev Loss: 2.2910; Best Dev Loss: 2.2910
+Epoch 6, Dev Loss: 4.8422; Best Dev Loss: 2.2910
+Epoch 7, Dev Loss: 6.5675; Best Dev Loss: 2.2910
+Epoch 8, Dev Loss: 6.1776; Best Dev Loss: 2.2910
+Epoch 9, Dev Loss: 9.1021; Best Dev Loss: 2.2910
+Epoch 10, Dev Loss: 4.6100; Best Dev Loss: 2.2910
+Epoch 11, Dev Loss: 5.5940; Best Dev Loss: 2.2910
+Epoch 12, Dev Loss: 5.3047; Best Dev Loss: 2.2910
+Epoch 13, Dev Loss: 3.1210; Best Dev Loss: 2.2910
+Epoch 14, Dev Loss: 5.5320; Best Dev Loss: 2.2910
+Epoch 15, Dev Loss: 5.9602; Best Dev Loss: 2.2910
+Epoch 16, Dev Loss: 5.1530; Best Dev Loss: 2.2910
+Epoch 17, Dev Loss: 9.2082; Best Dev Loss: 2.2910
+Epoch 18, Dev Loss: 6.8845; Best Dev Loss: 2.2910
+Epoch 19, Dev Loss: 4.8193; Best Dev Loss: 2.2910
+Epoch 20, Dev Loss: 7.0031; Best Dev Loss: 2.2910
+Epoch 21, Dev Loss: 3.2852; Best Dev Loss: 2.2910
+Epoch 22, Dev Loss: 6.4571; Best Dev Loss: 2.2910
+Epoch 23, Dev Loss: 4.4859; Best Dev Loss: 2.2910
+Epoch 24, Dev Loss: 6.9474; Best Dev Loss: 2.2910
+Epoch 25, Dev Loss: 9.0256; Best Dev Loss: 2.2910
+Epoch 26, Dev Loss: 8.0203; Best Dev Loss: 2.2910
+Epoch 27, Dev Loss: 6.8258; Best Dev Loss: 2.2910
+Epoch 28, Dev Loss: 5.7379; Best Dev Loss: 2.2910
+Epoch 29, Dev Loss: 8.2701; Best Dev Loss: 2.2910
+Epoch 30, Dev Loss: 7.2491; Best Dev Loss: 2.2910
+Epoch 31, Dev Loss: 7.2242; Best Dev Loss: 2.2910
+Epoch 32, Dev Loss: 8.8745; Best Dev Loss: 2.2910
+Epoch 33, Dev Loss: 7.2978; Best Dev Loss: 2.2910
+Epoch 34, Dev Loss: 7.6995; Best Dev Loss: 2.2910
+Epoch 35, Dev Loss: 8.3683; Best Dev Loss: 2.2910
+Epoch 36, Dev Loss: 7.6935; Best Dev Loss: 2.2910
+Epoch 37, Dev Loss: 5.3078; Best Dev Loss: 2.2910
+Epoch 38, Dev Loss: 9.3764; Best Dev Loss: 2.2910
+Epoch 39, Dev Loss: 7.3342; Best Dev Loss: 2.2910
+Epoch 40, Dev Loss: 8.7785; Best Dev Loss: 2.2910
+Epoch 41, Dev Loss: 6.9702; Best Dev Loss: 2.2910
+Epoch 42, Dev Loss: 8.3067; Best Dev Loss: 2.2910
+Epoch 43, Dev Loss: 8.2418; Best Dev Loss: 2.2910
+Epoch 44, Dev Loss: 8.4104; Best Dev Loss: 2.2910
+Epoch 45, Dev Loss: 8.3395; Best Dev Loss: 2.2910
+Epoch 46, Dev Loss: 6.4144; Best Dev Loss: 2.2910
+Epoch 47, Dev Loss: 7.6739; Best Dev Loss: 2.2910
+Epoch 48, Dev Loss: 8.7979; Best Dev Loss: 2.2910
+Epoch 49, Dev Loss: 9.9681; Best Dev Loss: 2.2910
+Epoch 50, Dev Loss: 6.9321; Best Dev Loss: 2.2910
+Epoch 51, Dev Loss: 9.8118; Best Dev Loss: 2.2910
+Epoch 52, Dev Loss: 8.8729; Best Dev Loss: 2.2910
+Epoch 53, Dev Loss: 9.6325; Best Dev Loss: 2.2910
+Epoch 54, Dev Loss: 11.4727; Best Dev Loss: 2.2910
+Epoch 55, Dev Loss: 8.1506; Best Dev Loss: 2.2910
+Epoch 56, Dev Loss: 7.6163; Best Dev Loss: 2.2910
+Epoch 57, Dev Loss: 10.3366; Best Dev Loss: 2.2910
+Epoch 58, Dev Loss: 11.4819; Best Dev Loss: 2.2910
+Epoch 59, Dev Loss: 7.7109; Best Dev Loss: 2.2910
+============================================================
+Training
+============================================================
+Epoch 0, Dev Acc: 30.0000, Best Ever: 30.0000
+Test Acc: 35.5656
+Epoch 1, Dev Acc: 20.0000, Best Ever: 30.0000
+Epoch 2, Dev Acc: 20.0000, Best Ever: 30.0000
+Epoch 3, Dev Acc: 20.0000, Best Ever: 30.0000
+Epoch 4, Dev Acc: 10.0000, Best Ever: 30.0000
+Final Dev Acc: 30.0000, Final Test Acc: 35.5656
+Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex.
+device: cuda
+Namespace(batch_size=8, classifier_lr=4e-05, classifier_pretrain_epochs=3, data_seed=159, dev_num_per_class=2, epochs=5, generator_lr=4e-05, generator_pretrain_epochs=60, min_epochs=0, n_aug=4, task='sst-5', train_num_per_class=40)
+getting train examples...
+number of examples with label 'negative': 40
+number of examples with label 'very positive': 40
+number of examples with label 'neutral': 40
+number of examples with label 'positive': 40
+number of examples with label 'very negative': 40
+getting dev examples...
+number of examples with label 'negative': 2
+number of examples with label 'very positive': 2
+number of examples with label 'neutral': 2
+number of examples with label 'positive': 2
+number of examples with label 'very negative': 2
+getting test examples...
+#train: 200
+#dev: 10
+#test: 2210
+============================================================
+Classifier Pre-training
+============================================================
+Classifier pretrain Epoch 0, Dev Acc: 30.0000
+Classifier pretrain Epoch 1, Dev Acc: 40.0000
+Classifier pretrain Epoch 2, Dev Acc: 40.0000
+============================================================
+Generator Pre-training
+============================================================
+Epoch 0, Dev Loss: 3.6887; Best Dev Loss: 3.6887
+Epoch 1, Dev Loss: 4.2368; Best Dev Loss: 3.6887
+Epoch 2, Dev Loss: 3.9494; Best Dev Loss: 3.6887
+Epoch 3, Dev Loss: 6.8067; Best Dev Loss: 3.6887
+Epoch 4, Dev Loss: 4.6743; Best Dev Loss: 3.6887
+Epoch 5, Dev Loss: 5.5396; Best Dev Loss: 3.6887
+Epoch 6, Dev Loss: 6.1452; Best Dev Loss: 3.6887
+Epoch 7, Dev Loss: 5.0299; Best Dev Loss: 3.6887
+Epoch 8, Dev Loss: 4.1943; Best Dev Loss: 3.6887
+Epoch 9, Dev Loss: 6.9856; Best Dev Loss: 3.6887
+Epoch 10, Dev Loss: 3.8215; Best Dev Loss: 3.6887
+Epoch 11, Dev Loss: 6.5570; Best Dev Loss: 3.6887
+Epoch 12, Dev Loss: 4.2393; Best Dev Loss: 3.6887
+Epoch 13, Dev Loss: 5.7379; Best Dev Loss: 3.6887
+Epoch 14, Dev Loss: 7.3066; Best Dev Loss: 3.6887
+Epoch 15, Dev Loss: 3.8229; Best Dev Loss: 3.6887
+Epoch 16, Dev Loss: 5.9491; Best Dev Loss: 3.6887
+Epoch 17, Dev Loss: 3.3629; Best Dev Loss: 3.3629
+Epoch 18, Dev Loss: 4.7464; Best Dev Loss: 3.3629
+Epoch 19, Dev Loss: 6.0579; Best Dev Loss: 3.3629
+Epoch 20, Dev Loss: 5.2770; Best Dev Loss: 3.3629
+Epoch 21, Dev Loss: 7.5196; Best Dev Loss: 3.3629
+Epoch 22, Dev Loss: 8.8680; Best Dev Loss: 3.3629
+Epoch 23, Dev Loss: 9.4195; Best Dev Loss: 3.3629
+Epoch 24, Dev Loss: 5.5547; Best Dev Loss: 3.3629
+Epoch 25, Dev Loss: 6.2291; Best Dev Loss: 3.3629
+Epoch 26, Dev Loss: 8.0331; Best Dev Loss: 3.3629
+Epoch 27, Dev Loss: 6.3566; Best Dev Loss: 3.3629
+Epoch 28, Dev Loss: 8.2116; Best Dev Loss: 3.3629
+Epoch 29, Dev Loss: 9.4216; Best Dev Loss: 3.3629
+Epoch 30, Dev Loss: 5.7380; Best Dev Loss: 3.3629
+Epoch 31, Dev Loss: 6.9422; Best Dev Loss: 3.3629
+Epoch 32, Dev Loss: 5.4530; Best Dev Loss: 3.3629
+Epoch 33, Dev Loss: 6.3870; Best Dev Loss: 3.3629
+Epoch 34, Dev Loss: 4.7862; Best Dev Loss: 3.3629
+Epoch 35, Dev Loss: 6.8771; Best Dev Loss: 3.3629
+Epoch 36, Dev Loss: 4.1454; Best Dev Loss: 3.3629
+Epoch 37, Dev Loss: 4.3612; Best Dev Loss: 3.3629
+Epoch 38, Dev Loss: 7.2986; Best Dev Loss: 3.3629
+Epoch 39, Dev Loss: 8.0686; Best Dev Loss: 3.3629
+Epoch 40, Dev Loss: 5.0971; Best Dev Loss: 3.3629
+Epoch 41, Dev Loss: 9.8794; Best Dev Loss: 3.3629
+Epoch 42, Dev Loss: 6.9450; Best Dev Loss: 3.3629
+Epoch 43, Dev Loss: 7.3742; Best Dev Loss: 3.3629
+Epoch 44, Dev Loss: 7.9800; Best Dev Loss: 3.3629
+Epoch 45, Dev Loss: 7.9855; Best Dev Loss: 3.3629
+Epoch 46, Dev Loss: 7.5188; Best Dev Loss: 3.3629
+Epoch 47, Dev Loss: 7.9598; Best Dev Loss: 3.3629
+Epoch 48, Dev Loss: 10.6969; Best Dev Loss: 3.3629
+Epoch 49, Dev Loss: 10.2196; Best Dev Loss: 3.3629
+Epoch 50, Dev Loss: 6.3991; Best Dev Loss: 3.3629
+Epoch 51, Dev Loss: 9.6782; Best Dev Loss: 3.3629
+Epoch 52, Dev Loss: 5.9689; Best Dev Loss: 3.3629
+Epoch 53, Dev Loss: 9.0218; Best Dev Loss: 3.3629
+Epoch 54, Dev Loss: 8.8588; Best Dev Loss: 3.3629
+Epoch 55, Dev Loss: 6.8705; Best Dev Loss: 3.3629
+Epoch 56, Dev Loss: 7.3982; Best Dev Loss: 3.3629
+Epoch 57, Dev Loss: 5.0830; Best Dev Loss: 3.3629
+Epoch 58, Dev Loss: 9.1059; Best Dev Loss: 3.3629
+Epoch 59, Dev Loss: 7.9353; Best Dev Loss: 3.3629
+============================================================
+Training
+============================================================
+Epoch 0, Dev Acc: 30.0000, Best Ever: 30.0000
+Test Acc: 37.0588
+Epoch 1, Dev Acc: 30.0000, Best Ever: 30.0000
+Epoch 2, Dev Acc: 30.0000, Best Ever: 30.0000
+Epoch 3, Dev Acc: 30.0000, Best Ever: 30.0000
+Epoch 4, Dev Acc: 40.0000, Best Ever: 40.0000
+Test Acc: 37.2851
+Final Dev Acc: 40.0000, Final Test Acc: 37.2851
+Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex.
+device: cuda
+Namespace(batch_size=8, classifier_lr=4e-05, classifier_pretrain_epochs=3, data_seed=159, dev_num_per_class=2, epochs=5, generator_lr=4e-05, generator_pretrain_epochs=60, min_epochs=0, n_aug=4, task='sst-5', train_num_per_class=40)
+getting train examples...
+number of examples with label 'negative': 40
+number of examples with label 'very positive': 40
+number of examples with label 'neutral': 40
+number of examples with label 'positive': 40
+number of examples with label 'very negative': 40
+getting dev examples...
+number of examples with label 'negative': 2
+number of examples with label 'very positive': 2
+number of examples with label 'neutral': 2
+number of examples with label 'positive': 2
+number of examples with label 'very negative': 2
+getting test examples...
+#train: 200
+#dev: 10
+#test: 2210
+============================================================
+Classifier Pre-training
+============================================================
+Classifier pretrain Epoch 0, Dev Acc: 10.0000
+Classifier pretrain Epoch 1, Dev Acc: 40.0000
+Classifier pretrain Epoch 2, Dev Acc: 30.0000
+============================================================
+Generator Pre-training
+============================================================
+Epoch 0, Dev Loss: 6.7686; Best Dev Loss: 6.7686
+Epoch 1, Dev Loss: 4.3338; Best Dev Loss: 4.3338
+Epoch 2, Dev Loss: 4.8365; Best Dev Loss: 4.3338
+Epoch 3, Dev Loss: 6.8439; Best Dev Loss: 4.3338
+Epoch 4, Dev Loss: 5.6839; Best Dev Loss: 4.3338
+Epoch 5, Dev Loss: 6.8904; Best Dev Loss: 4.3338
+Epoch 6, Dev Loss: 6.4473; Best Dev Loss: 4.3338
+Epoch 7, Dev Loss: 4.3905; Best Dev Loss: 4.3338
+Epoch 8, Dev Loss: 4.2801; Best Dev Loss: 4.2801
+Epoch 9, Dev Loss: 6.0296; Best Dev Loss: 4.2801
+Epoch 10, Dev Loss: 5.5544; Best Dev Loss: 4.2801
+Epoch 11, Dev Loss: 5.2111; Best Dev Loss: 4.2801
+Epoch 12, Dev Loss: 4.3828; Best Dev Loss: 4.2801
+Epoch 13, Dev Loss: 5.0178; Best Dev Loss: 4.2801
+Epoch 14, Dev Loss: 6.4475; Best Dev Loss: 4.2801
+Epoch 15, Dev Loss: 4.4295; Best Dev Loss: 4.2801
+Epoch 16, Dev Loss: 4.9611; Best Dev Loss: 4.2801
+Epoch 17, Dev Loss: 6.0457; Best Dev Loss: 4.2801
+Epoch 18, Dev Loss: 3.3941; Best Dev Loss: 3.3941
+Epoch 19, Dev Loss: 4.3578; Best Dev Loss: 3.3941
+Epoch 20, Dev Loss: 4.3056; Best Dev Loss: 3.3941
+Epoch 21, Dev Loss: 5.3339; Best Dev Loss: 3.3941
+Epoch 22, Dev Loss: 7.2067; Best Dev Loss: 3.3941
+Epoch 23, Dev Loss: 6.9467; Best Dev Loss: 3.3941
+Epoch 24, Dev Loss: 6.6603; Best Dev Loss: 3.3941
+Epoch 25, Dev Loss: 8.0130; Best Dev Loss: 3.3941
+Epoch 26, Dev Loss: 5.3666; Best Dev Loss: 3.3941
+Epoch 27, Dev Loss: 3.8159; Best Dev Loss: 3.3941
+Epoch 28, Dev Loss: 7.2628; Best Dev Loss: 3.3941
+Epoch 29, Dev Loss: 6.6910; Best Dev Loss: 3.3941
+Epoch 30, Dev Loss: 5.9931; Best Dev Loss: 3.3941
+Epoch 31, Dev Loss: 6.5432; Best Dev Loss: 3.3941
+Epoch 32, Dev Loss: 4.8066; Best Dev Loss: 3.3941
+Epoch 33, Dev Loss: 8.9427; Best Dev Loss: 3.3941
+Epoch 34, Dev Loss: 5.8666; Best Dev Loss: 3.3941
+Epoch 35, Dev Loss: 5.7024; Best Dev Loss: 3.3941
+Epoch 36, Dev Loss: 6.4556; Best Dev Loss: 3.3941
+Epoch 37, Dev Loss: 7.9106; Best Dev Loss: 3.3941
+Epoch 38, Dev Loss: 7.6518; Best Dev Loss: 3.3941
+Epoch 39, Dev Loss: 7.4807; Best Dev Loss: 3.3941
+Epoch 40, Dev Loss: 4.7885; Best Dev Loss: 3.3941
+Epoch 41, Dev Loss: 9.1786; Best Dev Loss: 3.3941
+Epoch 42, Dev Loss: 8.7863; Best Dev Loss: 3.3941
+Epoch 43, Dev Loss: 10.4950; Best Dev Loss: 3.3941
+Epoch 44, Dev Loss: 8.6882; Best Dev Loss: 3.3941
+Epoch 45, Dev Loss: 5.6285; Best Dev Loss: 3.3941
+Epoch 46, Dev Loss: 10.7096; Best Dev Loss: 3.3941
+Epoch 47, Dev Loss: 7.7847; Best Dev Loss: 3.3941
+Epoch 48, Dev Loss: 9.0670; Best Dev Loss: 3.3941
+Epoch 49, Dev Loss: 8.5542; Best Dev Loss: 3.3941
+Epoch 50, Dev Loss: 9.4555; Best Dev Loss: 3.3941
+Epoch 51, Dev Loss: 7.2346; Best Dev Loss: 3.3941
+Epoch 52, Dev Loss: 8.6399; Best Dev Loss: 3.3941
+Epoch 53, Dev Loss: 11.5127; Best Dev Loss: 3.3941
+Epoch 54, Dev Loss: 8.2418; Best Dev Loss: 3.3941
+Epoch 55, Dev Loss: 11.1916; Best Dev Loss: 3.3941
+Epoch 56, Dev Loss: 7.1207; Best Dev Loss: 3.3941
+Epoch 57, Dev Loss: 9.6486; Best Dev Loss: 3.3941
+Epoch 58, Dev Loss: 8.6856; Best Dev Loss: 3.3941
+Epoch 59, Dev Loss: 9.4687; Best Dev Loss: 3.3941
+============================================================
+Training
+============================================================
+Epoch 0, Dev Acc: 30.0000, Best Ever: 30.0000
+Test Acc: 35.7014
+Epoch 1, Dev Acc: 40.0000, Best Ever: 40.0000
+Test Acc: 40.0000
+Epoch 2, Dev Acc: 20.0000, Best Ever: 40.0000
+Epoch 3, Dev Acc: 30.0000, Best Ever: 40.0000
+Epoch 4, Dev Acc: 30.0000, Best Ever: 40.0000
+Final Dev Acc: 40.0000, Final Test Acc: 40.0000
+Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex.
+device: cuda
+Namespace(batch_size=8, classifier_lr=4e-05, classifier_pretrain_epochs=3, data_seed=159, dev_num_per_class=2, epochs=5, generator_lr=4e-05, generator_pretrain_epochs=60, min_epochs=0, n_aug=4, task='sst-5', train_num_per_class=40)
+getting train examples...
+number of examples with label 'negative': 40
+number of examples with label 'very positive': 40
+number of examples with label 'neutral': 40
+number of examples with label 'positive': 40
+number of examples with label 'very negative': 40
+getting dev examples...
+number of examples with label 'negative': 2
+number of examples with label 'very positive': 2
+number of examples with label 'neutral': 2
+number of examples with label 'positive': 2
+number of examples with label 'very negative': 2
+getting test examples...
+#train: 200
+#dev: 10
+#test: 2210
+============================================================
+Classifier Pre-training
+============================================================
+Classifier pretrain Epoch 0, Dev Acc: 20.0000
+Classifier pretrain Epoch 1, Dev Acc: 20.0000
+Classifier pretrain Epoch 2, Dev Acc: 40.0000
+============================================================
+Generator Pre-training
+============================================================
+Epoch 0, Dev Loss: 6.7985; Best Dev Loss: 6.7985
+Epoch 1, Dev Loss: 6.1549; Best Dev Loss: 6.1549
+Epoch 2, Dev Loss: 5.5483; Best Dev Loss: 5.5483
+Epoch 3, Dev Loss: 6.1128; Best Dev Loss: 5.5483
+Epoch 4, Dev Loss: 5.7950; Best Dev Loss: 5.5483
+Epoch 5, Dev Loss: 4.1958; Best Dev Loss: 4.1958
+Epoch 6, Dev Loss: 5.0834; Best Dev Loss: 4.1958
+Epoch 7, Dev Loss: 7.5616; Best Dev Loss: 4.1958
+Epoch 8, Dev Loss: 5.4477; Best Dev Loss: 4.1958
+Epoch 9, Dev Loss: 4.6581; Best Dev Loss: 4.1958
+Epoch 10, Dev Loss: 1.9072; Best Dev Loss: 1.9072
+Epoch 11, Dev Loss: 4.7498; Best Dev Loss: 1.9072
+Epoch 12, Dev Loss: 3.4859; Best Dev Loss: 1.9072
+Epoch 13, Dev Loss: 7.0110; Best Dev Loss: 1.9072
+Epoch 14, Dev Loss: 6.8796; Best Dev Loss: 1.9072
+Epoch 15, Dev Loss: 6.3311; Best Dev Loss: 1.9072
+Epoch 16, Dev Loss: 4.2276; Best Dev Loss: 1.9072
+Epoch 17, Dev Loss: 4.1411; Best Dev Loss: 1.9072
+Epoch 18, Dev Loss: 6.2890; Best Dev Loss: 1.9072
+Epoch 19, Dev Loss: 6.2854; Best Dev Loss: 1.9072
+Epoch 20, Dev Loss: 8.8067; Best Dev Loss: 1.9072
+Epoch 21, Dev Loss: 7.9896; Best Dev Loss: 1.9072
+Epoch 22, Dev Loss: 5.3586; Best Dev Loss: 1.9072
+Epoch 23, Dev Loss: 7.0235; Best Dev Loss: 1.9072
+Epoch 24, Dev Loss: 3.6593; Best Dev Loss: 1.9072
+Epoch 25, Dev Loss: 5.6997; Best Dev Loss: 1.9072
+Epoch 26, Dev Loss: 5.8631; Best Dev Loss: 1.9072
+Epoch 27, Dev Loss: 6.4372; Best Dev Loss: 1.9072
+Epoch 28, Dev Loss: 5.5445; Best Dev Loss: 1.9072
+Epoch 29, Dev Loss: 6.4419; Best Dev Loss: 1.9072
+Epoch 30, Dev Loss: 9.9977; Best Dev Loss: 1.9072
+Epoch 31, Dev Loss: 8.1986; Best Dev Loss: 1.9072
+Epoch 32, Dev Loss: 7.4058; Best Dev Loss: 1.9072
+Epoch 33, Dev Loss: 7.8865; Best Dev Loss: 1.9072
+Epoch 34, Dev Loss: 7.2048; Best Dev Loss: 1.9072
+Epoch 35, Dev Loss: 8.4627; Best Dev Loss: 1.9072
+Epoch 36, Dev Loss: 6.5330; Best Dev Loss: 1.9072
+Epoch 37, Dev Loss: 4.7658; Best Dev Loss: 1.9072
+Epoch 38, Dev Loss: 5.8664; Best Dev Loss: 1.9072
+Epoch 39, Dev Loss: 7.3570; Best Dev Loss: 1.9072
+Epoch 40, Dev Loss: 7.4182; Best Dev Loss: 1.9072
+Epoch 41, Dev Loss: 5.6938; Best Dev Loss: 1.9072
+Epoch 42, Dev Loss: 6.8680; Best Dev Loss: 1.9072
+Epoch 43, Dev Loss: 7.9757; Best Dev Loss: 1.9072
+Epoch 44, Dev Loss: 8.7404; Best Dev Loss: 1.9072
+Epoch 45, Dev Loss: 7.5583; Best Dev Loss: 1.9072
+Epoch 46, Dev Loss: 6.0703; Best Dev Loss: 1.9072
+Epoch 47, Dev Loss: 7.1145; Best Dev Loss: 1.9072
+Epoch 48, Dev Loss: 6.2932; Best Dev Loss: 1.9072
+Epoch 49, Dev Loss: 4.1774; Best Dev Loss: 1.9072
+Epoch 50, Dev Loss: 9.7550; Best Dev Loss: 1.9072
+Epoch 51, Dev Loss: 7.1795; Best Dev Loss: 1.9072
+Epoch 52, Dev Loss: 10.1670; Best Dev Loss: 1.9072
+Epoch 53, Dev Loss: 5.8847; Best Dev Loss: 1.9072
+Epoch 54, Dev Loss: 8.5445; Best Dev Loss: 1.9072
+Epoch 55, Dev Loss: 7.8767; Best Dev Loss: 1.9072
+Epoch 56, Dev Loss: 7.3213; Best Dev Loss: 1.9072
+Epoch 57, Dev Loss: 7.6451; Best Dev Loss: 1.9072
+Epoch 58, Dev Loss: 10.6589; Best Dev Loss: 1.9072
+Epoch 59, Dev Loss: 9.7619; Best Dev Loss: 1.9072
+============================================================
+Training
+============================================================
+Epoch 0, Dev Acc: 30.0000, Best Ever: 30.0000
+Test Acc: 35.8824
+Epoch 1, Dev Acc: 10.0000, Best Ever: 30.0000
+Epoch 2, Dev Acc: 30.0000, Best Ever: 30.0000
+Epoch 3, Dev Acc: 40.0000, Best Ever: 40.0000
+Test Acc: 35.6561
+Epoch 4, Dev Acc: 20.0000, Best Ever: 40.0000
+Final Dev Acc: 40.0000, Final Test Acc: 35.6561
+Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex.
+device: cuda
+Namespace(batch_size=8, classifier_lr=4e-05, classifier_pretrain_epochs=3, data_seed=159, dev_num_per_class=2, epochs=5, generator_lr=4e-05, generator_pretrain_epochs=60, min_epochs=0, n_aug=4, task='sst-5', train_num_per_class=40)
+getting train examples...
+number of examples with label 'negative': 40
+number of examples with label 'very positive': 40
+number of examples with label 'neutral': 40
+number of examples with label 'positive': 40
+number of examples with label 'very negative': 40
+getting dev examples...
+number of examples with label 'negative': 2
+number of examples with label 'very positive': 2
+number of examples with label 'neutral': 2
+number of examples with label 'positive': 2
+number of examples with label 'very negative': 2
+getting test examples...
+#train: 200
+#dev: 10
+#test: 2210
+============================================================
+Classifier Pre-training
+============================================================
+Classifier pretrain Epoch 0, Dev Acc: 50.0000
+Classifier pretrain Epoch 1, Dev Acc: 50.0000
+Classifier pretrain Epoch 2, Dev Acc: 20.0000
+============================================================
+Generator Pre-training
+============================================================
+Epoch 0, Dev Loss: 5.0766; Best Dev Loss: 5.0766
+Epoch 1, Dev Loss: 2.9358; Best Dev Loss: 2.9358
+Epoch 2, Dev Loss: 5.7595; Best Dev Loss: 2.9358
+Epoch 3, Dev Loss: 3.9463; Best Dev Loss: 2.9358
+Epoch 4, Dev Loss: 3.1302; Best Dev Loss: 2.9358
+Epoch 5, Dev Loss: 4.2329; Best Dev Loss: 2.9358
+Epoch 6, Dev Loss: 6.6592; Best Dev Loss: 2.9358
+Epoch 7, Dev Loss: 5.1753; Best Dev Loss: 2.9358
+Epoch 8, Dev Loss: 3.9823; Best Dev Loss: 2.9358
+Epoch 9, Dev Loss: 2.8594; Best Dev Loss: 2.8594
+Epoch 10, Dev Loss: 4.0132; Best Dev Loss: 2.8594
+Epoch 11, Dev Loss: 4.4700; Best Dev Loss: 2.8594
+Epoch 12, Dev Loss: 6.7885; Best Dev Loss: 2.8594
+Epoch 13, Dev Loss: 5.3322; Best Dev Loss: 2.8594
+Epoch 14, Dev Loss: 6.0724; Best Dev Loss: 2.8594
+Epoch 15, Dev Loss: 6.2559; Best Dev Loss: 2.8594
+Epoch 16, Dev Loss: 5.3905; Best Dev Loss: 2.8594
+Epoch 17, Dev Loss: 3.2527; Best Dev Loss: 2.8594
+Epoch 18, Dev Loss: 8.5700; Best Dev Loss: 2.8594
+Epoch 19, Dev Loss: 5.7817; Best Dev Loss: 2.8594
+Epoch 20, Dev Loss: 5.0226; Best Dev Loss: 2.8594
+Epoch 21, Dev Loss: 6.7759; Best Dev Loss: 2.8594
+Epoch 22, Dev Loss: 5.9763; Best Dev Loss: 2.8594
+Epoch 23, Dev Loss: 5.1070; Best Dev Loss: 2.8594
+Epoch 24, Dev Loss: 8.8234; Best Dev Loss: 2.8594
+Epoch 25, Dev Loss: 3.7145; Best Dev Loss: 2.8594
+Epoch 26, Dev Loss: 5.0224; Best Dev Loss: 2.8594
+Epoch 27, Dev Loss: 6.8560; Best Dev Loss: 2.8594
+Epoch 28, Dev Loss: 7.0134; Best Dev Loss: 2.8594
+Epoch 29, Dev Loss: 5.7247; Best Dev Loss: 2.8594
+Epoch 30, Dev Loss: 4.1952; Best Dev Loss: 2.8594
+Epoch 31, Dev Loss: 6.9208; Best Dev Loss: 2.8594
+Epoch 32, Dev Loss: 6.7683; Best Dev Loss: 2.8594
+Epoch 33, Dev Loss: 9.4185; Best Dev Loss: 2.8594
+Epoch 34, Dev Loss: 6.4998; Best Dev Loss: 2.8594
+Epoch 35, Dev Loss: 6.2916; Best Dev Loss: 2.8594
+Epoch 36, Dev Loss: 5.8621; Best Dev Loss: 2.8594
+Epoch 37, Dev Loss: 8.2259; Best Dev Loss: 2.8594
+Epoch 38, Dev Loss: 9.0240; Best Dev Loss: 2.8594
+Epoch 39, Dev Loss: 7.4339; Best Dev Loss: 2.8594
+Epoch 40, Dev Loss: 8.6063; Best Dev Loss: 2.8594
+Epoch 41, Dev Loss: 6.7714; Best Dev Loss: 2.8594
+Epoch 42, Dev Loss: 5.7885; Best Dev Loss: 2.8594
+Epoch 43, Dev Loss: 7.8033; Best Dev Loss: 2.8594
+Epoch 44, Dev Loss: 8.3464; Best Dev Loss: 2.8594
+Epoch 45, Dev Loss: 7.7269; Best Dev Loss: 2.8594
+Epoch 46, Dev Loss: 8.0386; Best Dev Loss: 2.8594
+Epoch 47, Dev Loss: 7.7582; Best Dev Loss: 2.8594
+Epoch 48, Dev Loss: 9.1531; Best Dev Loss: 2.8594
+Epoch 49, Dev Loss: 10.4686; Best Dev Loss: 2.8594
+Epoch 50, Dev Loss: 5.0823; Best Dev Loss: 2.8594
+Epoch 51, Dev Loss: 15.0113; Best Dev Loss: 2.8594
+Epoch 52, Dev Loss: 7.2174; Best Dev Loss: 2.8594
+Epoch 53, Dev Loss: 7.5603; Best Dev Loss: 2.8594
+Epoch 54, Dev Loss: 10.0734; Best Dev Loss: 2.8594
+Epoch 55, Dev Loss: 6.6089; Best Dev Loss: 2.8594
+Epoch 56, Dev Loss: 11.5380; Best Dev Loss: 2.8594
+Epoch 57, Dev Loss: 8.8371; Best Dev Loss: 2.8594
+Epoch 58, Dev Loss: 11.7280; Best Dev Loss: 2.8594
+Epoch 59, Dev Loss: 7.6074; Best Dev Loss: 2.8594
+============================================================
+Training
+============================================================
+Epoch 0, Dev Acc: 10.0000, Best Ever: 10.0000
+Test Acc: 40.0452
+Epoch 1, Dev Acc: 30.0000, Best Ever: 30.0000
+Test Acc: 40.3620
+Epoch 2, Dev Acc: 30.0000, Best Ever: 30.0000
+Epoch 3, Dev Acc: 50.0000, Best Ever: 50.0000
+Test Acc: 39.5023
+Epoch 4, Dev Acc: 30.0000, Best Ever: 50.0000
+Final Dev Acc: 50.0000, Final Test Acc: 39.5023
+Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex.
+device: cuda
+Namespace(batch_size=8, classifier_lr=4e-05, classifier_pretrain_epochs=3, data_seed=159, dev_num_per_class=2, epochs=5, generator_lr=4e-05, generator_pretrain_epochs=60, min_epochs=0, n_aug=4, task='sst-5', train_num_per_class=40)
+getting train examples...
+number of examples with label 'negative': 40
+number of examples with label 'very positive': 40
+number of examples with label 'neutral': 40
+number of examples with label 'positive': 40
+number of examples with label 'very negative': 40
+getting dev examples...
+number of examples with label 'negative': 2
+number of examples with label 'very positive': 2
+number of examples with label 'neutral': 2
+number of examples with label 'positive': 2
+number of examples with label 'very negative': 2
+getting test examples...
+#train: 200
+#dev: 10
+#test: 2210
+============================================================
+Classifier Pre-training
+============================================================
+Classifier pretrain Epoch 0, Dev Acc: 30.0000
+Classifier pretrain Epoch 1, Dev Acc: 30.0000
+Classifier pretrain Epoch 2, Dev Acc: 20.0000
+============================================================
+Generator Pre-training
+============================================================
+Epoch 0, Dev Loss: 7.2482; Best Dev Loss: 7.2482
+Epoch 1, Dev Loss: 5.4365; Best Dev Loss: 5.4365
+Epoch 2, Dev Loss: 6.7125; Best Dev Loss: 5.4365
+Epoch 3, Dev Loss: 5.1033; Best Dev Loss: 5.1033
+Epoch 4, Dev Loss: 4.2791; Best Dev Loss: 4.2791
+Epoch 5, Dev Loss: 3.9155; Best Dev Loss: 3.9155
+Epoch 6, Dev Loss: 4.0537; Best Dev Loss: 3.9155
+Epoch 7, Dev Loss: 5.0040; Best Dev Loss: 3.9155
+Epoch 8, Dev Loss: 6.3171; Best Dev Loss: 3.9155
+Epoch 9, Dev Loss: 6.2460; Best Dev Loss: 3.9155
+Epoch 10, Dev Loss: 5.8454; Best Dev Loss: 3.9155
+Epoch 11, Dev Loss: 8.6071; Best Dev Loss: 3.9155
+Epoch 12, Dev Loss: 4.5963; Best Dev Loss: 3.9155
+Epoch 13, Dev Loss: 6.6449; Best Dev Loss: 3.9155
+Epoch 14, Dev Loss: 5.8618; Best Dev Loss: 3.9155
+Epoch 15, Dev Loss: 6.8067; Best Dev Loss: 3.9155
+Epoch 16, Dev Loss: 6.4153; Best Dev Loss: 3.9155
+Epoch 17, Dev Loss: 5.5566; Best Dev Loss: 3.9155
+Epoch 18, Dev Loss: 5.9463; Best Dev Loss: 3.9155
+Epoch 19, Dev Loss: 6.5828; Best Dev Loss: 3.9155
+Epoch 20, Dev Loss: 3.9337; Best Dev Loss: 3.9155
+Epoch 21, Dev Loss: 7.1102; Best Dev Loss: 3.9155
+Epoch 22, Dev Loss: 5.8675; Best Dev Loss: 3.9155
+Epoch 23, Dev Loss: 7.9129; Best Dev Loss: 3.9155
+Epoch 24, Dev Loss: 6.8682; Best Dev Loss: 3.9155
+Epoch 25, Dev Loss: 7.7196; Best Dev Loss: 3.9155
+Epoch 26, Dev Loss: 4.4770; Best Dev Loss: 3.9155
+Epoch 27, Dev Loss: 9.2680; Best Dev Loss: 3.9155
+Epoch 28, Dev Loss: 7.2433; Best Dev Loss: 3.9155
+Epoch 29, Dev Loss: 6.3153; Best Dev Loss: 3.9155
+Epoch 30, Dev Loss: 7.1433; Best Dev Loss: 3.9155
+Epoch 31, Dev Loss: 7.5543; Best Dev Loss: 3.9155
+Epoch 32, Dev Loss: 3.9574; Best Dev Loss: 3.9155
+Epoch 33, Dev Loss: 7.2763; Best Dev Loss: 3.9155
+Epoch 34, Dev Loss: 7.2025; Best Dev Loss: 3.9155
+Epoch 35, Dev Loss: 4.6842; Best Dev Loss: 3.9155
+Epoch 36, Dev Loss: 7.9681; Best Dev Loss: 3.9155
+Epoch 37, Dev Loss: 9.1960; Best Dev Loss: 3.9155
+Epoch 38, Dev Loss: 7.4224; Best Dev Loss: 3.9155
+Epoch 39, Dev Loss: 7.9753; Best Dev Loss: 3.9155
+Epoch 40, Dev Loss: 8.4507; Best Dev Loss: 3.9155
+Epoch 41, Dev Loss: 5.0519; Best Dev Loss: 3.9155
+Epoch 42, Dev Loss: 9.3977; Best Dev Loss: 3.9155
+Epoch 43, Dev Loss: 10.8218; Best Dev Loss: 3.9155
+Epoch 44, Dev Loss: 8.5428; Best Dev Loss: 3.9155
+Epoch 45, Dev Loss: 8.6233; Best Dev Loss: 3.9155
+Epoch 46, Dev Loss: 7.1229; Best Dev Loss: 3.9155
+Epoch 47, Dev Loss: 6.9632; Best Dev Loss: 3.9155
+Epoch 48, Dev Loss: 10.6074; Best Dev Loss: 3.9155
+Epoch 49, Dev Loss: 7.3014; Best Dev Loss: 3.9155
+Epoch 50, Dev Loss: 7.7491; Best Dev Loss: 3.9155
+Epoch 51, Dev Loss: 8.5054; Best Dev Loss: 3.9155
+Epoch 52, Dev Loss: 8.9047; Best Dev Loss: 3.9155
+Epoch 53, Dev Loss: 9.8069; Best Dev Loss: 3.9155
+Epoch 54, Dev Loss: 6.1469; Best Dev Loss: 3.9155
+Epoch 55, Dev Loss: 11.9429; Best Dev Loss: 3.9155
+Epoch 56, Dev Loss: 7.8943; Best Dev Loss: 3.9155
+Epoch 57, Dev Loss: 5.4171; Best Dev Loss: 3.9155
+Epoch 58, Dev Loss: 9.5686; Best Dev Loss: 3.9155
+Epoch 59, Dev Loss: 6.1556; Best Dev Loss: 3.9155
+============================================================
+Training
+============================================================
+Epoch 0, Dev Acc: 30.0000, Best Ever: 30.0000
+Test Acc: 40.3620
+Epoch 1, Dev Acc: 30.0000, Best Ever: 30.0000
+Epoch 2, Dev Acc: 20.0000, Best Ever: 30.0000
+Epoch 3, Dev Acc: 20.0000, Best Ever: 30.0000
+Epoch 4, Dev Acc: 20.0000, Best Ever: 30.0000
+Final Dev Acc: 30.0000, Final Test Acc: 40.3620
+Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex.
+device: cuda
+Namespace(batch_size=8, classifier_lr=4e-05, classifier_pretrain_epochs=3, data_seed=159, dev_num_per_class=2, epochs=5, generator_lr=4e-05, generator_pretrain_epochs=60, min_epochs=0, n_aug=4, task='sst-5', train_num_per_class=40)
+getting train examples...
+number of examples with label 'negative': 40
+number of examples with label 'very positive': 40
+number of examples with label 'neutral': 40
+number of examples with label 'positive': 40
+number of examples with label 'very negative': 40
+getting dev examples...
+number of examples with label 'negative': 2
+number of examples with label 'very positive': 2
+number of examples with label 'neutral': 2
+number of examples with label 'positive': 2
+number of examples with label 'very negative': 2
+getting test examples...
+#train: 200
+#dev: 10
+#test: 2210
+============================================================
+Classifier Pre-training
+============================================================
+Classifier pretrain Epoch 0, Dev Acc: 30.0000
+Classifier pretrain Epoch 1, Dev Acc: 20.0000
+Classifier pretrain Epoch 2, Dev Acc: 20.0000
+============================================================
+Generator Pre-training
+============================================================
+Epoch 0, Dev Loss: 5.7188; Best Dev Loss: 5.7188
+Epoch 1, Dev Loss: 4.8431; Best Dev Loss: 4.8431
+Epoch 2, Dev Loss: 5.3525; Best Dev Loss: 4.8431
+Epoch 3, Dev Loss: 5.9447; Best Dev Loss: 4.8431
+Epoch 4, Dev Loss: 4.7438; Best Dev Loss: 4.7438
+Epoch 5, Dev Loss: 5.8800; Best Dev Loss: 4.7438
+Epoch 6, Dev Loss: 4.0141; Best Dev Loss: 4.0141
+Epoch 7, Dev Loss: 7.1538; Best Dev Loss: 4.0141
+Epoch 8, Dev Loss: 4.1514; Best Dev Loss: 4.0141
+Epoch 9, Dev Loss: 5.8241; Best Dev Loss: 4.0141
+Epoch 10, Dev Loss: 7.1571; Best Dev Loss: 4.0141
+Epoch 11, Dev Loss: 6.4355; Best Dev Loss: 4.0141
+Epoch 12, Dev Loss: 6.2451; Best Dev Loss: 4.0141
+Epoch 13, Dev Loss: 4.0169; Best Dev Loss: 4.0141
+Epoch 14, Dev Loss: 5.6800; Best Dev Loss: 4.0141
+Epoch 15, Dev Loss: 8.0529; Best Dev Loss: 4.0141
+Epoch 16, Dev Loss: 5.1075; Best Dev Loss: 4.0141
+Epoch 17, Dev Loss: 5.9034; Best Dev Loss: 4.0141
+Epoch 18, Dev Loss: 9.2407; Best Dev Loss: 4.0141
+Epoch 19, Dev Loss: 6.6714; Best Dev Loss: 4.0141
+Epoch 20, Dev Loss: 6.8530; Best Dev Loss: 4.0141
+Epoch 21, Dev Loss: 4.5736; Best Dev Loss: 4.0141
+Epoch 22, Dev Loss: 6.2744; Best Dev Loss: 4.0141
+Epoch 23, Dev Loss: 7.3705; Best Dev Loss: 4.0141
+Epoch 24, Dev Loss: 7.7917; Best Dev Loss: 4.0141
+Epoch 25, Dev Loss: 5.1202; Best Dev Loss: 4.0141
+Epoch 26, Dev Loss: 5.0692; Best Dev Loss: 4.0141
+Epoch 27, Dev Loss: 6.7226; Best Dev Loss: 4.0141
+Epoch 28, Dev Loss: 8.7888; Best Dev Loss: 4.0141
+Epoch 29, Dev Loss: 5.9817; Best Dev Loss: 4.0141
+Epoch 30, Dev Loss: 7.5941; Best Dev Loss: 4.0141
+Epoch 31, Dev Loss: 7.3344; Best Dev Loss: 4.0141
+Epoch 32, Dev Loss: 9.2953; Best Dev Loss: 4.0141
+Epoch 33, Dev Loss: 9.3442; Best Dev Loss: 4.0141
+Epoch 34, Dev Loss: 11.7287; Best Dev Loss: 4.0141
+Epoch 35, Dev Loss: 6.2116; Best Dev Loss: 4.0141
+Epoch 36, Dev Loss: 6.0784; Best Dev Loss: 4.0141
+Epoch 37, Dev Loss: 4.8467; Best Dev Loss: 4.0141
+Epoch 38, Dev Loss: 8.7301; Best Dev Loss: 4.0141
+Epoch 39, Dev Loss: 6.5822; Best Dev Loss: 4.0141
+Epoch 40, Dev Loss: 6.3739; Best Dev Loss: 4.0141
+Epoch 41, Dev Loss: 7.1210; Best Dev Loss: 4.0141
+Epoch 42, Dev Loss: 7.6354; Best Dev Loss: 4.0141
+Epoch 43, Dev Loss: 6.6527; Best Dev Loss: 4.0141
+Epoch 44, Dev Loss: 7.1897; Best Dev Loss: 4.0141
+Epoch 45, Dev Loss: 6.2592; Best Dev Loss: 4.0141
+Epoch 46, Dev Loss: 7.6562; Best Dev Loss: 4.0141
+Epoch 47, Dev Loss: 7.0627; Best Dev Loss: 4.0141
+Epoch 48, Dev Loss: 7.1752; Best Dev Loss: 4.0141
+Epoch 49, Dev Loss: 8.4820; Best Dev Loss: 4.0141
+Epoch 50, Dev Loss: 7.6884; Best Dev Loss: 4.0141
+Epoch 51, Dev Loss: 7.6918; Best Dev Loss: 4.0141
+Epoch 52, Dev Loss: 10.4704; Best Dev Loss: 4.0141
+Epoch 53, Dev Loss: 13.0996; Best Dev Loss: 4.0141
+Epoch 54, Dev Loss: 9.2275; Best Dev Loss: 4.0141
+Epoch 55, Dev Loss: 8.6506; Best Dev Loss: 4.0141
+Epoch 56, Dev Loss: 8.1512; Best Dev Loss: 4.0141
+Epoch 57, Dev Loss: 9.9186; Best Dev Loss: 4.0141
+Epoch 58, Dev Loss: 10.6696; Best Dev Loss: 4.0141
+Epoch 59, Dev Loss: 11.1920; Best Dev Loss: 4.0141
+============================================================
+Training
+============================================================
+Epoch 0, Dev Acc: 40.0000, Best Ever: 40.0000
+Test Acc: 36.1538
+Epoch 1, Dev Acc: 30.0000, Best Ever: 40.0000
+Epoch 2, Dev Acc: 40.0000, Best Ever: 40.0000
+Epoch 3, Dev Acc: 50.0000, Best Ever: 50.0000
+Test Acc: 34.7964
+Epoch 4, Dev Acc: 40.0000, Best Ever: 50.0000
+Final Dev Acc: 50.0000, Final Test Acc: 34.7964

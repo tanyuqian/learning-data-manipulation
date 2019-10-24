@@ -1,0 +1,493 @@
+Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex.
+device: cuda
+Namespace(batch_size=25, data_seed=159, dev_num_per_class=10, epochs=10, imbalance_rate=0.05, learning_rate=4e-05, min_epochs=0, pretrain_epochs=0, task='sst-2', train_num_per_class=1000)
+getting train examples...
+number of examples with label '0': 50
+number of examples with label '1': 1000
+getting dev examples...
+number of examples with label '0': 10
+number of examples with label '1': 10
+getting test examples...
+#train: 1050
+#dev: 20
+#test: 1821
+============================================================
+Pre-training
+============================================================
+============================================================
+Training
+============================================================
+Epoch 0, Dev Acc: 65.0000, Best Ever: 65.0000
+Test Acc: 55.1345
+Epoch 1, Dev Acc: 75.0000, Best Ever: 75.0000
+Test Acc: 69.6321
+Epoch 2, Dev Acc: 75.0000, Best Ever: 75.0000
+Epoch 3, Dev Acc: 75.0000, Best Ever: 75.0000
+Epoch 4, Dev Acc: 50.0000, Best Ever: 75.0000
+Epoch 5, Dev Acc: 50.0000, Best Ever: 75.0000
+Epoch 6, Dev Acc: 50.0000, Best Ever: 75.0000
+Epoch 7, Dev Acc: 50.0000, Best Ever: 75.0000
+Epoch 8, Dev Acc: 50.0000, Best Ever: 75.0000
+Epoch 9, Dev Acc: 75.0000, Best Ever: 75.0000
+Final Dev Acc: 75.0000, Final Test Acc: 69.6321
+Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex.
+device: cuda
+Namespace(batch_size=25, data_seed=159, dev_num_per_class=10, epochs=10, imbalance_rate=0.05, learning_rate=4e-05, min_epochs=0, pretrain_epochs=0, task='sst-2', train_num_per_class=1000)
+getting train examples...
+number of examples with label '0': 50
+number of examples with label '1': 1000
+getting dev examples...
+number of examples with label '0': 10
+number of examples with label '1': 10
+getting test examples...
+#train: 1050
+#dev: 20
+#test: 1821
+============================================================
+Pre-training
+============================================================
+============================================================
+Training
+============================================================
+Epoch 0, Dev Acc: 65.0000, Best Ever: 65.0000
+Test Acc: 61.5047
+Epoch 1, Dev Acc: 75.0000, Best Ever: 75.0000
+Test Acc: 80.5601
+Epoch 2, Dev Acc: 80.0000, Best Ever: 80.0000
+Test Acc: 73.4761
+Epoch 3, Dev Acc: 75.0000, Best Ever: 80.0000
+Epoch 4, Dev Acc: 85.0000, Best Ever: 85.0000
+Test Acc: 82.0428
+Epoch 5, Dev Acc: 55.0000, Best Ever: 85.0000
+Epoch 6, Dev Acc: 85.0000, Best Ever: 85.0000
+Epoch 7, Dev Acc: 85.0000, Best Ever: 85.0000
+Epoch 8, Dev Acc: 85.0000, Best Ever: 85.0000
+Epoch 9, Dev Acc: 70.0000, Best Ever: 85.0000
+Final Dev Acc: 85.0000, Final Test Acc: 82.0428
+Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex.
+device: cuda
+Namespace(batch_size=25, data_seed=159, dev_num_per_class=10, epochs=10, imbalance_rate=0.05, learning_rate=4e-05, min_epochs=0, pretrain_epochs=0, task='sst-2', train_num_per_class=1000)
+getting train examples...
+number of examples with label '0': 50
+number of examples with label '1': 1000
+getting dev examples...
+number of examples with label '0': 10
+number of examples with label '1': 10
+getting test examples...
+#train: 1050
+#dev: 20
+#test: 1821
+============================================================
+Pre-training
+============================================================
+============================================================
+Training
+============================================================
+Epoch 0, Dev Acc: 55.0000, Best Ever: 55.0000
+Test Acc: 54.0362
+Epoch 1, Dev Acc: 70.0000, Best Ever: 70.0000
+Test Acc: 68.0395
+Epoch 2, Dev Acc: 75.0000, Best Ever: 75.0000
+Test Acc: 75.3432
+Epoch 3, Dev Acc: 80.0000, Best Ever: 80.0000
+Test Acc: 78.6930
+Epoch 4, Dev Acc: 70.0000, Best Ever: 80.0000
+Epoch 5, Dev Acc: 50.0000, Best Ever: 80.0000
+Epoch 6, Dev Acc: 90.0000, Best Ever: 90.0000
+Test Acc: 78.5832
+Epoch 7, Dev Acc: 75.0000, Best Ever: 90.0000
+Epoch 8, Dev Acc: 70.0000, Best Ever: 90.0000
+Epoch 9, Dev Acc: 70.0000, Best Ever: 90.0000
+Final Dev Acc: 90.0000, Final Test Acc: 78.5832
+Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex.
+device: cuda
+Namespace(batch_size=25, data_seed=159, dev_num_per_class=10, epochs=10, imbalance_rate=0.05, learning_rate=4e-05, min_epochs=0, pretrain_epochs=0, task='sst-2', train_num_per_class=1000)
+getting train examples...
+number of examples with label '0': 50
+number of examples with label '1': 1000
+getting dev examples...
+number of examples with label '0': 10
+number of examples with label '1': 10
+getting test examples...
+#train: 1050
+#dev: 20
+#test: 1821
+============================================================
+Pre-training
+============================================================
+============================================================
+Training
+============================================================
+Epoch 0, Dev Acc: 70.0000, Best Ever: 70.0000
+Test Acc: 64.2504
+Epoch 1, Dev Acc: 70.0000, Best Ever: 70.0000
+Epoch 2, Dev Acc: 85.0000, Best Ever: 85.0000
+Test Acc: 79.2971
+Epoch 3, Dev Acc: 65.0000, Best Ever: 85.0000
+Epoch 4, Dev Acc: 75.0000, Best Ever: 85.0000
+Epoch 5, Dev Acc: 65.0000, Best Ever: 85.0000
+Epoch 6, Dev Acc: 70.0000, Best Ever: 85.0000
+Epoch 7, Dev Acc: 65.0000, Best Ever: 85.0000
+Epoch 8, Dev Acc: 75.0000, Best Ever: 85.0000
+Epoch 9, Dev Acc: 70.0000, Best Ever: 85.0000
+Final Dev Acc: 85.0000, Final Test Acc: 79.2971
+Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex.
+device: cuda
+Namespace(batch_size=25, data_seed=159, dev_num_per_class=10, epochs=10, imbalance_rate=0.05, learning_rate=4e-05, min_epochs=0, pretrain_epochs=0, task='sst-2', train_num_per_class=1000)
+getting train examples...
+number of examples with label '0': 50
+number of examples with label '1': 1000
+getting dev examples...
+number of examples with label '0': 10
+number of examples with label '1': 10
+getting test examples...
+#train: 1050
+#dev: 20
+#test: 1821
+============================================================
+Pre-training
+============================================================
+============================================================
+Training
+============================================================
+Epoch 0, Dev Acc: 50.0000, Best Ever: 50.0000
+Test Acc: 49.9176
+Epoch 1, Dev Acc: 60.0000, Best Ever: 60.0000
+Test Acc: 52.6085
+Epoch 2, Dev Acc: 50.0000, Best Ever: 60.0000
+Epoch 3, Dev Acc: 50.0000, Best Ever: 60.0000
+Epoch 4, Dev Acc: 65.0000, Best Ever: 65.0000
+Test Acc: 62.2186
+Epoch 5, Dev Acc: 50.0000, Best Ever: 65.0000
+Epoch 6, Dev Acc: 60.0000, Best Ever: 65.0000
+Epoch 7, Dev Acc: 60.0000, Best Ever: 65.0000
+Epoch 8, Dev Acc: 60.0000, Best Ever: 65.0000
+Epoch 9, Dev Acc: 75.0000, Best Ever: 75.0000
+Test Acc: 69.3026
+Final Dev Acc: 75.0000, Final Test Acc: 69.3026
+Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex.
+device: cuda
+Namespace(batch_size=25, data_seed=159, dev_num_per_class=10, epochs=10, imbalance_rate=0.05, learning_rate=4e-05, min_epochs=0, pretrain_epochs=0, task='sst-2', train_num_per_class=1000)
+getting train examples...
+number of examples with label '0': 50
+number of examples with label '1': 1000
+getting dev examples...
+number of examples with label '0': 10
+number of examples with label '1': 10
+getting test examples...
+#train: 1050
+#dev: 20
+#test: 1821
+============================================================
+Pre-training
+============================================================
+============================================================
+Training
+============================================================
+Epoch 0, Dev Acc: 60.0000, Best Ever: 60.0000
+Test Acc: 60.6260
+Epoch 1, Dev Acc: 70.0000, Best Ever: 70.0000
+Test Acc: 79.1323
+Epoch 2, Dev Acc: 70.0000, Best Ever: 70.0000
+Epoch 3, Dev Acc: 80.0000, Best Ever: 80.0000
+Test Acc: 81.6584
+Epoch 4, Dev Acc: 85.0000, Best Ever: 85.0000
+Test Acc: 74.2998
+Epoch 5, Dev Acc: 75.0000, Best Ever: 85.0000
+Epoch 6, Dev Acc: 80.0000, Best Ever: 85.0000
+Epoch 7, Dev Acc: 80.0000, Best Ever: 85.0000
+Epoch 8, Dev Acc: 85.0000, Best Ever: 85.0000
+Epoch 9, Dev Acc: 85.0000, Best Ever: 85.0000
+Final Dev Acc: 85.0000, Final Test Acc: 74.2998
+Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex.
+device: cuda
+Namespace(batch_size=25, data_seed=159, dev_num_per_class=10, epochs=10, imbalance_rate=0.05, learning_rate=4e-05, min_epochs=0, pretrain_epochs=0, task='sst-2', train_num_per_class=1000)
+getting train examples...
+number of examples with label '0': 50
+number of examples with label '1': 1000
+getting dev examples...
+number of examples with label '0': 10
+number of examples with label '1': 10
+getting test examples...
+#train: 1050
+#dev: 20
+#test: 1821
+============================================================
+Pre-training
+============================================================
+============================================================
+Training
+============================================================
+Epoch 0, Dev Acc: 70.0000, Best Ever: 70.0000
+Test Acc: 74.9039
+Epoch 1, Dev Acc: 65.0000, Best Ever: 70.0000
+Epoch 2, Dev Acc: 65.0000, Best Ever: 70.0000
+Epoch 3, Dev Acc: 50.0000, Best Ever: 70.0000
+Epoch 4, Dev Acc: 55.0000, Best Ever: 70.0000
+Epoch 5, Dev Acc: 65.0000, Best Ever: 70.0000
+Epoch 6, Dev Acc: 65.0000, Best Ever: 70.0000
+Epoch 7, Dev Acc: 50.0000, Best Ever: 70.0000
+Epoch 8, Dev Acc: 50.0000, Best Ever: 70.0000
+Epoch 9, Dev Acc: 70.0000, Best Ever: 70.0000
+Final Dev Acc: 70.0000, Final Test Acc: 74.9039
+Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex.
+device: cuda
+Namespace(batch_size=25, data_seed=159, dev_num_per_class=10, epochs=10, imbalance_rate=0.05, learning_rate=4e-05, min_epochs=0, pretrain_epochs=0, task='sst-2', train_num_per_class=1000)
+getting train examples...
+number of examples with label '0': 50
+number of examples with label '1': 1000
+getting dev examples...
+number of examples with label '0': 10
+number of examples with label '1': 10
+getting test examples...
+#train: 1050
+#dev: 20
+#test: 1821
+============================================================
+Pre-training
+============================================================
+============================================================
+Training
+============================================================
+Epoch 0, Dev Acc: 50.0000, Best Ever: 50.0000
+Test Acc: 49.9176
+Epoch 1, Dev Acc: 80.0000, Best Ever: 80.0000
+Test Acc: 76.0022
+Epoch 2, Dev Acc: 70.0000, Best Ever: 80.0000
+Epoch 3, Dev Acc: 65.0000, Best Ever: 80.0000
+Epoch 4, Dev Acc: 80.0000, Best Ever: 80.0000
+Epoch 5, Dev Acc: 75.0000, Best Ever: 80.0000
+Epoch 6, Dev Acc: 75.0000, Best Ever: 80.0000
+Epoch 7, Dev Acc: 80.0000, Best Ever: 80.0000
+Epoch 8, Dev Acc: 75.0000, Best Ever: 80.0000
+Epoch 9, Dev Acc: 80.0000, Best Ever: 80.0000
+Final Dev Acc: 80.0000, Final Test Acc: 76.0022
+Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex.
+device: cuda
+Namespace(batch_size=25, data_seed=159, dev_num_per_class=10, epochs=10, imbalance_rate=0.05, learning_rate=4e-05, min_epochs=0, pretrain_epochs=0, task='sst-2', train_num_per_class=1000)
+getting train examples...
+number of examples with label '0': 50
+number of examples with label '1': 1000
+getting dev examples...
+number of examples with label '0': 10
+number of examples with label '1': 10
+getting test examples...
+#train: 1050
+#dev: 20
+#test: 1821
+============================================================
+Pre-training
+============================================================
+============================================================
+Training
+============================================================
+Epoch 0, Dev Acc: 50.0000, Best Ever: 50.0000
+Test Acc: 49.9176
+Epoch 1, Dev Acc: 50.0000, Best Ever: 50.0000
+Epoch 2, Dev Acc: 85.0000, Best Ever: 85.0000
+Test Acc: 78.5283
+Epoch 3, Dev Acc: 65.0000, Best Ever: 85.0000
+Epoch 4, Dev Acc: 60.0000, Best Ever: 85.0000
+Epoch 5, Dev Acc: 80.0000, Best Ever: 85.0000
+Epoch 6, Dev Acc: 75.0000, Best Ever: 85.0000
+Epoch 7, Dev Acc: 75.0000, Best Ever: 85.0000
+Epoch 8, Dev Acc: 80.0000, Best Ever: 85.0000
+Epoch 9, Dev Acc: 65.0000, Best Ever: 85.0000
+Final Dev Acc: 85.0000, Final Test Acc: 78.5283
+Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex.
+device: cuda
+Namespace(batch_size=25, data_seed=159, dev_num_per_class=10, epochs=10, imbalance_rate=0.05, learning_rate=4e-05, min_epochs=0, pretrain_epochs=0, task='sst-2', train_num_per_class=1000)
+getting train examples...
+number of examples with label '0': 50
+number of examples with label '1': 1000
+getting dev examples...
+number of examples with label '0': 10
+number of examples with label '1': 10
+getting test examples...
+#train: 1050
+#dev: 20
+#test: 1821
+============================================================
+Pre-training
+============================================================
+============================================================
+Training
+============================================================
+Epoch 0, Dev Acc: 70.0000, Best Ever: 70.0000
+Test Acc: 73.2015
+Epoch 1, Dev Acc: 70.0000, Best Ever: 70.0000
+Epoch 2, Dev Acc: 50.0000, Best Ever: 70.0000
+Epoch 3, Dev Acc: 70.0000, Best Ever: 70.0000
+Epoch 4, Dev Acc: 50.0000, Best Ever: 70.0000
+Epoch 5, Dev Acc: 60.0000, Best Ever: 70.0000
+Epoch 6, Dev Acc: 75.0000, Best Ever: 75.0000
+Test Acc: 80.9995
+Epoch 7, Dev Acc: 75.0000, Best Ever: 75.0000
+Epoch 8, Dev Acc: 50.0000, Best Ever: 75.0000
+Epoch 9, Dev Acc: 60.0000, Best Ever: 75.0000
+Final Dev Acc: 75.0000, Final Test Acc: 80.9995
+Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex.
+device: cuda
+Namespace(batch_size=25, data_seed=159, dev_num_per_class=10, epochs=10, imbalance_rate=0.05, learning_rate=4e-05, min_epochs=0, pretrain_epochs=0, task='sst-2', train_num_per_class=1000)
+getting train examples...
+number of examples with label '0': 50
+number of examples with label '1': 1000
+getting dev examples...
+number of examples with label '0': 10
+number of examples with label '1': 10
+getting test examples...
+#train: 1050
+#dev: 20
+#test: 1821
+============================================================
+Pre-training
+============================================================
+============================================================
+Training
+============================================================
+Epoch 0, Dev Acc: 50.0000, Best Ever: 50.0000
+Test Acc: 49.9176
+Epoch 1, Dev Acc: 80.0000, Best Ever: 80.0000
+Test Acc: 86.1065
+Epoch 2, Dev Acc: 65.0000, Best Ever: 80.0000
+Epoch 3, Dev Acc: 70.0000, Best Ever: 80.0000
+Epoch 4, Dev Acc: 70.0000, Best Ever: 80.0000
+Epoch 5, Dev Acc: 75.0000, Best Ever: 80.0000
+Epoch 6, Dev Acc: 75.0000, Best Ever: 80.0000
+Epoch 7, Dev Acc: 50.0000, Best Ever: 80.0000
+Epoch 8, Dev Acc: 65.0000, Best Ever: 80.0000
+Epoch 9, Dev Acc: 70.0000, Best Ever: 80.0000
+Final Dev Acc: 80.0000, Final Test Acc: 86.1065
+Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex.
+device: cuda
+Namespace(batch_size=25, data_seed=159, dev_num_per_class=10, epochs=10, imbalance_rate=0.05, learning_rate=4e-05, min_epochs=0, pretrain_epochs=0, task='sst-2', train_num_per_class=1000)
+getting train examples...
+number of examples with label '0': 50
+number of examples with label '1': 1000
+getting dev examples...
+number of examples with label '0': 10
+number of examples with label '1': 10
+getting test examples...
+#train: 1050
+#dev: 20
+#test: 1821
+============================================================
+Pre-training
+============================================================
+============================================================
+Training
+============================================================
+Epoch 0, Dev Acc: 50.0000, Best Ever: 50.0000
+Test Acc: 50.4119
+Epoch 1, Dev Acc: 60.0000, Best Ever: 60.0000
+Test Acc: 62.2735
+Epoch 2, Dev Acc: 70.0000, Best Ever: 70.0000
+Test Acc: 69.0280
+Epoch 3, Dev Acc: 60.0000, Best Ever: 70.0000
+Epoch 4, Dev Acc: 75.0000, Best Ever: 75.0000
+Test Acc: 72.2131
+Epoch 5, Dev Acc: 80.0000, Best Ever: 80.0000
+Test Acc: 78.9127
+Epoch 6, Dev Acc: 55.0000, Best Ever: 80.0000
+Epoch 7, Dev Acc: 75.0000, Best Ever: 80.0000
+Epoch 8, Dev Acc: 50.0000, Best Ever: 80.0000
+Epoch 9, Dev Acc: 50.0000, Best Ever: 80.0000
+Final Dev Acc: 80.0000, Final Test Acc: 78.9127
+Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex.
+device: cuda
+Namespace(batch_size=25, data_seed=159, dev_num_per_class=10, epochs=10, imbalance_rate=0.05, learning_rate=4e-05, min_epochs=0, pretrain_epochs=0, task='sst-2', train_num_per_class=1000)
+getting train examples...
+number of examples with label '0': 50
+number of examples with label '1': 1000
+getting dev examples...
+number of examples with label '0': 10
+number of examples with label '1': 10
+getting test examples...
+#train: 1050
+#dev: 20
+#test: 1821
+============================================================
+Pre-training
+============================================================
+============================================================
+Training
+============================================================
+Epoch 0, Dev Acc: 50.0000, Best Ever: 50.0000
+Test Acc: 49.9176
+Epoch 1, Dev Acc: 65.0000, Best Ever: 65.0000
+Test Acc: 64.4152
+Epoch 2, Dev Acc: 50.0000, Best Ever: 65.0000
+Epoch 3, Dev Acc: 50.0000, Best Ever: 65.0000
+Epoch 4, Dev Acc: 65.0000, Best Ever: 65.0000
+Epoch 5, Dev Acc: 70.0000, Best Ever: 70.0000
+Test Acc: 69.2477
+Epoch 6, Dev Acc: 70.0000, Best Ever: 70.0000
+Epoch 7, Dev Acc: 65.0000, Best Ever: 70.0000
+Epoch 8, Dev Acc: 50.0000, Best Ever: 70.0000
+Epoch 9, Dev Acc: 50.0000, Best Ever: 70.0000
+Final Dev Acc: 70.0000, Final Test Acc: 69.2477
+Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex.
+device: cuda
+Namespace(batch_size=25, data_seed=159, dev_num_per_class=10, epochs=10, imbalance_rate=0.05, learning_rate=4e-05, min_epochs=0, pretrain_epochs=0, task='sst-2', train_num_per_class=1000)
+getting train examples...
+number of examples with label '0': 50
+number of examples with label '1': 1000
+getting dev examples...
+number of examples with label '0': 10
+number of examples with label '1': 10
+getting test examples...
+#train: 1050
+#dev: 20
+#test: 1821
+============================================================
+Pre-training
+============================================================
+============================================================
+Training
+============================================================
+Epoch 0, Dev Acc: 60.0000, Best Ever: 60.0000
+Test Acc: 51.0708
+Epoch 1, Dev Acc: 50.0000, Best Ever: 60.0000
+Epoch 2, Dev Acc: 70.0000, Best Ever: 70.0000
+Test Acc: 74.0802
+Epoch 3, Dev Acc: 90.0000, Best Ever: 90.0000
+Test Acc: 83.3059
+Epoch 4, Dev Acc: 75.0000, Best Ever: 90.0000
+Epoch 5, Dev Acc: 60.0000, Best Ever: 90.0000
+Epoch 6, Dev Acc: 70.0000, Best Ever: 90.0000
+Epoch 7, Dev Acc: 75.0000, Best Ever: 90.0000
+Epoch 8, Dev Acc: 80.0000, Best Ever: 90.0000
+Epoch 9, Dev Acc: 90.0000, Best Ever: 90.0000
+Final Dev Acc: 90.0000, Final Test Acc: 83.3059
+Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex.
+device: cuda
+Namespace(batch_size=25, data_seed=159, dev_num_per_class=10, epochs=10, imbalance_rate=0.05, learning_rate=4e-05, min_epochs=0, pretrain_epochs=0, task='sst-2', train_num_per_class=1000)
+getting train examples...
+number of examples with label '0': 50
+number of examples with label '1': 1000
+getting dev examples...
+number of examples with label '0': 10
+number of examples with label '1': 10
+getting test examples...
+#train: 1050
+#dev: 20
+#test: 1821
+============================================================
+Pre-training
+============================================================
+============================================================
+Training
+============================================================
+Epoch 0, Dev Acc: 65.0000, Best Ever: 65.0000
+Test Acc: 64.7996
+Epoch 1, Dev Acc: 75.0000, Best Ever: 75.0000
+Test Acc: 72.2680
+Epoch 2, Dev Acc: 65.0000, Best Ever: 75.0000
+Epoch 3, Dev Acc: 50.0000, Best Ever: 75.0000
+Epoch 4, Dev Acc: 50.0000, Best Ever: 75.0000
+Epoch 5, Dev Acc: 70.0000, Best Ever: 75.0000
+Epoch 6, Dev Acc: 50.0000, Best Ever: 75.0000
+Epoch 7, Dev Acc: 75.0000, Best Ever: 75.0000
+Epoch 8, Dev Acc: 75.0000, Best Ever: 75.0000
+Epoch 9, Dev Acc: 75.0000, Best Ever: 75.0000
+Final Dev Acc: 75.0000, Final Test Acc: 72.2680
