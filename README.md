@@ -1,4 +1,4 @@
-# Augmentation-Weighting
+# Learning Data Manipulation
 
 ## Requirements
 
