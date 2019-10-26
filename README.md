@@ -1,5 +1,11 @@
 # Learning Data Manipulation
 
+This repo contains preliminary code of the following paper:
+
+[Learning Data Manipulation for Augmentation and Weighting](http://www.cs.cmu.edu/~zhitingh/data/neurips19_data_manip_preprint.pdf)  
+Zhiting Hu*, Bowen Tan*, Ruslan Salakhutdinov, Tom Mitchell, Eric P. Xing  
+NeurIPS 2019 (equal contribution)
+
 ## Requirements
 
 - `python3.6`
