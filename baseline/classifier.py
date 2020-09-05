@@ -9,7 +9,7 @@ from torch import nn
 from torch import optim
 
 from torch.utils.data import DataLoader, TensorDataset
-from data_utils.data_processors import InputFeatures
+from data_utils.text_data_processors import InputFeatures
 
 
 BERT_MODEL = 'bert-base-uncased'

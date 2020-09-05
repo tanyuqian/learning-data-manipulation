@@ -1,0 +1,1086 @@
+Files already downloaded and verified
+number of examples with label '0': 50
+number of examples with label '1': 1000
+Files already downloaded and verified
+number of examples with label '0': 10
+number of examples with label '1': 10
+Files already downloaded and verified
+#train: 1050
+#dev: 20
+#test: 2000
+============================================================
+Pre-Training
+============================================================
+============================================================
+Training
+============================================================
+Epoch 0, Dev Acc: 80.0000
+Test Acc: 78.4500
+Epoch 1, Dev Acc: 60.0000
+Epoch 2, Dev Acc: 80.0000
+Epoch 3, Dev Acc: 90.0000
+Test Acc: 80.2000
+Epoch 4, Dev Acc: 75.0000
+Epoch 5, Dev Acc: 70.0000
+Epoch 6, Dev Acc: 95.0000
+Test Acc: 84.9000
+Epoch 7, Dev Acc: 95.0000
+Epoch 8, Dev Acc: 80.0000
+Epoch 9, Dev Acc: 85.0000
+Epoch 10, Dev Acc: 85.0000
+Epoch 11, Dev Acc: 85.0000
+Epoch 12, Dev Acc: 100.0000
+Test Acc: 83.8500
+Epoch 13, Dev Acc: 95.0000
+Epoch 14, Dev Acc: 95.0000
+Final Dev Acc: 100.0000, Final Test Acc: 83.8500
+Files already downloaded and verified
+number of examples with label '0': 50
+number of examples with label '1': 1000
+Files already downloaded and verified
+number of examples with label '0': 10
+number of examples with label '1': 10
+Files already downloaded and verified
+#train: 1050
+#dev: 20
+#test: 2000
+============================================================
+Pre-Training
+============================================================
+============================================================
+Training
+============================================================
+Epoch 0, Dev Acc: 50.0000
+Test Acc: 50.0000
+Epoch 1, Dev Acc: 60.0000
+Test Acc: 62.3000
+Epoch 2, Dev Acc: 85.0000
+Test Acc: 82.2000
+Epoch 3, Dev Acc: 80.0000
+Epoch 4, Dev Acc: 85.0000
+Epoch 5, Dev Acc: 85.0000
+Epoch 6, Dev Acc: 85.0000
+Epoch 7, Dev Acc: 80.0000
+Epoch 8, Dev Acc: 90.0000
+Test Acc: 86.9500
+Epoch 9, Dev Acc: 90.0000
+Epoch 10, Dev Acc: 85.0000
+Epoch 11, Dev Acc: 85.0000
+Epoch 12, Dev Acc: 75.0000
+Epoch 13, Dev Acc: 80.0000
+Epoch 14, Dev Acc: 90.0000
+Final Dev Acc: 90.0000, Final Test Acc: 86.9500
+Files already downloaded and verified
+number of examples with label '0': 50
+number of examples with label '1': 1000
+Files already downloaded and verified
+number of examples with label '0': 10
+number of examples with label '1': 10
+Files already downloaded and verified
+#train: 1050
+#dev: 20
+#test: 2000
+============================================================
+Pre-Training
+============================================================
+============================================================
+Training
+============================================================
+Epoch 0, Dev Acc: 50.0000
+Test Acc: 71.7000
+Epoch 1, Dev Acc: 80.0000
+Test Acc: 74.7500
+Epoch 2, Dev Acc: 80.0000
+Epoch 3, Dev Acc: 65.0000
+Epoch 4, Dev Acc: 85.0000
+Test Acc: 82.3500
+Epoch 5, Dev Acc: 80.0000
+Epoch 6, Dev Acc: 85.0000
+Epoch 7, Dev Acc: 90.0000
+Test Acc: 82.1500
+Epoch 8, Dev Acc: 65.0000
+Epoch 9, Dev Acc: 85.0000
+Epoch 10, Dev Acc: 85.0000
+Epoch 11, Dev Acc: 85.0000
+Epoch 12, Dev Acc: 90.0000
+Epoch 13, Dev Acc: 80.0000
+Epoch 14, Dev Acc: 95.0000
+Test Acc: 81.7000
+Final Dev Acc: 95.0000, Final Test Acc: 81.7000
+Files already downloaded and verified
+number of examples with label '0': 50
+number of examples with label '1': 1000
+Files already downloaded and verified
+number of examples with label '0': 10
+number of examples with label '1': 10
+Files already downloaded and verified
+#train: 1050
+#dev: 20
+#test: 2000
+============================================================
+Pre-Training
+============================================================
+============================================================
+Training
+============================================================
+Epoch 0, Dev Acc: 65.0000
+Test Acc: 73.5500
+Epoch 1, Dev Acc: 50.0000
+Epoch 2, Dev Acc: 70.0000
+Test Acc: 64.6500
+Epoch 3, Dev Acc: 75.0000
+Test Acc: 77.5000
+Epoch 4, Dev Acc: 85.0000
+Test Acc: 70.1500
+Epoch 5, Dev Acc: 75.0000
+Epoch 6, Dev Acc: 75.0000
+Epoch 7, Dev Acc: 70.0000
+Epoch 8, Dev Acc: 85.0000
+Epoch 9, Dev Acc: 80.0000
+Epoch 10, Dev Acc: 75.0000
+Epoch 11, Dev Acc: 80.0000
+Epoch 12, Dev Acc: 80.0000
+Epoch 13, Dev Acc: 75.0000
+Epoch 14, Dev Acc: 80.0000
+Final Dev Acc: 85.0000, Final Test Acc: 70.1500
+Files already downloaded and verified
+number of examples with label '0': 50
+number of examples with label '1': 1000
+Files already downloaded and verified
+number of examples with label '0': 10
+number of examples with label '1': 10
+Files already downloaded and verified
+#train: 1050
+#dev: 20
+#test: 2000
+============================================================
+Pre-Training
+============================================================
+============================================================
+Training
+============================================================
+Epoch 0, Dev Acc: 75.0000
+Test Acc: 79.7000
+Epoch 1, Dev Acc: 85.0000
+Test Acc: 78.8000
+Epoch 2, Dev Acc: 85.0000
+Epoch 3, Dev Acc: 70.0000
+Epoch 4, Dev Acc: 90.0000
+Test Acc: 84.4500
+Epoch 5, Dev Acc: 95.0000
+Test Acc: 87.7500
+Epoch 6, Dev Acc: 85.0000
+Epoch 7, Dev Acc: 95.0000
+Epoch 8, Dev Acc: 85.0000
+Epoch 9, Dev Acc: 75.0000
+Epoch 10, Dev Acc: 85.0000
+Epoch 11, Dev Acc: 90.0000
+Epoch 12, Dev Acc: 90.0000
+Epoch 13, Dev Acc: 95.0000
+Epoch 14, Dev Acc: 90.0000
+Final Dev Acc: 95.0000, Final Test Acc: 87.7500
+Files already downloaded and verified
+number of examples with label '0': 50
+number of examples with label '1': 1000
+Files already downloaded and verified
+number of examples with label '0': 10
+number of examples with label '1': 10
+Files already downloaded and verified
+#train: 1050
+#dev: 20
+#test: 2000
+============================================================
+Pre-Training
+============================================================
+============================================================
+Training
+============================================================
+Epoch 0, Dev Acc: 65.0000
+Test Acc: 61.2500
+Epoch 1, Dev Acc: 85.0000
+Test Acc: 84.0000
+Epoch 2, Dev Acc: 90.0000
+Test Acc: 81.1000
+Epoch 3, Dev Acc: 70.0000
+Epoch 4, Dev Acc: 80.0000
+Epoch 5, Dev Acc: 85.0000
+Epoch 6, Dev Acc: 90.0000
+Epoch 7, Dev Acc: 90.0000
+Epoch 8, Dev Acc: 100.0000
+Test Acc: 81.7500
+Epoch 9, Dev Acc: 95.0000
+Epoch 10, Dev Acc: 95.0000
+Epoch 11, Dev Acc: 100.0000
+Epoch 12, Dev Acc: 100.0000
+Epoch 13, Dev Acc: 100.0000
+Epoch 14, Dev Acc: 100.0000
+Final Dev Acc: 100.0000, Final Test Acc: 81.7500
+Files already downloaded and verified
+number of examples with label '0': 50
+number of examples with label '1': 1000
+Files already downloaded and verified
+number of examples with label '0': 10
+number of examples with label '1': 10
+Files already downloaded and verified
+#train: 1050
+#dev: 20
+#test: 2000
+============================================================
+Pre-Training
+============================================================
+============================================================
+Training
+============================================================
+Epoch 0, Dev Acc: 50.0000
+Test Acc: 50.1500
+Epoch 1, Dev Acc: 65.0000
+Test Acc: 58.5000
+Epoch 2, Dev Acc: 75.0000
+Test Acc: 74.5000
+Epoch 3, Dev Acc: 80.0000
+Test Acc: 77.5500
+Epoch 4, Dev Acc: 65.0000
+Epoch 5, Dev Acc: 80.0000
+Epoch 6, Dev Acc: 85.0000
+Test Acc: 77.4000
+Epoch 7, Dev Acc: 85.0000
+Epoch 8, Dev Acc: 85.0000
+Epoch 9, Dev Acc: 80.0000
+Epoch 10, Dev Acc: 70.0000
+Epoch 11, Dev Acc: 85.0000
+Epoch 12, Dev Acc: 80.0000
+Epoch 13, Dev Acc: 70.0000
+Epoch 14, Dev Acc: 70.0000
+Final Dev Acc: 85.0000, Final Test Acc: 77.4000
+Files already downloaded and verified
+number of examples with label '0': 50
+number of examples with label '1': 1000
+Files already downloaded and verified
+number of examples with label '0': 10
+number of examples with label '1': 10
+Files already downloaded and verified
+#train: 1050
+#dev: 20
+#test: 2000
+============================================================
+Pre-Training
+============================================================
+============================================================
+Training
+============================================================
+Epoch 0, Dev Acc: 75.0000
+Test Acc: 77.7500
+Epoch 1, Dev Acc: 70.0000
+Epoch 2, Dev Acc: 80.0000
+Test Acc: 82.3000
+Epoch 3, Dev Acc: 85.0000
+Test Acc: 81.9000
+Epoch 4, Dev Acc: 70.0000
+Epoch 5, Dev Acc: 50.0000
+Epoch 6, Dev Acc: 50.0000
+Epoch 7, Dev Acc: 55.0000
+Epoch 8, Dev Acc: 45.0000
+Epoch 9, Dev Acc: 55.0000
+Epoch 10, Dev Acc: 50.0000
+Epoch 11, Dev Acc: 50.0000
+Epoch 12, Dev Acc: 50.0000
+Epoch 13, Dev Acc: 50.0000
+Epoch 14, Dev Acc: 70.0000
+Final Dev Acc: 85.0000, Final Test Acc: 81.9000
+Files already downloaded and verified
+number of examples with label '0': 50
+number of examples with label '1': 1000
+Files already downloaded and verified
+number of examples with label '0': 10
+number of examples with label '1': 10
+Files already downloaded and verified
+#train: 1050
+#dev: 20
+#test: 2000
+============================================================
+Pre-Training
+============================================================
+============================================================
+Training
+============================================================
+Epoch 0, Dev Acc: 50.0000
+Test Acc: 50.0000
+Epoch 1, Dev Acc: 50.0000
+Epoch 2, Dev Acc: 50.0000
+Epoch 3, Dev Acc: 50.0000
+Epoch 4, Dev Acc: 60.0000
+Test Acc: 56.9000
+Epoch 5, Dev Acc: 65.0000
+Test Acc: 60.7000
+Epoch 6, Dev Acc: 45.0000
+Epoch 7, Dev Acc: 75.0000
+Test Acc: 73.3500
+Epoch 8, Dev Acc: 50.0000
+Epoch 9, Dev Acc: 50.0000
+Epoch 10, Dev Acc: 55.0000
+Epoch 11, Dev Acc: 60.0000
+Epoch 12, Dev Acc: 65.0000
+Epoch 13, Dev Acc: 75.0000
+Epoch 14, Dev Acc: 80.0000
+Test Acc: 67.6500
+Final Dev Acc: 80.0000, Final Test Acc: 67.6500
+Files already downloaded and verified
+number of examples with label '0': 50
+number of examples with label '1': 1000
+Files already downloaded and verified
+number of examples with label '0': 10
+number of examples with label '1': 10
+Files already downloaded and verified
+#train: 1050
+#dev: 20
+#test: 2000
+============================================================
+Pre-Training
+============================================================
+============================================================
+Training
+============================================================
+Epoch 0, Dev Acc: 55.0000
+Test Acc: 64.8500
+Epoch 1, Dev Acc: 60.0000
+Test Acc: 77.3000
+Epoch 2, Dev Acc: 65.0000
+Test Acc: 80.1500
+Epoch 3, Dev Acc: 70.0000
+Test Acc: 77.3500
+Epoch 4, Dev Acc: 75.0000
+Test Acc: 78.7500
+Epoch 5, Dev Acc: 80.0000
+Test Acc: 78.7000
+Epoch 6, Dev Acc: 80.0000
+Epoch 7, Dev Acc: 85.0000
+Test Acc: 82.9000
+Epoch 8, Dev Acc: 80.0000
+Epoch 9, Dev Acc: 80.0000
+Epoch 10, Dev Acc: 90.0000
+Test Acc: 83.4500
+Epoch 11, Dev Acc: 85.0000
+Epoch 12, Dev Acc: 80.0000
+Epoch 13, Dev Acc: 75.0000
+Epoch 14, Dev Acc: 80.0000
+Final Dev Acc: 90.0000, Final Test Acc: 83.4500
+Files already downloaded and verified
+number of examples with label '0': 50
+number of examples with label '1': 1000
+Files already downloaded and verified
+number of examples with label '0': 10
+number of examples with label '1': 10
+Files already downloaded and verified
+#train: 1050
+#dev: 20
+#test: 2000
+============================================================
+Pre-Training
+============================================================
+============================================================
+Training
+============================================================
+Epoch 0, Dev Acc: 55.0000
+Test Acc: 60.7500
+Epoch 1, Dev Acc: 70.0000
+Test Acc: 76.8000
+Epoch 2, Dev Acc: 65.0000
+Epoch 3, Dev Acc: 85.0000
+Test Acc: 74.6500
+Epoch 4, Dev Acc: 85.0000
+Epoch 5, Dev Acc: 75.0000
+Epoch 6, Dev Acc: 80.0000
+Epoch 7, Dev Acc: 85.0000
+Epoch 8, Dev Acc: 85.0000
+Epoch 9, Dev Acc: 85.0000
+Epoch 10, Dev Acc: 65.0000
+Epoch 11, Dev Acc: 80.0000
+Epoch 12, Dev Acc: 80.0000
+Epoch 13, Dev Acc: 80.0000
+Epoch 14, Dev Acc: 75.0000
+Final Dev Acc: 85.0000, Final Test Acc: 74.6500
+Files already downloaded and verified
+number of examples with label '0': 50
+number of examples with label '1': 1000
+Files already downloaded and verified
+number of examples with label '0': 10
+number of examples with label '1': 10
+Files already downloaded and verified
+#train: 1050
+#dev: 20
+#test: 2000
+============================================================
+Pre-Training
+============================================================
+============================================================
+Training
+============================================================
+Epoch 0, Dev Acc: 70.0000
+Test Acc: 72.5000
+Epoch 1, Dev Acc: 70.0000
+Epoch 2, Dev Acc: 70.0000
+Epoch 3, Dev Acc: 65.0000
+Epoch 4, Dev Acc: 75.0000
+Test Acc: 80.7500
+Epoch 5, Dev Acc: 75.0000
+Epoch 6, Dev Acc: 60.0000
+Epoch 7, Dev Acc: 80.0000
+Test Acc: 72.1000
+Epoch 8, Dev Acc: 65.0000
+Epoch 9, Dev Acc: 80.0000
+Epoch 10, Dev Acc: 80.0000
+Epoch 11, Dev Acc: 85.0000
+Test Acc: 74.0500
+Epoch 12, Dev Acc: 80.0000
+Epoch 13, Dev Acc: 85.0000
+Epoch 14, Dev Acc: 80.0000
+Final Dev Acc: 85.0000, Final Test Acc: 74.0500
+Files already downloaded and verified
+number of examples with label '0': 50
+number of examples with label '1': 1000
+Files already downloaded and verified
+number of examples with label '0': 10
+number of examples with label '1': 10
+Files already downloaded and verified
+#train: 1050
+#dev: 20
+#test: 2000
+============================================================
+Pre-Training
+============================================================
+============================================================
+Training
+============================================================
+Epoch 0, Dev Acc: 40.0000
+Test Acc: 48.7000
+Epoch 1, Dev Acc: 65.0000
+Test Acc: 68.2500
+Epoch 2, Dev Acc: 70.0000
+Test Acc: 77.2500
+Epoch 3, Dev Acc: 70.0000
+Epoch 4, Dev Acc: 70.0000
+Epoch 5, Dev Acc: 60.0000
+Epoch 6, Dev Acc: 75.0000
+Test Acc: 74.6500
+Epoch 7, Dev Acc: 75.0000
+Epoch 8, Dev Acc: 75.0000
+Epoch 9, Dev Acc: 75.0000
+Epoch 10, Dev Acc: 70.0000
+Epoch 11, Dev Acc: 70.0000
+Epoch 12, Dev Acc: 80.0000
+Test Acc: 81.1000
+Epoch 13, Dev Acc: 75.0000
+Epoch 14, Dev Acc: 80.0000
+Final Dev Acc: 80.0000, Final Test Acc: 81.1000
+Files already downloaded and verified
+number of examples with label '0': 50
+number of examples with label '1': 1000
+Files already downloaded and verified
+number of examples with label '0': 10
+number of examples with label '1': 10
+Files already downloaded and verified
+#train: 1050
+#dev: 20
+#test: 2000
+============================================================
+Pre-Training
+============================================================
+============================================================
+Training
+============================================================
+Epoch 0, Dev Acc: 50.0000
+Test Acc: 53.0000
+Epoch 1, Dev Acc: 80.0000
+Test Acc: 74.6500
+Epoch 2, Dev Acc: 55.0000
+Epoch 3, Dev Acc: 80.0000
+Epoch 4, Dev Acc: 70.0000
+Epoch 5, Dev Acc: 85.0000
+Test Acc: 81.2500
+Epoch 6, Dev Acc: 75.0000
+Epoch 7, Dev Acc: 95.0000
+Test Acc: 78.0000
+Epoch 8, Dev Acc: 90.0000
+Epoch 9, Dev Acc: 90.0000
+Epoch 10, Dev Acc: 85.0000
+Epoch 11, Dev Acc: 75.0000
+Epoch 12, Dev Acc: 90.0000
+Epoch 13, Dev Acc: 85.0000
+Epoch 14, Dev Acc: 85.0000
+Final Dev Acc: 95.0000, Final Test Acc: 78.0000
+Files already downloaded and verified
+number of examples with label '0': 50
+number of examples with label '1': 1000
+Files already downloaded and verified
+number of examples with label '0': 10
+number of examples with label '1': 10
+Files already downloaded and verified
+#train: 1050
+#dev: 20
+#test: 2000
+============================================================
+Pre-Training
+============================================================
+============================================================
+Training
+============================================================
+Epoch 0, Dev Acc: 55.0000
+Test Acc: 50.6000
+Epoch 1, Dev Acc: 75.0000
+Test Acc: 71.8000
+Epoch 2, Dev Acc: 85.0000
+Test Acc: 81.1500
+Epoch 3, Dev Acc: 90.0000
+Test Acc: 78.4000
+Epoch 4, Dev Acc: 95.0000
+Test Acc: 84.1000
+Epoch 5, Dev Acc: 90.0000
+Epoch 6, Dev Acc: 80.0000
+Epoch 7, Dev Acc: 95.0000
+Epoch 8, Dev Acc: 85.0000
+Epoch 9, Dev Acc: 85.0000
+Epoch 10, Dev Acc: 90.0000
+Epoch 11, Dev Acc: 70.0000
+Epoch 12, Dev Acc: 75.0000
+Epoch 13, Dev Acc: 65.0000
+Epoch 14, Dev Acc: 70.0000
+Final Dev Acc: 95.0000, Final Test Acc: 84.1000
+Files already downloaded and verified
+number of examples with label '0': 50
+number of examples with label '1': 1000
+Files already downloaded and verified
+number of examples with label '0': 10
+number of examples with label '1': 10
+Files already downloaded and verified
+#train: 1050
+#dev: 20
+#test: 2000
+============================================================
+Pre-Training
+============================================================
+============================================================
+Training
+============================================================
+Epoch 0, Dev Acc: 50.0000
+Test Acc: 47.0000
+Epoch 1, Dev Acc: 55.0000
+Test Acc: 51.1500
+Epoch 2, Dev Acc: 50.0000
+Epoch 3, Dev Acc: 65.0000
+Test Acc: 54.7000
+Epoch 4, Dev Acc: 50.0000
+Epoch 5, Dev Acc: 50.0000
+Epoch 6, Dev Acc: 55.0000
+Epoch 7, Dev Acc: 55.0000
+Epoch 8, Dev Acc: 65.0000
+Epoch 9, Dev Acc: 55.0000
+Epoch 10, Dev Acc: 70.0000
+Test Acc: 62.6500
+Epoch 11, Dev Acc: 75.0000
+Test Acc: 66.0500
+Epoch 12, Dev Acc: 70.0000
+Epoch 13, Dev Acc: 70.0000
+Epoch 14, Dev Acc: 50.0000
+Final Dev Acc: 75.0000, Final Test Acc: 66.0500
+Files already downloaded and verified
+number of examples with label '0': 50
+number of examples with label '1': 1000
+Files already downloaded and verified
+number of examples with label '0': 10
+number of examples with label '1': 10
+Files already downloaded and verified
+#train: 1050
+#dev: 20
+#test: 2000
+============================================================
+Pre-Training
+============================================================
+============================================================
+Training
+============================================================
+Epoch 0, Dev Acc: 50.0000
+Test Acc: 50.1500
+Epoch 1, Dev Acc: 55.0000
+Test Acc: 55.9500
+Epoch 2, Dev Acc: 70.0000
+Test Acc: 59.8000
+Epoch 3, Dev Acc: 70.0000
+Epoch 4, Dev Acc: 50.0000
+Epoch 5, Dev Acc: 70.0000
+Epoch 6, Dev Acc: 70.0000
+Epoch 7, Dev Acc: 65.0000
+Epoch 8, Dev Acc: 80.0000
+Test Acc: 67.9000
+Epoch 9, Dev Acc: 85.0000
+Test Acc: 69.5000
+Epoch 10, Dev Acc: 85.0000
+Epoch 11, Dev Acc: 85.0000
+Epoch 12, Dev Acc: 80.0000
+Epoch 13, Dev Acc: 85.0000
+Epoch 14, Dev Acc: 75.0000
+Final Dev Acc: 85.0000, Final Test Acc: 69.5000
+Files already downloaded and verified
+number of examples with label '0': 50
+number of examples with label '1': 1000
+Files already downloaded and verified
+number of examples with label '0': 10
+number of examples with label '1': 10
+Files already downloaded and verified
+#train: 1050
+#dev: 20
+#test: 2000
+============================================================
+Pre-Training
+============================================================
+============================================================
+Training
+============================================================
+Epoch 0, Dev Acc: 60.0000
+Test Acc: 55.9500
+Epoch 1, Dev Acc: 50.0000
+Epoch 2, Dev Acc: 70.0000
+Test Acc: 62.1500
+Epoch 3, Dev Acc: 50.0000
+Epoch 4, Dev Acc: 70.0000
+Epoch 5, Dev Acc: 55.0000
+Epoch 6, Dev Acc: 70.0000
+Epoch 7, Dev Acc: 75.0000
+Test Acc: 76.8500
+Epoch 8, Dev Acc: 90.0000
+Test Acc: 75.5000
+Epoch 9, Dev Acc: 80.0000
+Epoch 10, Dev Acc: 90.0000
+Epoch 11, Dev Acc: 90.0000
+Epoch 12, Dev Acc: 85.0000
+Epoch 13, Dev Acc: 95.0000
+Test Acc: 75.4500
+Epoch 14, Dev Acc: 75.0000
+Final Dev Acc: 95.0000, Final Test Acc: 75.4500
+Files already downloaded and verified
+number of examples with label '0': 50
+number of examples with label '1': 1000
+Files already downloaded and verified
+number of examples with label '0': 10
+number of examples with label '1': 10
+Files already downloaded and verified
+#train: 1050
+#dev: 20
+#test: 2000
+============================================================
+Pre-Training
+============================================================
+============================================================
+Training
+============================================================
+Epoch 0, Dev Acc: 70.0000
+Test Acc: 54.3500
+Epoch 1, Dev Acc: 80.0000
+Test Acc: 76.6000
+Epoch 2, Dev Acc: 70.0000
+Epoch 3, Dev Acc: 70.0000
+Epoch 4, Dev Acc: 65.0000
+Epoch 5, Dev Acc: 80.0000
+Epoch 6, Dev Acc: 80.0000
+Epoch 7, Dev Acc: 80.0000
+Epoch 8, Dev Acc: 80.0000
+Epoch 9, Dev Acc: 75.0000
+Epoch 10, Dev Acc: 70.0000
+Epoch 11, Dev Acc: 80.0000
+Epoch 12, Dev Acc: 70.0000
+Epoch 13, Dev Acc: 80.0000
+Epoch 14, Dev Acc: 85.0000
+Test Acc: 85.3000
+Final Dev Acc: 85.0000, Final Test Acc: 85.3000
+Files already downloaded and verified
+number of examples with label '0': 50
+number of examples with label '1': 1000
+Files already downloaded and verified
+number of examples with label '0': 10
+number of examples with label '1': 10
+Files already downloaded and verified
+#train: 1050
+#dev: 20
+#test: 2000
+============================================================
+Pre-Training
+============================================================
+============================================================
+Training
+============================================================
+Epoch 0, Dev Acc: 50.0000
+Test Acc: 68.4500
+Epoch 1, Dev Acc: 70.0000
+Test Acc: 70.5500
+Epoch 2, Dev Acc: 80.0000
+Test Acc: 73.6500
+Epoch 3, Dev Acc: 80.0000
+Epoch 4, Dev Acc: 90.0000
+Test Acc: 77.7000
+Epoch 5, Dev Acc: 100.0000
+Test Acc: 78.5000
+Epoch 6, Dev Acc: 80.0000
+Epoch 7, Dev Acc: 80.0000
+Epoch 8, Dev Acc: 95.0000
+Epoch 9, Dev Acc: 80.0000
+Epoch 10, Dev Acc: 90.0000
+Epoch 11, Dev Acc: 95.0000
+Epoch 12, Dev Acc: 100.0000
+Epoch 13, Dev Acc: 95.0000
+Epoch 14, Dev Acc: 100.0000
+Final Dev Acc: 100.0000, Final Test Acc: 78.5000
+Files already downloaded and verified
+number of examples with label '0': 50
+number of examples with label '1': 1000
+Files already downloaded and verified
+number of examples with label '0': 10
+number of examples with label '1': 10
+Files already downloaded and verified
+#train: 1050
+#dev: 20
+#test: 2000
+============================================================
+Pre-Training
+============================================================
+============================================================
+Training
+============================================================
+Epoch 0, Dev Acc: 50.0000
+Test Acc: 52.9500
+Epoch 1, Dev Acc: 55.0000
+Test Acc: 53.0500
+Epoch 2, Dev Acc: 50.0000
+Epoch 3, Dev Acc: 50.0000
+Epoch 4, Dev Acc: 55.0000
+Epoch 5, Dev Acc: 65.0000
+Test Acc: 67.9000
+Epoch 6, Dev Acc: 75.0000
+Test Acc: 80.3000
+Epoch 7, Dev Acc: 70.0000
+Epoch 8, Dev Acc: 80.0000
+Test Acc: 78.8000
+Epoch 9, Dev Acc: 75.0000
+Epoch 10, Dev Acc: 85.0000
+Test Acc: 81.6000
+Epoch 11, Dev Acc: 80.0000
+Epoch 12, Dev Acc: 80.0000
+Epoch 13, Dev Acc: 75.0000
+Epoch 14, Dev Acc: 85.0000
+Final Dev Acc: 85.0000, Final Test Acc: 81.6000
+Files already downloaded and verified
+number of examples with label '0': 50
+number of examples with label '1': 1000
+Files already downloaded and verified
+number of examples with label '0': 10
+number of examples with label '1': 10
+Files already downloaded and verified
+#train: 1050
+#dev: 20
+#test: 2000
+============================================================
+Pre-Training
+============================================================
+============================================================
+Training
+============================================================
+Epoch 0, Dev Acc: 50.0000
+Test Acc: 50.5500
+Epoch 1, Dev Acc: 50.0000
+Epoch 2, Dev Acc: 60.0000
+Test Acc: 71.0500
+Epoch 3, Dev Acc: 60.0000
+Epoch 4, Dev Acc: 70.0000
+Test Acc: 66.7500
+Epoch 5, Dev Acc: 60.0000
+Epoch 6, Dev Acc: 70.0000
+Epoch 7, Dev Acc: 50.0000
+Epoch 8, Dev Acc: 50.0000
+Epoch 9, Dev Acc: 50.0000
+Epoch 10, Dev Acc: 55.0000
+Epoch 11, Dev Acc: 50.0000
+Epoch 12, Dev Acc: 65.0000
+Epoch 13, Dev Acc: 60.0000
+Epoch 14, Dev Acc: 50.0000
+Final Dev Acc: 70.0000, Final Test Acc: 66.7500
+Files already downloaded and verified
+number of examples with label '0': 50
+number of examples with label '1': 1000
+Files already downloaded and verified
+number of examples with label '0': 10
+number of examples with label '1': 10
+Files already downloaded and verified
+#train: 1050
+#dev: 20
+#test: 2000
+============================================================
+Pre-Training
+============================================================
+============================================================
+Training
+============================================================
+Epoch 0, Dev Acc: 50.0000
+Test Acc: 50.0000
+Epoch 1, Dev Acc: 75.0000
+Test Acc: 71.4000
+Epoch 2, Dev Acc: 80.0000
+Test Acc: 83.8500
+Epoch 3, Dev Acc: 80.0000
+Epoch 4, Dev Acc: 95.0000
+Test Acc: 84.5000
+Epoch 5, Dev Acc: 60.0000
+Epoch 6, Dev Acc: 80.0000
+Epoch 7, Dev Acc: 85.0000
+Epoch 8, Dev Acc: 85.0000
+Epoch 9, Dev Acc: 90.0000
+Epoch 10, Dev Acc: 80.0000
+Epoch 11, Dev Acc: 75.0000
+Epoch 12, Dev Acc: 70.0000
+Epoch 13, Dev Acc: 70.0000
+Epoch 14, Dev Acc: 90.0000
+Final Dev Acc: 95.0000, Final Test Acc: 84.5000
+Files already downloaded and verified
+number of examples with label '0': 50
+number of examples with label '1': 1000
+Files already downloaded and verified
+number of examples with label '0': 10
+number of examples with label '1': 10
+Files already downloaded and verified
+#train: 1050
+#dev: 20
+#test: 2000
+============================================================
+Pre-Training
+============================================================
+============================================================
+Training
+============================================================
+Epoch 0, Dev Acc: 55.0000
+Test Acc: 60.4000
+Epoch 1, Dev Acc: 50.0000
+Epoch 2, Dev Acc: 50.0000
+Epoch 3, Dev Acc: 50.0000
+Epoch 4, Dev Acc: 50.0000
+Epoch 5, Dev Acc: 50.0000
+Epoch 6, Dev Acc: 65.0000
+Test Acc: 57.0500
+Epoch 7, Dev Acc: 60.0000
+Epoch 8, Dev Acc: 60.0000
+Epoch 9, Dev Acc: 55.0000
+Epoch 10, Dev Acc: 60.0000
+Epoch 11, Dev Acc: 50.0000
+Epoch 12, Dev Acc: 65.0000
+Epoch 13, Dev Acc: 50.0000
+Epoch 14, Dev Acc: 50.0000
+Final Dev Acc: 65.0000, Final Test Acc: 57.0500
+Files already downloaded and verified
+number of examples with label '0': 50
+number of examples with label '1': 1000
+Files already downloaded and verified
+number of examples with label '0': 10
+number of examples with label '1': 10
+Files already downloaded and verified
+#train: 1050
+#dev: 20
+#test: 2000
+============================================================
+Pre-Training
+============================================================
+============================================================
+Training
+============================================================
+Epoch 0, Dev Acc: 55.0000
+Test Acc: 57.3500
+Epoch 1, Dev Acc: 90.0000
+Test Acc: 79.4500
+Epoch 2, Dev Acc: 80.0000
+Epoch 3, Dev Acc: 50.0000
+Epoch 4, Dev Acc: 60.0000
+Epoch 5, Dev Acc: 70.0000
+Epoch 6, Dev Acc: 70.0000
+Epoch 7, Dev Acc: 65.0000
+Epoch 8, Dev Acc: 60.0000
+Epoch 9, Dev Acc: 55.0000
+Epoch 10, Dev Acc: 80.0000
+Epoch 11, Dev Acc: 70.0000
+Epoch 12, Dev Acc: 65.0000
+Epoch 13, Dev Acc: 60.0000
+Epoch 14, Dev Acc: 75.0000
+Final Dev Acc: 90.0000, Final Test Acc: 79.4500
+Files already downloaded and verified
+number of examples with label '0': 50
+number of examples with label '1': 1000
+Files already downloaded and verified
+number of examples with label '0': 10
+number of examples with label '1': 10
+Files already downloaded and verified
+#train: 1050
+#dev: 20
+#test: 2000
+============================================================
+Pre-Training
+============================================================
+============================================================
+Training
+============================================================
+Epoch 0, Dev Acc: 60.0000
+Test Acc: 55.6500
+Epoch 1, Dev Acc: 65.0000
+Test Acc: 61.1500
+Epoch 2, Dev Acc: 60.0000
+Epoch 3, Dev Acc: 70.0000
+Test Acc: 78.9500
+Epoch 4, Dev Acc: 55.0000
+Epoch 5, Dev Acc: 65.0000
+Epoch 6, Dev Acc: 65.0000
+Epoch 7, Dev Acc: 65.0000
+Epoch 8, Dev Acc: 80.0000
+Test Acc: 70.1000
+Epoch 9, Dev Acc: 70.0000
+Epoch 10, Dev Acc: 55.0000
+Epoch 11, Dev Acc: 50.0000
+Epoch 12, Dev Acc: 50.0000
+Epoch 13, Dev Acc: 55.0000
+Epoch 14, Dev Acc: 50.0000
+Final Dev Acc: 80.0000, Final Test Acc: 70.1000
+Files already downloaded and verified
+number of examples with label '0': 50
+number of examples with label '1': 1000
+Files already downloaded and verified
+number of examples with label '0': 10
+number of examples with label '1': 10
+Files already downloaded and verified
+#train: 1050
+#dev: 20
+#test: 2000
+============================================================
+Pre-Training
+============================================================
+============================================================
+Training
+============================================================
+Epoch 0, Dev Acc: 70.0000
+Test Acc: 69.9000
+Epoch 1, Dev Acc: 50.0000
+Epoch 2, Dev Acc: 70.0000
+Epoch 3, Dev Acc: 65.0000
+Epoch 4, Dev Acc: 65.0000
+Epoch 5, Dev Acc: 75.0000
+Test Acc: 73.4000
+Epoch 6, Dev Acc: 70.0000
+Epoch 7, Dev Acc: 65.0000
+Epoch 8, Dev Acc: 65.0000
+Epoch 9, Dev Acc: 80.0000
+Test Acc: 78.8000
+Epoch 10, Dev Acc: 80.0000
+Epoch 11, Dev Acc: 75.0000
+Epoch 12, Dev Acc: 85.0000
+Test Acc: 81.2500
+Epoch 13, Dev Acc: 90.0000
+Test Acc: 79.9000
+Epoch 14, Dev Acc: 85.0000
+Final Dev Acc: 90.0000, Final Test Acc: 79.9000
+Files already downloaded and verified
+number of examples with label '0': 50
+number of examples with label '1': 1000
+Files already downloaded and verified
+number of examples with label '0': 10
+number of examples with label '1': 10
+Files already downloaded and verified
+#train: 1050
+#dev: 20
+#test: 2000
+============================================================
+Pre-Training
+============================================================
+============================================================
+Training
+============================================================
+Epoch 0, Dev Acc: 70.0000
+Test Acc: 73.7500
+Epoch 1, Dev Acc: 75.0000
+Test Acc: 79.8000
+Epoch 2, Dev Acc: 50.0000
+Epoch 3, Dev Acc: 50.0000
+Epoch 4, Dev Acc: 55.0000
+Epoch 5, Dev Acc: 75.0000
+Epoch 6, Dev Acc: 50.0000
+Epoch 7, Dev Acc: 55.0000
+Epoch 8, Dev Acc: 70.0000
+Epoch 9, Dev Acc: 50.0000
+Epoch 10, Dev Acc: 55.0000
+Epoch 11, Dev Acc: 55.0000
+Epoch 12, Dev Acc: 65.0000
+Epoch 13, Dev Acc: 70.0000
+Epoch 14, Dev Acc: 50.0000
+Final Dev Acc: 75.0000, Final Test Acc: 79.8000
+Files already downloaded and verified
+number of examples with label '0': 50
+number of examples with label '1': 1000
+Files already downloaded and verified
+number of examples with label '0': 10
+number of examples with label '1': 10
+Files already downloaded and verified
+#train: 1050
+#dev: 20
+#test: 2000
+============================================================
+Pre-Training
+============================================================
+============================================================
+Training
+============================================================
+Epoch 0, Dev Acc: 50.0000
+Test Acc: 50.0000
+Epoch 1, Dev Acc: 55.0000
+Test Acc: 61.7500
+Epoch 2, Dev Acc: 55.0000
+Epoch 3, Dev Acc: 50.0000
+Epoch 4, Dev Acc: 50.0000
+Epoch 5, Dev Acc: 45.0000
+Epoch 6, Dev Acc: 45.0000
+Epoch 7, Dev Acc: 65.0000
+Test Acc: 71.6000
+Epoch 8, Dev Acc: 55.0000
+Epoch 9, Dev Acc: 55.0000
+Epoch 10, Dev Acc: 70.0000
+Test Acc: 67.3500
+Epoch 11, Dev Acc: 70.0000
+Epoch 12, Dev Acc: 65.0000
+Epoch 13, Dev Acc: 65.0000
+Epoch 14, Dev Acc: 70.0000
+Final Dev Acc: 70.0000, Final Test Acc: 67.3500
+Files already downloaded and verified
+number of examples with label '0': 50
+number of examples with label '1': 1000
+Files already downloaded and verified
+number of examples with label '0': 10
+number of examples with label '1': 10
+Files already downloaded and verified
+#train: 1050
+#dev: 20
+#test: 2000
+============================================================
+Pre-Training
+============================================================
+============================================================
+Training
+============================================================
+Epoch 0, Dev Acc: 55.0000
+Test Acc: 62.7500
+Epoch 1, Dev Acc: 85.0000
+Test Acc: 86.5000
+Epoch 2, Dev Acc: 80.0000
+Epoch 3, Dev Acc: 80.0000
+Epoch 4, Dev Acc: 85.0000
+Epoch 5, Dev Acc: 85.0000
+Epoch 6, Dev Acc: 90.0000
+Test Acc: 87.1000
+Epoch 7, Dev Acc: 95.0000
+Test Acc: 84.7000
+Epoch 8, Dev Acc: 50.0000
+Epoch 9, Dev Acc: 75.0000
+Epoch 10, Dev Acc: 75.0000
+Epoch 11, Dev Acc: 80.0000
+Epoch 12, Dev Acc: 70.0000
+Epoch 13, Dev Acc: 85.0000
+Epoch 14, Dev Acc: 85.0000
+Final Dev Acc: 95.0000, Final Test Acc: 84.7000

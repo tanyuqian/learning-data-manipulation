@@ -1,4 +1,6 @@
 import torch.nn as nn
+from torch.nn import functional as F
+from torch.nn.modules.utils import _pair
 
 from pytorch_pretrained_bert.modeling import BertSelfAttention
 
@@ -12,8 +14,11 @@ class MagicModule(nn.Module):
         self._type = type(module)
 
         for key, value in module._parameters.items():
-            self.register_parameter('_origin_' + key, value)
-            self.register_buffer(key, value.data)
+            if value is not None:
+                self.register_parameter('_origin_' + key, value)
+                self.register_buffer(key, value.data)
+            else:
+                self.register_buffer(key, None)
 
         for key, value in module._buffers.items():
             self.register_buffer(key, copy.deepcopy(value))
@@ -85,3 +90,21 @@ class MagicModule(nn.Module):
             self.num_attention_heads, self.attention_head_size)
         x = x.view(*new_x_shape)
         return x.permute(0, 2, 1, 3)
+
+    def conv2d_forward(self, input, weight):
+        assert issubclass(self._type, nn.Conv2d)
+
+        if self.padding_mode == 'circular':
+            expanded_padding = ((self.padding[1] + 1) // 2, self.padding[1] // 2,
+                                (self.padding[0] + 1) // 2, self.padding[0] // 2)
+            return F.conv2d(F.pad(input, expanded_padding, mode='circular'),
+                            weight, self.bias, self.stride,
+                            _pair(0), self.dilation, self.groups)
+        return F.conv2d(input, weight, self.bias, self.stride,
+                        self.padding, self.dilation, self.groups)
+
+    def _check_input_dim(self, input):
+        assert issubclass(self._type, nn.BatchNorm2d)
+        if input.dim() != 4:
+            raise ValueError('expected 4D input (got {}D input)'
+                             .format(input.dim()))

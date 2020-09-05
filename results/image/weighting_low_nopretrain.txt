@@ -1,0 +1,1716 @@
+Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex.
+Files already downloaded and verified
+number of examples with label '0': 40
+number of examples with label '1': 40
+number of examples with label '2': 40
+number of examples with label '3': 40
+number of examples with label '4': 40
+number of examples with label '5': 40
+number of examples with label '6': 40
+number of examples with label '7': 40
+number of examples with label '8': 40
+number of examples with label '9': 40
+Files already downloaded and verified
+number of examples with label '0': 2
+number of examples with label '1': 2
+number of examples with label '2': 2
+number of examples with label '3': 2
+number of examples with label '4': 2
+number of examples with label '5': 2
+number of examples with label '6': 2
+number of examples with label '7': 2
+number of examples with label '8': 2
+number of examples with label '9': 2
+Files already downloaded and verified
+#train: 400
+#dev: 20
+#test: 10000
+============================================================
+Pre-Training
+============================================================
+Pretrain Epoch 0, Dev Acc: 15.0000
+Pretrain Epoch 1, Dev Acc: 5.0000
+Pretrain Epoch 2, Dev Acc: 20.0000
+Pretrain Epoch 3, Dev Acc: 15.0000
+Pretrain Epoch 4, Dev Acc: 25.0000
+============================================================
+Training
+============================================================
+Epoch 0, Dev Acc: 15.0000
+Test Acc: 21.4800
+Epoch 1, Dev Acc: 20.0000
+Test Acc: 23.4900
+Epoch 2, Dev Acc: 5.0000
+Epoch 3, Dev Acc: 10.0000
+Epoch 4, Dev Acc: 20.0000
+Epoch 5, Dev Acc: 10.0000
+Epoch 6, Dev Acc: 15.0000
+Epoch 7, Dev Acc: 15.0000
+Epoch 8, Dev Acc: 10.0000
+Epoch 9, Dev Acc: 5.0000
+Epoch 10, Dev Acc: 35.0000
+Test Acc: 26.1900
+Epoch 11, Dev Acc: 20.0000
+Epoch 12, Dev Acc: 20.0000
+Epoch 13, Dev Acc: 40.0000
+Test Acc: 27.3500
+Epoch 14, Dev Acc: 5.0000
+Final Dev Acc: 40.0000, Final Test Acc: 27.3500
+Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex.
+Files already downloaded and verified
+number of examples with label '0': 40
+number of examples with label '1': 40
+number of examples with label '2': 40
+number of examples with label '3': 40
+number of examples with label '4': 40
+number of examples with label '5': 40
+number of examples with label '6': 40
+number of examples with label '7': 40
+number of examples with label '8': 40
+number of examples with label '9': 40
+Files already downloaded and verified
+number of examples with label '0': 2
+number of examples with label '1': 2
+number of examples with label '2': 2
+number of examples with label '3': 2
+number of examples with label '4': 2
+number of examples with label '5': 2
+number of examples with label '6': 2
+number of examples with label '7': 2
+number of examples with label '8': 2
+number of examples with label '9': 2
+Files already downloaded and verified
+#train: 400
+#dev: 20
+#test: 10000
+============================================================
+Pre-Training
+============================================================
+Pretrain Epoch 0, Dev Acc: 15.0000
+Pretrain Epoch 1, Dev Acc: 10.0000
+Pretrain Epoch 2, Dev Acc: 5.0000
+Pretrain Epoch 3, Dev Acc: 5.0000
+Pretrain Epoch 4, Dev Acc: 15.0000
+============================================================
+Training
+============================================================
+Epoch 0, Dev Acc: 10.0000
+Test Acc: 25.6200
+Epoch 1, Dev Acc: 20.0000
+Test Acc: 24.6500
+Epoch 2, Dev Acc: 25.0000
+Test Acc: 23.0100
+Epoch 3, Dev Acc: 15.0000
+Epoch 4, Dev Acc: 20.0000
+Epoch 5, Dev Acc: 20.0000
+Epoch 6, Dev Acc: 25.0000
+Epoch 7, Dev Acc: 20.0000
+Epoch 8, Dev Acc: 15.0000
+Epoch 9, Dev Acc: 25.0000
+Epoch 10, Dev Acc: 25.0000
+Epoch 11, Dev Acc: 20.0000
+Epoch 12, Dev Acc: 20.0000
+Epoch 13, Dev Acc: 25.0000
+Epoch 14, Dev Acc: 25.0000
+Final Dev Acc: 25.0000, Final Test Acc: 23.0100
+Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex.
+Files already downloaded and verified
+number of examples with label '0': 40
+number of examples with label '1': 40
+number of examples with label '2': 40
+number of examples with label '3': 40
+number of examples with label '4': 40
+number of examples with label '5': 40
+number of examples with label '6': 40
+number of examples with label '7': 40
+number of examples with label '8': 40
+number of examples with label '9': 40
+Files already downloaded and verified
+number of examples with label '0': 2
+number of examples with label '1': 2
+number of examples with label '2': 2
+number of examples with label '3': 2
+number of examples with label '4': 2
+number of examples with label '5': 2
+number of examples with label '6': 2
+number of examples with label '7': 2
+number of examples with label '8': 2
+number of examples with label '9': 2
+Files already downloaded and verified
+#train: 400
+#dev: 20
+#test: 10000
+============================================================
+Pre-Training
+============================================================
+Pretrain Epoch 0, Dev Acc: 0.0000
+Pretrain Epoch 1, Dev Acc: 30.0000
+Pretrain Epoch 2, Dev Acc: 10.0000
+Pretrain Epoch 3, Dev Acc: 15.0000
+Pretrain Epoch 4, Dev Acc: 15.0000
+============================================================
+Training
+============================================================
+Epoch 0, Dev Acc: 15.0000
+Test Acc: 24.4500
+Epoch 1, Dev Acc: 10.0000
+Epoch 2, Dev Acc: 15.0000
+Epoch 3, Dev Acc: 25.0000
+Test Acc: 25.5300
+Epoch 4, Dev Acc: 10.0000
+Epoch 5, Dev Acc: 25.0000
+Epoch 6, Dev Acc: 15.0000
+Epoch 7, Dev Acc: 35.0000
+Test Acc: 25.2700
+Epoch 8, Dev Acc: 20.0000
+Epoch 9, Dev Acc: 25.0000
+Epoch 10, Dev Acc: 15.0000
+Epoch 11, Dev Acc: 35.0000
+Epoch 12, Dev Acc: 15.0000
+Epoch 13, Dev Acc: 15.0000
+Epoch 14, Dev Acc: 35.0000
+Final Dev Acc: 35.0000, Final Test Acc: 25.2700
+Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex.
+Files already downloaded and verified
+number of examples with label '0': 40
+number of examples with label '1': 40
+number of examples with label '2': 40
+number of examples with label '3': 40
+number of examples with label '4': 40
+number of examples with label '5': 40
+number of examples with label '6': 40
+number of examples with label '7': 40
+number of examples with label '8': 40
+number of examples with label '9': 40
+Files already downloaded and verified
+number of examples with label '0': 2
+number of examples with label '1': 2
+number of examples with label '2': 2
+number of examples with label '3': 2
+number of examples with label '4': 2
+number of examples with label '5': 2
+number of examples with label '6': 2
+number of examples with label '7': 2
+number of examples with label '8': 2
+number of examples with label '9': 2
+Files already downloaded and verified
+#train: 400
+#dev: 20
+#test: 10000
+============================================================
+Pre-Training
+============================================================
+Pretrain Epoch 0, Dev Acc: 10.0000
+Pretrain Epoch 1, Dev Acc: 15.0000
+Pretrain Epoch 2, Dev Acc: 20.0000
+Pretrain Epoch 3, Dev Acc: 20.0000
+Pretrain Epoch 4, Dev Acc: 5.0000
+============================================================
+Training
+============================================================
+Epoch 0, Dev Acc: 10.0000
+Test Acc: 20.9800
+Epoch 1, Dev Acc: 5.0000
+Epoch 2, Dev Acc: 10.0000
+Epoch 3, Dev Acc: 5.0000
+Epoch 4, Dev Acc: 15.0000
+Test Acc: 24.5600
+Epoch 5, Dev Acc: 15.0000
+Epoch 6, Dev Acc: 10.0000
+Epoch 7, Dev Acc: 30.0000
+Test Acc: 27.4000
+Epoch 8, Dev Acc: 15.0000
+Epoch 9, Dev Acc: 15.0000
+Epoch 10, Dev Acc: 10.0000
+Epoch 11, Dev Acc: 15.0000
+Epoch 12, Dev Acc: 20.0000
+Epoch 13, Dev Acc: 25.0000
+Epoch 14, Dev Acc: 25.0000
+Final Dev Acc: 30.0000, Final Test Acc: 27.4000
+Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex.
+Files already downloaded and verified
+number of examples with label '0': 40
+number of examples with label '1': 40
+number of examples with label '2': 40
+number of examples with label '3': 40
+number of examples with label '4': 40
+number of examples with label '5': 40
+number of examples with label '6': 40
+number of examples with label '7': 40
+number of examples with label '8': 40
+number of examples with label '9': 40
+Files already downloaded and verified
+number of examples with label '0': 2
+number of examples with label '1': 2
+number of examples with label '2': 2
+number of examples with label '3': 2
+number of examples with label '4': 2
+number of examples with label '5': 2
+number of examples with label '6': 2
+number of examples with label '7': 2
+number of examples with label '8': 2
+number of examples with label '9': 2
+Files already downloaded and verified
+#train: 400
+#dev: 20
+#test: 10000
+============================================================
+Pre-Training
+============================================================
+Pretrain Epoch 0, Dev Acc: 10.0000
+Pretrain Epoch 1, Dev Acc: 30.0000
+Pretrain Epoch 2, Dev Acc: 20.0000
+Pretrain Epoch 3, Dev Acc: 15.0000
+Pretrain Epoch 4, Dev Acc: 15.0000
+============================================================
+Training
+============================================================
+Epoch 0, Dev Acc: 25.0000
+Test Acc: 23.6400
+Epoch 1, Dev Acc: 30.0000
+Test Acc: 25.6200
+Epoch 2, Dev Acc: 10.0000
+Epoch 3, Dev Acc: 15.0000
+Epoch 4, Dev Acc: 30.0000
+Epoch 5, Dev Acc: 25.0000
+Epoch 6, Dev Acc: 15.0000
+Epoch 7, Dev Acc: 10.0000
+Epoch 8, Dev Acc: 15.0000
+Epoch 9, Dev Acc: 20.0000
+Epoch 10, Dev Acc: 25.0000
+Epoch 11, Dev Acc: 15.0000
+Epoch 12, Dev Acc: 10.0000
+Epoch 13, Dev Acc: 20.0000
+Epoch 14, Dev Acc: 20.0000
+Final Dev Acc: 30.0000, Final Test Acc: 25.6200
+Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex.
+Files already downloaded and verified
+number of examples with label '0': 40
+number of examples with label '1': 40
+number of examples with label '2': 40
+number of examples with label '3': 40
+number of examples with label '4': 40
+number of examples with label '5': 40
+number of examples with label '6': 40
+number of examples with label '7': 40
+number of examples with label '8': 40
+number of examples with label '9': 40
+Files already downloaded and verified
+number of examples with label '0': 2
+number of examples with label '1': 2
+number of examples with label '2': 2
+number of examples with label '3': 2
+number of examples with label '4': 2
+number of examples with label '5': 2
+number of examples with label '6': 2
+number of examples with label '7': 2
+number of examples with label '8': 2
+number of examples with label '9': 2
+Files already downloaded and verified
+#train: 400
+#dev: 20
+#test: 10000
+============================================================
+Pre-Training
+============================================================
+Pretrain Epoch 0, Dev Acc: 10.0000
+Pretrain Epoch 1, Dev Acc: 25.0000
+Pretrain Epoch 2, Dev Acc: 10.0000
+Pretrain Epoch 3, Dev Acc: 5.0000
+Pretrain Epoch 4, Dev Acc: 15.0000
+============================================================
+Training
+============================================================
+Epoch 0, Dev Acc: 20.0000
+Test Acc: 22.5300
+Epoch 1, Dev Acc: 5.0000
+Epoch 2, Dev Acc: 30.0000
+Test Acc: 25.5100
+Epoch 3, Dev Acc: 15.0000
+Epoch 4, Dev Acc: 15.0000
+Epoch 5, Dev Acc: 15.0000
+Epoch 6, Dev Acc: 25.0000
+Epoch 7, Dev Acc: 20.0000
+Epoch 8, Dev Acc: 10.0000
+Epoch 9, Dev Acc: 20.0000
+Epoch 10, Dev Acc: 20.0000
+Epoch 11, Dev Acc: 15.0000
+Epoch 12, Dev Acc: 25.0000
+Epoch 13, Dev Acc: 25.0000
+Epoch 14, Dev Acc: 25.0000
+Final Dev Acc: 30.0000, Final Test Acc: 25.5100
+Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex.
+Files already downloaded and verified
+number of examples with label '0': 40
+number of examples with label '1': 40
+number of examples with label '2': 40
+number of examples with label '3': 40
+number of examples with label '4': 40
+number of examples with label '5': 40
+number of examples with label '6': 40
+number of examples with label '7': 40
+number of examples with label '8': 40
+number of examples with label '9': 40
+Files already downloaded and verified
+number of examples with label '0': 2
+number of examples with label '1': 2
+number of examples with label '2': 2
+number of examples with label '3': 2
+number of examples with label '4': 2
+number of examples with label '5': 2
+number of examples with label '6': 2
+number of examples with label '7': 2
+number of examples with label '8': 2
+number of examples with label '9': 2
+Files already downloaded and verified
+#train: 400
+#dev: 20
+#test: 10000
+============================================================
+Pre-Training
+============================================================
+Pretrain Epoch 0, Dev Acc: 15.0000
+Pretrain Epoch 1, Dev Acc: 15.0000
+Pretrain Epoch 2, Dev Acc: 20.0000
+Pretrain Epoch 3, Dev Acc: 10.0000
+Pretrain Epoch 4, Dev Acc: 10.0000
+============================================================
+Training
+============================================================
+Epoch 0, Dev Acc: 20.0000
+Test Acc: 24.8500
+Epoch 1, Dev Acc: 10.0000
+Epoch 2, Dev Acc: 15.0000
+Epoch 3, Dev Acc: 30.0000
+Test Acc: 26.6700
+Epoch 4, Dev Acc: 20.0000
+Epoch 5, Dev Acc: 25.0000
+Epoch 6, Dev Acc: 20.0000
+Epoch 7, Dev Acc: 25.0000
+Epoch 8, Dev Acc: 35.0000
+Test Acc: 27.7400
+Epoch 9, Dev Acc: 25.0000
+Epoch 10, Dev Acc: 25.0000
+Epoch 11, Dev Acc: 30.0000
+Epoch 12, Dev Acc: 25.0000
+Epoch 13, Dev Acc: 30.0000
+Epoch 14, Dev Acc: 30.0000
+Final Dev Acc: 35.0000, Final Test Acc: 27.7400
+Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex.
+Files already downloaded and verified
+number of examples with label '0': 40
+number of examples with label '1': 40
+number of examples with label '2': 40
+number of examples with label '3': 40
+number of examples with label '4': 40
+number of examples with label '5': 40
+number of examples with label '6': 40
+number of examples with label '7': 40
+number of examples with label '8': 40
+number of examples with label '9': 40
+Files already downloaded and verified
+number of examples with label '0': 2
+number of examples with label '1': 2
+number of examples with label '2': 2
+number of examples with label '3': 2
+number of examples with label '4': 2
+number of examples with label '5': 2
+number of examples with label '6': 2
+number of examples with label '7': 2
+number of examples with label '8': 2
+number of examples with label '9': 2
+Files already downloaded and verified
+#train: 400
+#dev: 20
+#test: 10000
+============================================================
+Pre-Training
+============================================================
+Pretrain Epoch 0, Dev Acc: 5.0000
+Pretrain Epoch 1, Dev Acc: 20.0000
+Pretrain Epoch 2, Dev Acc: 5.0000
+Pretrain Epoch 3, Dev Acc: 20.0000
+Pretrain Epoch 4, Dev Acc: 15.0000
+============================================================
+Training
+============================================================
+Epoch 0, Dev Acc: 10.0000
+Test Acc: 24.3700
+Epoch 1, Dev Acc: 20.0000
+Test Acc: 24.4000
+Epoch 2, Dev Acc: 20.0000
+Epoch 3, Dev Acc: 20.0000
+Epoch 4, Dev Acc: 10.0000
+Epoch 5, Dev Acc: 25.0000
+Test Acc: 22.4000
+Epoch 6, Dev Acc: 35.0000
+Test Acc: 25.5200
+Epoch 7, Dev Acc: 30.0000
+Epoch 8, Dev Acc: 25.0000
+Epoch 9, Dev Acc: 30.0000
+Epoch 10, Dev Acc: 30.0000
+Epoch 11, Dev Acc: 15.0000
+Epoch 12, Dev Acc: 25.0000
+Epoch 13, Dev Acc: 25.0000
+Epoch 14, Dev Acc: 25.0000
+Final Dev Acc: 35.0000, Final Test Acc: 25.5200
+Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex.
+Files already downloaded and verified
+number of examples with label '0': 40
+number of examples with label '1': 40
+number of examples with label '2': 40
+number of examples with label '3': 40
+number of examples with label '4': 40
+number of examples with label '5': 40
+number of examples with label '6': 40
+number of examples with label '7': 40
+number of examples with label '8': 40
+number of examples with label '9': 40
+Files already downloaded and verified
+number of examples with label '0': 2
+number of examples with label '1': 2
+number of examples with label '2': 2
+number of examples with label '3': 2
+number of examples with label '4': 2
+number of examples with label '5': 2
+number of examples with label '6': 2
+number of examples with label '7': 2
+number of examples with label '8': 2
+number of examples with label '9': 2
+Files already downloaded and verified
+#train: 400
+#dev: 20
+#test: 10000
+============================================================
+Pre-Training
+============================================================
+Pretrain Epoch 0, Dev Acc: 30.0000
+Pretrain Epoch 1, Dev Acc: 25.0000
+Pretrain Epoch 2, Dev Acc: 5.0000
+Pretrain Epoch 3, Dev Acc: 15.0000
+Pretrain Epoch 4, Dev Acc: 15.0000
+============================================================
+Training
+============================================================
+Epoch 0, Dev Acc: 30.0000
+Test Acc: 25.5600
+Epoch 1, Dev Acc: 25.0000
+Epoch 2, Dev Acc: 10.0000
+Epoch 3, Dev Acc: 10.0000
+Epoch 4, Dev Acc: 20.0000
+Epoch 5, Dev Acc: 25.0000
+Epoch 6, Dev Acc: 25.0000
+Epoch 7, Dev Acc: 5.0000
+Epoch 8, Dev Acc: 30.0000
+Epoch 9, Dev Acc: 30.0000
+Epoch 10, Dev Acc: 35.0000
+Test Acc: 26.6500
+Epoch 11, Dev Acc: 40.0000
+Test Acc: 27.3400
+Epoch 12, Dev Acc: 40.0000
+Epoch 13, Dev Acc: 15.0000
+Epoch 14, Dev Acc: 15.0000
+Final Dev Acc: 40.0000, Final Test Acc: 27.3400
+Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex.
+Files already downloaded and verified
+number of examples with label '0': 40
+number of examples with label '1': 40
+number of examples with label '2': 40
+number of examples with label '3': 40
+number of examples with label '4': 40
+number of examples with label '5': 40
+number of examples with label '6': 40
+number of examples with label '7': 40
+number of examples with label '8': 40
+number of examples with label '9': 40
+Files already downloaded and verified
+number of examples with label '0': 2
+number of examples with label '1': 2
+number of examples with label '2': 2
+number of examples with label '3': 2
+number of examples with label '4': 2
+number of examples with label '5': 2
+number of examples with label '6': 2
+number of examples with label '7': 2
+number of examples with label '8': 2
+number of examples with label '9': 2
+Files already downloaded and verified
+#train: 400
+#dev: 20
+#test: 10000
+============================================================
+Pre-Training
+============================================================
+Pretrain Epoch 0, Dev Acc: 5.0000
+Pretrain Epoch 1, Dev Acc: 15.0000
+Pretrain Epoch 2, Dev Acc: 25.0000
+Pretrain Epoch 3, Dev Acc: 20.0000
+Pretrain Epoch 4, Dev Acc: 15.0000
+============================================================
+Training
+============================================================
+Epoch 0, Dev Acc: 15.0000
+Test Acc: 25.3500
+Epoch 1, Dev Acc: 20.0000
+Test Acc: 24.3600
+Epoch 2, Dev Acc: 20.0000
+Epoch 3, Dev Acc: 30.0000
+Test Acc: 25.8600
+Epoch 4, Dev Acc: 15.0000
+Epoch 5, Dev Acc: 20.0000
+Epoch 6, Dev Acc: 25.0000
+Epoch 7, Dev Acc: 30.0000
+Epoch 8, Dev Acc: 30.0000
+Epoch 9, Dev Acc: 20.0000
+Epoch 10, Dev Acc: 40.0000
+Test Acc: 24.1700
+Epoch 11, Dev Acc: 35.0000
+Epoch 12, Dev Acc: 35.0000
+Epoch 13, Dev Acc: 35.0000
+Epoch 14, Dev Acc: 35.0000
+Final Dev Acc: 40.0000, Final Test Acc: 24.1700
+Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex.
+Files already downloaded and verified
+number of examples with label '0': 40
+number of examples with label '1': 40
+number of examples with label '2': 40
+number of examples with label '3': 40
+number of examples with label '4': 40
+number of examples with label '5': 40
+number of examples with label '6': 40
+number of examples with label '7': 40
+number of examples with label '8': 40
+number of examples with label '9': 40
+Files already downloaded and verified
+number of examples with label '0': 2
+number of examples with label '1': 2
+number of examples with label '2': 2
+number of examples with label '3': 2
+number of examples with label '4': 2
+number of examples with label '5': 2
+number of examples with label '6': 2
+number of examples with label '7': 2
+number of examples with label '8': 2
+number of examples with label '9': 2
+Files already downloaded and verified
+#train: 400
+#dev: 20
+#test: 10000
+============================================================
+Pre-Training
+============================================================
+Pretrain Epoch 0, Dev Acc: 10.0000
+Pretrain Epoch 1, Dev Acc: 10.0000
+Pretrain Epoch 2, Dev Acc: 10.0000
+Pretrain Epoch 3, Dev Acc: 15.0000
+Pretrain Epoch 4, Dev Acc: 10.0000
+============================================================
+Training
+============================================================
+Epoch 0, Dev Acc: 5.0000
+Test Acc: 23.3000
+Epoch 1, Dev Acc: 15.0000
+Test Acc: 25.7800
+Epoch 2, Dev Acc: 15.0000
+Epoch 3, Dev Acc: 10.0000
+Epoch 4, Dev Acc: 20.0000
+Test Acc: 23.9800
+Epoch 5, Dev Acc: 20.0000
+Epoch 6, Dev Acc: 25.0000
+Test Acc: 25.5700
+Epoch 7, Dev Acc: 25.0000
+Epoch 8, Dev Acc: 20.0000
+Epoch 9, Dev Acc: 30.0000
+Test Acc: 29.0100
+Epoch 10, Dev Acc: 20.0000
+Epoch 11, Dev Acc: 15.0000
+Epoch 12, Dev Acc: 20.0000
+Epoch 13, Dev Acc: 15.0000
+Epoch 14, Dev Acc: 10.0000
+Final Dev Acc: 30.0000, Final Test Acc: 29.0100
+Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex.
+Files already downloaded and verified
+number of examples with label '0': 40
+number of examples with label '1': 40
+number of examples with label '2': 40
+number of examples with label '3': 40
+number of examples with label '4': 40
+number of examples with label '5': 40
+number of examples with label '6': 40
+number of examples with label '7': 40
+number of examples with label '8': 40
+number of examples with label '9': 40
+Files already downloaded and verified
+number of examples with label '0': 2
+number of examples with label '1': 2
+number of examples with label '2': 2
+number of examples with label '3': 2
+number of examples with label '4': 2
+number of examples with label '5': 2
+number of examples with label '6': 2
+number of examples with label '7': 2
+number of examples with label '8': 2
+number of examples with label '9': 2
+Files already downloaded and verified
+#train: 400
+#dev: 20
+#test: 10000
+============================================================
+Pre-Training
+============================================================
+Pretrain Epoch 0, Dev Acc: 10.0000
+Pretrain Epoch 1, Dev Acc: 15.0000
+Pretrain Epoch 2, Dev Acc: 10.0000
+Pretrain Epoch 3, Dev Acc: 30.0000
+Pretrain Epoch 4, Dev Acc: 20.0000
+============================================================
+Training
+============================================================
+Epoch 0, Dev Acc: 30.0000
+Test Acc: 22.4500
+Epoch 1, Dev Acc: 15.0000
+Epoch 2, Dev Acc: 5.0000
+Epoch 3, Dev Acc: 20.0000
+Epoch 4, Dev Acc: 30.0000
+Epoch 5, Dev Acc: 20.0000
+Epoch 6, Dev Acc: 20.0000
+Epoch 7, Dev Acc: 25.0000
+Epoch 8, Dev Acc: 25.0000
+Epoch 9, Dev Acc: 15.0000
+Epoch 10, Dev Acc: 20.0000
+Epoch 11, Dev Acc: 25.0000
+Epoch 12, Dev Acc: 25.0000
+Epoch 13, Dev Acc: 25.0000
+Epoch 14, Dev Acc: 25.0000
+Final Dev Acc: 30.0000, Final Test Acc: 22.4500
+Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex.
+Files already downloaded and verified
+number of examples with label '0': 40
+number of examples with label '1': 40
+number of examples with label '2': 40
+number of examples with label '3': 40
+number of examples with label '4': 40
+number of examples with label '5': 40
+number of examples with label '6': 40
+number of examples with label '7': 40
+number of examples with label '8': 40
+number of examples with label '9': 40
+Files already downloaded and verified
+number of examples with label '0': 2
+number of examples with label '1': 2
+number of examples with label '2': 2
+number of examples with label '3': 2
+number of examples with label '4': 2
+number of examples with label '5': 2
+number of examples with label '6': 2
+number of examples with label '7': 2
+number of examples with label '8': 2
+number of examples with label '9': 2
+Files already downloaded and verified
+#train: 400
+#dev: 20
+#test: 10000
+============================================================
+Pre-Training
+============================================================
+Pretrain Epoch 0, Dev Acc: 10.0000
+Pretrain Epoch 1, Dev Acc: 20.0000
+Pretrain Epoch 2, Dev Acc: 15.0000
+Pretrain Epoch 3, Dev Acc: 10.0000
+Pretrain Epoch 4, Dev Acc: 30.0000
+============================================================
+Training
+============================================================
+Epoch 0, Dev Acc: 10.0000
+Test Acc: 21.8900
+Epoch 1, Dev Acc: 15.0000
+Test Acc: 23.9000
+Epoch 2, Dev Acc: 20.0000
+Test Acc: 23.0100
+Epoch 3, Dev Acc: 10.0000
+Epoch 4, Dev Acc: 15.0000
+Epoch 5, Dev Acc: 25.0000
+Test Acc: 25.9500
+Epoch 6, Dev Acc: 25.0000
+Epoch 7, Dev Acc: 20.0000
+Epoch 8, Dev Acc: 25.0000
+Epoch 9, Dev Acc: 35.0000
+Test Acc: 25.8100
+Epoch 10, Dev Acc: 20.0000
+Epoch 11, Dev Acc: 25.0000
+Epoch 12, Dev Acc: 25.0000
+Epoch 13, Dev Acc: 20.0000
+Epoch 14, Dev Acc: 15.0000
+Final Dev Acc: 35.0000, Final Test Acc: 25.8100
+Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex.
+Files already downloaded and verified
+number of examples with label '0': 40
+number of examples with label '1': 40
+number of examples with label '2': 40
+number of examples with label '3': 40
+number of examples with label '4': 40
+number of examples with label '5': 40
+number of examples with label '6': 40
+number of examples with label '7': 40
+number of examples with label '8': 40
+number of examples with label '9': 40
+Files already downloaded and verified
+number of examples with label '0': 2
+number of examples with label '1': 2
+number of examples with label '2': 2
+number of examples with label '3': 2
+number of examples with label '4': 2
+number of examples with label '5': 2
+number of examples with label '6': 2
+number of examples with label '7': 2
+number of examples with label '8': 2
+number of examples with label '9': 2
+Files already downloaded and verified
+#train: 400
+#dev: 20
+#test: 10000
+============================================================
+Pre-Training
+============================================================
+Pretrain Epoch 0, Dev Acc: 20.0000
+Pretrain Epoch 1, Dev Acc: 20.0000
+Pretrain Epoch 2, Dev Acc: 15.0000
+Pretrain Epoch 3, Dev Acc: 15.0000
+Pretrain Epoch 4, Dev Acc: 10.0000
+============================================================
+Training
+============================================================
+Epoch 0, Dev Acc: 15.0000
+Test Acc: 22.6700
+Epoch 1, Dev Acc: 25.0000
+Test Acc: 23.4300
+Epoch 2, Dev Acc: 15.0000
+Epoch 3, Dev Acc: 20.0000
+Epoch 4, Dev Acc: 20.0000
+Epoch 5, Dev Acc: 25.0000
+Epoch 6, Dev Acc: 20.0000
+Epoch 7, Dev Acc: 20.0000
+Epoch 8, Dev Acc: 35.0000
+Test Acc: 26.5300
+Epoch 9, Dev Acc: 20.0000
+Epoch 10, Dev Acc: 25.0000
+Epoch 11, Dev Acc: 15.0000
+Epoch 12, Dev Acc: 15.0000
+Epoch 13, Dev Acc: 10.0000
+Epoch 14, Dev Acc: 20.0000
+Final Dev Acc: 35.0000, Final Test Acc: 26.5300
+Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex.
+Files already downloaded and verified
+number of examples with label '0': 40
+number of examples with label '1': 40
+number of examples with label '2': 40
+number of examples with label '3': 40
+number of examples with label '4': 40
+number of examples with label '5': 40
+number of examples with label '6': 40
+number of examples with label '7': 40
+number of examples with label '8': 40
+number of examples with label '9': 40
+Files already downloaded and verified
+number of examples with label '0': 2
+number of examples with label '1': 2
+number of examples with label '2': 2
+number of examples with label '3': 2
+number of examples with label '4': 2
+number of examples with label '5': 2
+number of examples with label '6': 2
+number of examples with label '7': 2
+number of examples with label '8': 2
+number of examples with label '9': 2
+Files already downloaded and verified
+#train: 400
+#dev: 20
+#test: 10000
+============================================================
+Pre-Training
+============================================================
+Pretrain Epoch 0, Dev Acc: 25.0000
+Pretrain Epoch 1, Dev Acc: 25.0000
+Pretrain Epoch 2, Dev Acc: 15.0000
+Pretrain Epoch 3, Dev Acc: 10.0000
+Pretrain Epoch 4, Dev Acc: 10.0000
+============================================================
+Training
+============================================================
+Epoch 0, Dev Acc: 15.0000
+Test Acc: 22.6700
+Epoch 1, Dev Acc: 25.0000
+Test Acc: 26.9500
+Epoch 2, Dev Acc: 15.0000
+Epoch 3, Dev Acc: 20.0000
+Epoch 4, Dev Acc: 20.0000
+Epoch 5, Dev Acc: 20.0000
+Epoch 6, Dev Acc: 15.0000
+Epoch 7, Dev Acc: 25.0000
+Epoch 8, Dev Acc: 20.0000
+Epoch 9, Dev Acc: 20.0000
+Epoch 10, Dev Acc: 35.0000
+Test Acc: 28.0800
+Epoch 11, Dev Acc: 25.0000
+Epoch 12, Dev Acc: 30.0000
+Epoch 13, Dev Acc: 25.0000
+Epoch 14, Dev Acc: 30.0000
+Final Dev Acc: 35.0000, Final Test Acc: 28.0800
+Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex.
+Files already downloaded and verified
+number of examples with label '0': 40
+number of examples with label '1': 40
+number of examples with label '2': 40
+number of examples with label '3': 40
+number of examples with label '4': 40
+number of examples with label '5': 40
+number of examples with label '6': 40
+number of examples with label '7': 40
+number of examples with label '8': 40
+number of examples with label '9': 40
+Files already downloaded and verified
+number of examples with label '0': 2
+number of examples with label '1': 2
+number of examples with label '2': 2
+number of examples with label '3': 2
+number of examples with label '4': 2
+number of examples with label '5': 2
+number of examples with label '6': 2
+number of examples with label '7': 2
+number of examples with label '8': 2
+number of examples with label '9': 2
+Files already downloaded and verified
+#train: 400
+#dev: 20
+#test: 10000
+============================================================
+Pre-Training
+============================================================
+Pretrain Epoch 0, Dev Acc: 15.0000
+Pretrain Epoch 1, Dev Acc: 10.0000
+Pretrain Epoch 2, Dev Acc: 15.0000
+Pretrain Epoch 3, Dev Acc: 25.0000
+Pretrain Epoch 4, Dev Acc: 10.0000
+============================================================
+Training
+============================================================
+Epoch 0, Dev Acc: 15.0000
+Test Acc: 23.7600
+Epoch 1, Dev Acc: 30.0000
+Test Acc: 25.4200
+Epoch 2, Dev Acc: 30.0000
+Epoch 3, Dev Acc: 25.0000
+Epoch 4, Dev Acc: 35.0000
+Test Acc: 24.1800
+Epoch 5, Dev Acc: 25.0000
+Epoch 6, Dev Acc: 15.0000
+Epoch 7, Dev Acc: 30.0000
+Epoch 8, Dev Acc: 35.0000
+Epoch 9, Dev Acc: 25.0000
+Epoch 10, Dev Acc: 20.0000
+Epoch 11, Dev Acc: 30.0000
+Epoch 12, Dev Acc: 25.0000
+Epoch 13, Dev Acc: 35.0000
+Epoch 14, Dev Acc: 40.0000
+Test Acc: 29.7400
+Final Dev Acc: 40.0000, Final Test Acc: 29.7400
+Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex.
+Files already downloaded and verified
+number of examples with label '0': 40
+number of examples with label '1': 40
+number of examples with label '2': 40
+number of examples with label '3': 40
+number of examples with label '4': 40
+number of examples with label '5': 40
+number of examples with label '6': 40
+number of examples with label '7': 40
+number of examples with label '8': 40
+number of examples with label '9': 40
+Files already downloaded and verified
+number of examples with label '0': 2
+number of examples with label '1': 2
+number of examples with label '2': 2
+number of examples with label '3': 2
+number of examples with label '4': 2
+number of examples with label '5': 2
+number of examples with label '6': 2
+number of examples with label '7': 2
+number of examples with label '8': 2
+number of examples with label '9': 2
+Files already downloaded and verified
+#train: 400
+#dev: 20
+#test: 10000
+============================================================
+Pre-Training
+============================================================
+Pretrain Epoch 0, Dev Acc: 25.0000
+Pretrain Epoch 1, Dev Acc: 10.0000
+Pretrain Epoch 2, Dev Acc: 10.0000
+Pretrain Epoch 3, Dev Acc: 15.0000
+Pretrain Epoch 4, Dev Acc: 10.0000
+============================================================
+Training
+============================================================
+Epoch 0, Dev Acc: 25.0000
+Test Acc: 24.6800
+Epoch 1, Dev Acc: 35.0000
+Test Acc: 24.0800
+Epoch 2, Dev Acc: 25.0000
+Epoch 3, Dev Acc: 20.0000
+Epoch 4, Dev Acc: 25.0000
+Epoch 5, Dev Acc: 15.0000
+Epoch 6, Dev Acc: 25.0000
+Epoch 7, Dev Acc: 20.0000
+Epoch 8, Dev Acc: 20.0000
+Epoch 9, Dev Acc: 30.0000
+Epoch 10, Dev Acc: 20.0000
+Epoch 11, Dev Acc: 30.0000
+Epoch 12, Dev Acc: 35.0000
+Epoch 13, Dev Acc: 40.0000
+Test Acc: 25.9600
+Epoch 14, Dev Acc: 15.0000
+Final Dev Acc: 40.0000, Final Test Acc: 25.9600
+Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex.
+Files already downloaded and verified
+number of examples with label '0': 40
+number of examples with label '1': 40
+number of examples with label '2': 40
+number of examples with label '3': 40
+number of examples with label '4': 40
+number of examples with label '5': 40
+number of examples with label '6': 40
+number of examples with label '7': 40
+number of examples with label '8': 40
+number of examples with label '9': 40
+Files already downloaded and verified
+number of examples with label '0': 2
+number of examples with label '1': 2
+number of examples with label '2': 2
+number of examples with label '3': 2
+number of examples with label '4': 2
+number of examples with label '5': 2
+number of examples with label '6': 2
+number of examples with label '7': 2
+number of examples with label '8': 2
+number of examples with label '9': 2
+Files already downloaded and verified
+#train: 400
+#dev: 20
+#test: 10000
+============================================================
+Pre-Training
+============================================================
+Pretrain Epoch 0, Dev Acc: 15.0000
+Pretrain Epoch 1, Dev Acc: 10.0000
+Pretrain Epoch 2, Dev Acc: 10.0000
+Pretrain Epoch 3, Dev Acc: 15.0000
+Pretrain Epoch 4, Dev Acc: 25.0000
+============================================================
+Training
+============================================================
+Epoch 0, Dev Acc: 20.0000
+Test Acc: 21.3000
+Epoch 1, Dev Acc: 20.0000
+Epoch 2, Dev Acc: 35.0000
+Test Acc: 23.5100
+Epoch 3, Dev Acc: 15.0000
+Epoch 4, Dev Acc: 20.0000
+Epoch 5, Dev Acc: 20.0000
+Epoch 6, Dev Acc: 20.0000
+Epoch 7, Dev Acc: 5.0000
+Epoch 8, Dev Acc: 25.0000
+Epoch 9, Dev Acc: 30.0000
+Epoch 10, Dev Acc: 10.0000
+Epoch 11, Dev Acc: 25.0000
+Epoch 12, Dev Acc: 20.0000
+Epoch 13, Dev Acc: 30.0000
+Epoch 14, Dev Acc: 15.0000
+Final Dev Acc: 35.0000, Final Test Acc: 23.5100
+Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex.
+Files already downloaded and verified
+number of examples with label '0': 40
+number of examples with label '1': 40
+number of examples with label '2': 40
+number of examples with label '3': 40
+number of examples with label '4': 40
+number of examples with label '5': 40
+number of examples with label '6': 40
+number of examples with label '7': 40
+number of examples with label '8': 40
+number of examples with label '9': 40
+Files already downloaded and verified
+number of examples with label '0': 2
+number of examples with label '1': 2
+number of examples with label '2': 2
+number of examples with label '3': 2
+number of examples with label '4': 2
+number of examples with label '5': 2
+number of examples with label '6': 2
+number of examples with label '7': 2
+number of examples with label '8': 2
+number of examples with label '9': 2
+Files already downloaded and verified
+#train: 400
+#dev: 20
+#test: 10000
+============================================================
+Pre-Training
+============================================================
+Pretrain Epoch 0, Dev Acc: 15.0000
+Pretrain Epoch 1, Dev Acc: 10.0000
+Pretrain Epoch 2, Dev Acc: 15.0000
+Pretrain Epoch 3, Dev Acc: 20.0000
+Pretrain Epoch 4, Dev Acc: 10.0000
+============================================================
+Training
+============================================================
+Epoch 0, Dev Acc: 20.0000
+Test Acc: 28.7700
+Epoch 1, Dev Acc: 30.0000
+Test Acc: 26.0600
+Epoch 2, Dev Acc: 40.0000
+Test Acc: 26.7200
+Epoch 3, Dev Acc: 20.0000
+Epoch 4, Dev Acc: 25.0000
+Epoch 5, Dev Acc: 25.0000
+Epoch 6, Dev Acc: 30.0000
+Epoch 7, Dev Acc: 25.0000
+Epoch 8, Dev Acc: 45.0000
+Test Acc: 26.0000
+Epoch 9, Dev Acc: 35.0000
+Epoch 10, Dev Acc: 35.0000
+Epoch 11, Dev Acc: 40.0000
+Epoch 12, Dev Acc: 25.0000
+Epoch 13, Dev Acc: 35.0000
+Epoch 14, Dev Acc: 30.0000
+Final Dev Acc: 45.0000, Final Test Acc: 26.0000
+Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex.
+Files already downloaded and verified
+number of examples with label '0': 40
+number of examples with label '1': 40
+number of examples with label '2': 40
+number of examples with label '3': 40
+number of examples with label '4': 40
+number of examples with label '5': 40
+number of examples with label '6': 40
+number of examples with label '7': 40
+number of examples with label '8': 40
+number of examples with label '9': 40
+Files already downloaded and verified
+number of examples with label '0': 2
+number of examples with label '1': 2
+number of examples with label '2': 2
+number of examples with label '3': 2
+number of examples with label '4': 2
+number of examples with label '5': 2
+number of examples with label '6': 2
+number of examples with label '7': 2
+number of examples with label '8': 2
+number of examples with label '9': 2
+Files already downloaded and verified
+#train: 400
+#dev: 20
+#test: 10000
+============================================================
+Pre-Training
+============================================================
+Pretrain Epoch 0, Dev Acc: 15.0000
+Pretrain Epoch 1, Dev Acc: 15.0000
+Pretrain Epoch 2, Dev Acc: 15.0000
+Pretrain Epoch 3, Dev Acc: 20.0000
+Pretrain Epoch 4, Dev Acc: 35.0000
+============================================================
+Training
+============================================================
+Epoch 0, Dev Acc: 35.0000
+Test Acc: 26.4000
+Epoch 1, Dev Acc: 15.0000
+Epoch 2, Dev Acc: 10.0000
+Epoch 3, Dev Acc: 20.0000
+Epoch 4, Dev Acc: 25.0000
+Epoch 5, Dev Acc: 15.0000
+Epoch 6, Dev Acc: 15.0000
+Epoch 7, Dev Acc: 25.0000
+Epoch 8, Dev Acc: 30.0000
+Epoch 9, Dev Acc: 15.0000
+Epoch 10, Dev Acc: 30.0000
+Epoch 11, Dev Acc: 30.0000
+Epoch 12, Dev Acc: 30.0000
+Epoch 13, Dev Acc: 20.0000
+Epoch 14, Dev Acc: 25.0000
+Final Dev Acc: 35.0000, Final Test Acc: 26.4000
+Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex.
+Files already downloaded and verified
+number of examples with label '0': 40
+number of examples with label '1': 40
+number of examples with label '2': 40
+number of examples with label '3': 40
+number of examples with label '4': 40
+number of examples with label '5': 40
+number of examples with label '6': 40
+number of examples with label '7': 40
+number of examples with label '8': 40
+number of examples with label '9': 40
+Files already downloaded and verified
+number of examples with label '0': 2
+number of examples with label '1': 2
+number of examples with label '2': 2
+number of examples with label '3': 2
+number of examples with label '4': 2
+number of examples with label '5': 2
+number of examples with label '6': 2
+number of examples with label '7': 2
+number of examples with label '8': 2
+number of examples with label '9': 2
+Files already downloaded and verified
+#train: 400
+#dev: 20
+#test: 10000
+============================================================
+Pre-Training
+============================================================
+Pretrain Epoch 0, Dev Acc: 5.0000
+Pretrain Epoch 1, Dev Acc: 25.0000
+Pretrain Epoch 2, Dev Acc: 15.0000
+Pretrain Epoch 3, Dev Acc: 20.0000
+Pretrain Epoch 4, Dev Acc: 25.0000
+============================================================
+Training
+============================================================
+Epoch 0, Dev Acc: 20.0000
+Test Acc: 24.6400
+Epoch 1, Dev Acc: 20.0000
+Epoch 2, Dev Acc: 20.0000
+Epoch 3, Dev Acc: 15.0000
+Epoch 4, Dev Acc: 25.0000
+Test Acc: 24.0700
+Epoch 5, Dev Acc: 15.0000
+Epoch 6, Dev Acc: 20.0000
+Epoch 7, Dev Acc: 20.0000
+Epoch 8, Dev Acc: 25.0000
+Epoch 9, Dev Acc: 15.0000
+Epoch 10, Dev Acc: 35.0000
+Test Acc: 28.3100
+Epoch 11, Dev Acc: 20.0000
+Epoch 12, Dev Acc: 25.0000
+Epoch 13, Dev Acc: 15.0000
+Epoch 14, Dev Acc: 40.0000
+Test Acc: 28.2800
+Final Dev Acc: 40.0000, Final Test Acc: 28.2800
+Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex.
+Files already downloaded and verified
+number of examples with label '0': 40
+number of examples with label '1': 40
+number of examples with label '2': 40
+number of examples with label '3': 40
+number of examples with label '4': 40
+number of examples with label '5': 40
+number of examples with label '6': 40
+number of examples with label '7': 40
+number of examples with label '8': 40
+number of examples with label '9': 40
+Files already downloaded and verified
+number of examples with label '0': 2
+number of examples with label '1': 2
+number of examples with label '2': 2
+number of examples with label '3': 2
+number of examples with label '4': 2
+number of examples with label '5': 2
+number of examples with label '6': 2
+number of examples with label '7': 2
+number of examples with label '8': 2
+number of examples with label '9': 2
+Files already downloaded and verified
+#train: 400
+#dev: 20
+#test: 10000
+============================================================
+Pre-Training
+============================================================
+Pretrain Epoch 0, Dev Acc: 20.0000
+Pretrain Epoch 1, Dev Acc: 15.0000
+Pretrain Epoch 2, Dev Acc: 10.0000
+Pretrain Epoch 3, Dev Acc: 10.0000
+Pretrain Epoch 4, Dev Acc: 30.0000
+============================================================
+Training
+============================================================
+Epoch 0, Dev Acc: 25.0000
+Test Acc: 25.1800
+Epoch 1, Dev Acc: 20.0000
+Epoch 2, Dev Acc: 15.0000
+Epoch 3, Dev Acc: 20.0000
+Epoch 4, Dev Acc: 15.0000
+Epoch 5, Dev Acc: 20.0000
+Epoch 6, Dev Acc: 20.0000
+Epoch 7, Dev Acc: 25.0000
+Epoch 8, Dev Acc: 25.0000
+Epoch 9, Dev Acc: 10.0000
+Epoch 10, Dev Acc: 25.0000
+Epoch 11, Dev Acc: 20.0000
+Epoch 12, Dev Acc: 30.0000
+Test Acc: 26.3400
+Epoch 13, Dev Acc: 40.0000
+Test Acc: 28.3600
+Epoch 14, Dev Acc: 30.0000
+Final Dev Acc: 40.0000, Final Test Acc: 28.3600
+Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex.
+Files already downloaded and verified
+number of examples with label '0': 40
+number of examples with label '1': 40
+number of examples with label '2': 40
+number of examples with label '3': 40
+number of examples with label '4': 40
+number of examples with label '5': 40
+number of examples with label '6': 40
+number of examples with label '7': 40
+number of examples with label '8': 40
+number of examples with label '9': 40
+Files already downloaded and verified
+number of examples with label '0': 2
+number of examples with label '1': 2
+number of examples with label '2': 2
+number of examples with label '3': 2
+number of examples with label '4': 2
+number of examples with label '5': 2
+number of examples with label '6': 2
+number of examples with label '7': 2
+number of examples with label '8': 2
+number of examples with label '9': 2
+Files already downloaded and verified
+#train: 400
+#dev: 20
+#test: 10000
+============================================================
+Pre-Training
+============================================================
+Pretrain Epoch 0, Dev Acc: 20.0000
+Pretrain Epoch 1, Dev Acc: 15.0000
+Pretrain Epoch 2, Dev Acc: 30.0000
+Pretrain Epoch 3, Dev Acc: 20.0000
+Pretrain Epoch 4, Dev Acc: 20.0000
+============================================================
+Training
+============================================================
+Epoch 0, Dev Acc: 25.0000
+Test Acc: 21.5400
+Epoch 1, Dev Acc: 10.0000
+Epoch 2, Dev Acc: 25.0000
+Epoch 3, Dev Acc: 15.0000
+Epoch 4, Dev Acc: 20.0000
+Epoch 5, Dev Acc: 30.0000
+Test Acc: 26.9500
+Epoch 6, Dev Acc: 25.0000
+Epoch 7, Dev Acc: 10.0000
+Epoch 8, Dev Acc: 10.0000
+Epoch 9, Dev Acc: 25.0000
+Epoch 10, Dev Acc: 10.0000
+Epoch 11, Dev Acc: 30.0000
+Epoch 12, Dev Acc: 10.0000
+Epoch 13, Dev Acc: 15.0000
+Epoch 14, Dev Acc: 5.0000
+Final Dev Acc: 30.0000, Final Test Acc: 26.9500
+Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex.
+Files already downloaded and verified
+number of examples with label '0': 40
+number of examples with label '1': 40
+number of examples with label '2': 40
+number of examples with label '3': 40
+number of examples with label '4': 40
+number of examples with label '5': 40
+number of examples with label '6': 40
+number of examples with label '7': 40
+number of examples with label '8': 40
+number of examples with label '9': 40
+Files already downloaded and verified
+number of examples with label '0': 2
+number of examples with label '1': 2
+number of examples with label '2': 2
+number of examples with label '3': 2
+number of examples with label '4': 2
+number of examples with label '5': 2
+number of examples with label '6': 2
+number of examples with label '7': 2
+number of examples with label '8': 2
+number of examples with label '9': 2
+Files already downloaded and verified
+#train: 400
+#dev: 20
+#test: 10000
+============================================================
+Pre-Training
+============================================================
+Pretrain Epoch 0, Dev Acc: 10.0000
+Pretrain Epoch 1, Dev Acc: 15.0000
+Pretrain Epoch 2, Dev Acc: 25.0000
+Pretrain Epoch 3, Dev Acc: 10.0000
+Pretrain Epoch 4, Dev Acc: 25.0000
+============================================================
+Training
+============================================================
+Epoch 0, Dev Acc: 5.0000
+Test Acc: 23.8000
+Epoch 1, Dev Acc: 20.0000
+Test Acc: 24.8900
+Epoch 2, Dev Acc: 25.0000
+Test Acc: 26.6300
+Epoch 3, Dev Acc: 25.0000
+Epoch 4, Dev Acc: 20.0000
+Epoch 5, Dev Acc: 20.0000
+Epoch 6, Dev Acc: 10.0000
+Epoch 7, Dev Acc: 10.0000
+Epoch 8, Dev Acc: 25.0000
+Epoch 9, Dev Acc: 25.0000
+Epoch 10, Dev Acc: 30.0000
+Test Acc: 28.0600
+Epoch 11, Dev Acc: 30.0000
+Epoch 12, Dev Acc: 30.0000
+Epoch 13, Dev Acc: 30.0000
+Epoch 14, Dev Acc: 25.0000
+Final Dev Acc: 30.0000, Final Test Acc: 28.0600
+Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex.
+Files already downloaded and verified
+number of examples with label '0': 40
+number of examples with label '1': 40
+number of examples with label '2': 40
+number of examples with label '3': 40
+number of examples with label '4': 40
+number of examples with label '5': 40
+number of examples with label '6': 40
+number of examples with label '7': 40
+number of examples with label '8': 40
+number of examples with label '9': 40
+Files already downloaded and verified
+number of examples with label '0': 2
+number of examples with label '1': 2
+number of examples with label '2': 2
+number of examples with label '3': 2
+number of examples with label '4': 2
+number of examples with label '5': 2
+number of examples with label '6': 2
+number of examples with label '7': 2
+number of examples with label '8': 2
+number of examples with label '9': 2
+Files already downloaded and verified
+#train: 400
+#dev: 20
+#test: 10000
+============================================================
+Pre-Training
+============================================================
+Pretrain Epoch 0, Dev Acc: 5.0000
+Pretrain Epoch 1, Dev Acc: 15.0000
+Pretrain Epoch 2, Dev Acc: 15.0000
+Pretrain Epoch 3, Dev Acc: 10.0000
+Pretrain Epoch 4, Dev Acc: 5.0000
+============================================================
+Training
+============================================================
+Epoch 0, Dev Acc: 15.0000
+Test Acc: 23.5000
+Epoch 1, Dev Acc: 10.0000
+Epoch 2, Dev Acc: 15.0000
+Epoch 3, Dev Acc: 10.0000
+Epoch 4, Dev Acc: 15.0000
+Epoch 5, Dev Acc: 20.0000
+Test Acc: 27.1900
+Epoch 6, Dev Acc: 20.0000
+Epoch 7, Dev Acc: 20.0000
+Epoch 8, Dev Acc: 20.0000
+Epoch 9, Dev Acc: 20.0000
+Epoch 10, Dev Acc: 10.0000
+Epoch 11, Dev Acc: 25.0000
+Test Acc: 25.1600
+Epoch 12, Dev Acc: 20.0000
+Epoch 13, Dev Acc: 25.0000
+Epoch 14, Dev Acc: 25.0000
+Final Dev Acc: 25.0000, Final Test Acc: 25.1600
+Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex.
+Files already downloaded and verified
+number of examples with label '0': 40
+number of examples with label '1': 40
+number of examples with label '2': 40
+number of examples with label '3': 40
+number of examples with label '4': 40
+number of examples with label '5': 40
+number of examples with label '6': 40
+number of examples with label '7': 40
+number of examples with label '8': 40
+number of examples with label '9': 40
+Files already downloaded and verified
+number of examples with label '0': 2
+number of examples with label '1': 2
+number of examples with label '2': 2
+number of examples with label '3': 2
+number of examples with label '4': 2
+number of examples with label '5': 2
+number of examples with label '6': 2
+number of examples with label '7': 2
+number of examples with label '8': 2
+number of examples with label '9': 2
+Files already downloaded and verified
+#train: 400
+#dev: 20
+#test: 10000
+============================================================
+Pre-Training
+============================================================
+Pretrain Epoch 0, Dev Acc: 20.0000
+Pretrain Epoch 1, Dev Acc: 5.0000
+Pretrain Epoch 2, Dev Acc: 15.0000
+Pretrain Epoch 3, Dev Acc: 5.0000
+Pretrain Epoch 4, Dev Acc: 15.0000
+============================================================
+Training
+============================================================
+Epoch 0, Dev Acc: 10.0000
+Test Acc: 21.1400
+Epoch 1, Dev Acc: 20.0000
+Test Acc: 25.8400
+Epoch 2, Dev Acc: 5.0000
+Epoch 3, Dev Acc: 25.0000
+Test Acc: 22.5500
+Epoch 4, Dev Acc: 20.0000
+Epoch 5, Dev Acc: 25.0000
+Epoch 6, Dev Acc: 25.0000
+Epoch 7, Dev Acc: 30.0000
+Test Acc: 25.2200
+Epoch 8, Dev Acc: 35.0000
+Test Acc: 27.3300
+Epoch 9, Dev Acc: 20.0000
+Epoch 10, Dev Acc: 20.0000
+Epoch 11, Dev Acc: 30.0000
+Epoch 12, Dev Acc: 10.0000
+Epoch 13, Dev Acc: 20.0000
+Epoch 14, Dev Acc: 25.0000
+Final Dev Acc: 35.0000, Final Test Acc: 27.3300
+Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex.
+Files already downloaded and verified
+number of examples with label '0': 40
+number of examples with label '1': 40
+number of examples with label '2': 40
+number of examples with label '3': 40
+number of examples with label '4': 40
+number of examples with label '5': 40
+number of examples with label '6': 40
+number of examples with label '7': 40
+number of examples with label '8': 40
+number of examples with label '9': 40
+Files already downloaded and verified
+number of examples with label '0': 2
+number of examples with label '1': 2
+number of examples with label '2': 2
+number of examples with label '3': 2
+number of examples with label '4': 2
+number of examples with label '5': 2
+number of examples with label '6': 2
+number of examples with label '7': 2
+number of examples with label '8': 2
+number of examples with label '9': 2
+Files already downloaded and verified
+#train: 400
+#dev: 20
+#test: 10000
+============================================================
+Pre-Training
+============================================================
+Pretrain Epoch 0, Dev Acc: 10.0000
+Pretrain Epoch 1, Dev Acc: 10.0000
+Pretrain Epoch 2, Dev Acc: 15.0000
+Pretrain Epoch 3, Dev Acc: 15.0000
+Pretrain Epoch 4, Dev Acc: 10.0000
+============================================================
+Training
+============================================================
+Epoch 0, Dev Acc: 20.0000
+Test Acc: 23.2300
+Epoch 1, Dev Acc: 10.0000
+Epoch 2, Dev Acc: 20.0000
+Epoch 3, Dev Acc: 15.0000
+Epoch 4, Dev Acc: 10.0000
+Epoch 5, Dev Acc: 25.0000
+Test Acc: 27.7200
+Epoch 6, Dev Acc: 25.0000
+Epoch 7, Dev Acc: 15.0000
+Epoch 8, Dev Acc: 10.0000
+Epoch 9, Dev Acc: 10.0000
+Epoch 10, Dev Acc: 30.0000
+Test Acc: 27.1200
+Epoch 11, Dev Acc: 15.0000
+Epoch 12, Dev Acc: 15.0000
+Epoch 13, Dev Acc: 30.0000
+Epoch 14, Dev Acc: 20.0000
+Final Dev Acc: 30.0000, Final Test Acc: 27.1200
+Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex.
+Files already downloaded and verified
+number of examples with label '0': 40
+number of examples with label '1': 40
+number of examples with label '2': 40
+number of examples with label '3': 40
+number of examples with label '4': 40
+number of examples with label '5': 40
+number of examples with label '6': 40
+number of examples with label '7': 40
+number of examples with label '8': 40
+number of examples with label '9': 40
+Files already downloaded and verified
+number of examples with label '0': 2
+number of examples with label '1': 2
+number of examples with label '2': 2
+number of examples with label '3': 2
+number of examples with label '4': 2
+number of examples with label '5': 2
+number of examples with label '6': 2
+number of examples with label '7': 2
+number of examples with label '8': 2
+number of examples with label '9': 2
+Files already downloaded and verified
+#train: 400
+#dev: 20
+#test: 10000
+============================================================
+Pre-Training
+============================================================
+Pretrain Epoch 0, Dev Acc: 30.0000
+Pretrain Epoch 1, Dev Acc: 20.0000
+Pretrain Epoch 2, Dev Acc: 10.0000
+Pretrain Epoch 3, Dev Acc: 20.0000
+Pretrain Epoch 4, Dev Acc: 15.0000
+============================================================
+Training
+============================================================
+Epoch 0, Dev Acc: 5.0000
+Test Acc: 21.8300
+Epoch 1, Dev Acc: 25.0000
+Test Acc: 24.8200
+Epoch 2, Dev Acc: 20.0000
+Epoch 3, Dev Acc: 25.0000
+Epoch 4, Dev Acc: 20.0000
+Epoch 5, Dev Acc: 20.0000
+Epoch 6, Dev Acc: 25.0000
+Epoch 7, Dev Acc: 20.0000
+Epoch 8, Dev Acc: 25.0000
+Epoch 9, Dev Acc: 10.0000
+Epoch 10, Dev Acc: 20.0000
+Epoch 11, Dev Acc: 20.0000
+Epoch 12, Dev Acc: 25.0000
+Epoch 13, Dev Acc: 30.0000
+Test Acc: 28.2000
+Epoch 14, Dev Acc: 30.0000
+Final Dev Acc: 30.0000, Final Test Acc: 28.2000
+Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex.
+Files already downloaded and verified
+number of examples with label '0': 40
+number of examples with label '1': 40
+number of examples with label '2': 40
+number of examples with label '3': 40
+number of examples with label '4': 40
+number of examples with label '5': 40
+number of examples with label '6': 40
+number of examples with label '7': 40
+number of examples with label '8': 40
+number of examples with label '9': 40
+Files already downloaded and verified
+number of examples with label '0': 2
+number of examples with label '1': 2
+number of examples with label '2': 2
+number of examples with label '3': 2
+number of examples with label '4': 2
+number of examples with label '5': 2
+number of examples with label '6': 2
+number of examples with label '7': 2
+number of examples with label '8': 2
+number of examples with label '9': 2
+Files already downloaded and verified
+#train: 400
+#dev: 20
+#test: 10000
+============================================================
+Pre-Training
+============================================================
+Pretrain Epoch 0, Dev Acc: 10.0000
+Pretrain Epoch 1, Dev Acc: 35.0000
+Pretrain Epoch 2, Dev Acc: 15.0000
+Pretrain Epoch 3, Dev Acc: 20.0000
+Pretrain Epoch 4, Dev Acc: 10.0000
+============================================================
+Training
+============================================================
+Epoch 0, Dev Acc: 15.0000
+Test Acc: 23.0800
+Epoch 1, Dev Acc: 15.0000
+Epoch 2, Dev Acc: 25.0000
+Test Acc: 24.5000
+Epoch 3, Dev Acc: 10.0000
+Epoch 4, Dev Acc: 10.0000
+Epoch 5, Dev Acc: 25.0000
+Epoch 6, Dev Acc: 15.0000
+Epoch 7, Dev Acc: 40.0000
+Test Acc: 26.3000
+Epoch 8, Dev Acc: 20.0000
+Epoch 9, Dev Acc: 30.0000
+Epoch 10, Dev Acc: 10.0000
+Epoch 11, Dev Acc: 20.0000
+Epoch 12, Dev Acc: 35.0000
+Epoch 13, Dev Acc: 15.0000
+Epoch 14, Dev Acc: 20.0000
+Final Dev Acc: 40.0000, Final Test Acc: 26.3000
+Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex.
+Files already downloaded and verified
+number of examples with label '0': 40
+number of examples with label '1': 40
+number of examples with label '2': 40
+number of examples with label '3': 40
+number of examples with label '4': 40
+number of examples with label '5': 40
+number of examples with label '6': 40
+number of examples with label '7': 40
+number of examples with label '8': 40
+number of examples with label '9': 40
+Files already downloaded and verified
+number of examples with label '0': 2
+number of examples with label '1': 2
+number of examples with label '2': 2
+number of examples with label '3': 2
+number of examples with label '4': 2
+number of examples with label '5': 2
+number of examples with label '6': 2
+number of examples with label '7': 2
+number of examples with label '8': 2
+number of examples with label '9': 2
+Files already downloaded and verified
+#train: 400
+#dev: 20
+#test: 10000
+============================================================
+Pre-Training
+============================================================
+Pretrain Epoch 0, Dev Acc: 20.0000
+Pretrain Epoch 1, Dev Acc: 10.0000
+Pretrain Epoch 2, Dev Acc: 5.0000
+Pretrain Epoch 3, Dev Acc: 15.0000
+Pretrain Epoch 4, Dev Acc: 15.0000
+============================================================
+Training
+============================================================
+Epoch 0, Dev Acc: 15.0000
+Test Acc: 22.4900
+Epoch 1, Dev Acc: 15.0000
+Epoch 2, Dev Acc: 10.0000
+Epoch 3, Dev Acc: 20.0000
+Test Acc: 27.8000
+Epoch 4, Dev Acc: 10.0000
+Epoch 5, Dev Acc: 25.0000
+Test Acc: 25.9600
+Epoch 6, Dev Acc: 10.0000
+Epoch 7, Dev Acc: 15.0000
+Epoch 8, Dev Acc: 5.0000
+Epoch 9, Dev Acc: 20.0000
+Epoch 10, Dev Acc: 35.0000
+Test Acc: 26.0800
+Epoch 11, Dev Acc: 20.0000
+Epoch 12, Dev Acc: 20.0000
+Epoch 13, Dev Acc: 25.0000
+Epoch 14, Dev Acc: 25.0000
+Final Dev Acc: 35.0000, Final Test Acc: 26.0800

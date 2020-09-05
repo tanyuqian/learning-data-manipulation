@@ -6,7 +6,7 @@ import random
 
 import torch
 
-from data_utils.data_processors import get_data
+from data_utils.data_utils import get_data
 
 from augmentation.classifier import Classifier
 from augmentation.generator import Generator

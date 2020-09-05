@@ -1,8 +1,9 @@
 import torch
 import argparse
 
-from data_utils.data_processors import get_data
+from data_utils.data_utils import get_data
 from weighting.classifier import Classifier
+from weighting.image_classifier import ImageClassifier
 
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
@@ -11,7 +12,7 @@ print('device:', device)
 parser = argparse.ArgumentParser()
 
 # data
-parser.add_argument('--task', choices=['sst-2', 'sst-5'])
+parser.add_argument('--task', choices=['sst-2', 'sst-5', 'cifar-10'])
 parser.add_argument('--train_num_per_class', default=None, type=int)
 parser.add_argument('--dev_num_per_class', default=None, type=int)
 parser.add_argument('--imbalance_rate', default=1.0, type=float)
@@ -23,6 +24,12 @@ parser.add_argument('--min_epochs', default=0, type=int)
 parser.add_argument('--pretrain_epochs', default=0, type=int)
 parser.add_argument("--learning_rate", default=4e-5, type=float)
 parser.add_argument('--batch_size', default=4, type=int)
+
+# image
+parser.add_argument('--resnet_pretrained', default=False, action='store_true')
+parser.add_argument('--image_lr', default=1e-3, type=float)
+parser.add_argument('--image_momentum', default=0.9, type=float)
+parser.add_argument('--image_weight_decay', default=0.01, type=float)
 
 args = parser.parse_args()
 print(args)
@@ -36,16 +43,26 @@ def main():
         imbalance_rate=args.imbalance_rate,
         data_seed=args.data_seed)
 
-    classifier = Classifier(
-        label_list=label_list, ren=True, norm_fn='linear', device=device)
-    classifier.get_optimizer(learning_rate=args.learning_rate)
+    if args.task in ['sst-2', 'sst-5']:
+        classifier = Classifier(
+            label_list=label_list, ren=True, norm_fn='linear', device=device)
+        classifier.get_optimizer(learning_rate=args.learning_rate)
 
-    classifier.load_data(
-        'train', examples['train'], args.batch_size, shuffle=True)
-    classifier.load_data(
-        'dev', examples['dev'], args.batch_size, shuffle=False)
-    classifier.load_data(
-        'test', examples['test'], args.batch_size, shuffle=False)
+    else:
+        classifier = ImageClassifier(
+            pretrained=args.resnet_pretrained, ren=True)
+
+        classifier.get_optimizer(
+            learning_rate=args.image_lr,
+            momentum=args.image_momentum,
+            weight_decay=args.image_weight_decay)
+
+    for split in ['train', 'dev', 'test']:
+        classifier.load_data(
+            set_type=split,
+            examples=examples[split],
+            batch_size=args.batch_size,
+            shuffle=(split != 'test'))
 
     print('=' * 60, '\n', 'Pre-training', '\n', '=' * 60, sep='')
     for epoch in range(args.pretrain_epochs):
